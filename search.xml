@@ -90,6 +90,43 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello Hexo</title>
+    <url>/2024/05/01/wish/hello-hexo/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p>在服务器上配置环境: </p>
+<ul>
+<li>sudo apt install nodejs</li>
+<li>sudo apt install npm</li>
+<li>sudo npm install hexo-cli -g</li>
+</ul>
+<p>进入项目文件夹:</p>
+<ul>
+<li>hexo init blog</li>
+<li>cd blog&#x2F;</li>
+<li>npm install</li>
+<li>hexo s</li>
+</ul>
+<p>推送到GitHub:</p>
+<ul>
+<li>新建仓库 jianzquan.github.io</li>
+<li>更改 _config.yml 文件</li>
+<li>hexo clean &#x2F; hexo g &#x2F; hexo d</li>
+</ul>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Large Language Models</title>
     <url>/2024/05/01/study/llm/llm/</url>
     <content><![CDATA[<h2 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h2><h3 id="source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md"><a href="#source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md" class="headerlink" title="source: https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md"></a>source: <a href="https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md">https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md</a></h3><h1 id="Catalog-目录"><a href="#Catalog-目录" class="headerlink" title="Catalog(目录)"></a>Catalog(目录)</h1><ul>
@@ -252,29 +289,6 @@
       </tags>
   </entry>
   <entry>
-    <title>日记 20240502</title>
-    <url>/2024/05/01/wish/2023-12/</url>
-    <content><![CDATA[<h2 id="Target"><a href="#Target" class="headerlink" title="Target"></a>Target</h2><ul>
-<li>DA&#x2F;OFA paper</li>
-<li>人物成长KG基金</li>
-</ul>
-<h2 id="2023-12-06"><a href="#2023-12-06" class="headerlink" title="2023-12-06"></a>2023-12-06</h2><h3 id="Today"><a href="#Today" class="headerlink" title="Today:"></a>Today:</h3><ul>
-<li><strong>Paper Reading</strong>: 2023 (arXiv) RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models</li>
-</ul>
-<h3 id="Tomorrow"><a href="#Tomorrow" class="headerlink" title="Tomorrow:"></a>Tomorrow:</h3><ul>
-<li>xxx</li>
-<li>xxx</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>food</category>
-      </categories>
-      <tags>
-        <tag>food</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Modality Large Language Model</title>
     <url>/2024/05/01/study/llm/mllm/</url>
     <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
@@ -290,9 +304,8 @@
   <entry>
     <title>相机摄像</title>
     <url>/2024/05/02/wish/camera/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%83%8F%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h2 id="华山"><a href="#华山" class="headerlink" title="华山"></a>华山</h2><ul>
-<li>DA&#x2F;OFA paper</li>
-<li>人物成长KG基金</li>
+    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
+<li>D</li>
 </ul>
 ]]></content>
       <categories>
@@ -302,43 +315,6 @@
       <tags>
         <tag>wish.camera</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello Hexo</title>
-    <url>/2024/05/01/wish/hello-hexo/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p>在服务器上配置环境: </p>
-<ul>
-<li>sudo apt install nodejs</li>
-<li>sudo apt install npm</li>
-<li>sudo npm install hexo-cli -g</li>
-</ul>
-<p>进入项目文件夹:</p>
-<ul>
-<li>hexo init blog</li>
-<li>cd blog&#x2F;</li>
-<li>npm install</li>
-<li>hexo s</li>
-</ul>
-<p>推送到GitHub:</p>
-<ul>
-<li>新建仓库 jianzquan.github.io</li>
-<li>更改 _config.yml 文件</li>
-<li>hexo clean &#x2F; hexo g &#x2F; hexo d</li>
-</ul>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>Prompt-Tuning</title>
@@ -411,11 +387,114 @@
       </tags>
   </entry>
   <entry>
-    <title>五岳奖牌</title>
-    <url>/2024/05/02/wish/travel/%E4%BA%94%E5%B2%B3%E5%A5%96%E7%89%8C/</url>
-    <content><![CDATA[<h2 id="华山"><a href="#华山" class="headerlink" title="华山"></a>华山</h2><ul>
-<li>DA&#x2F;OFA paper</li>
-<li>人物成长KG基金</li>
+    <title>家常小菜</title>
+    <url>/2024/05/02/wish/cooking/%E5%AE%B6%E5%B8%B8%E5%B0%8F%E8%8F%9C/</url>
+    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>xxx</li>
+</ul>
+<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
+<li>xxx</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>cooking</category>
+      </categories>
+      <tags>
+        <tag>wish.cooking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.五岳</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E4%BA%94%E5%B2%B3/</url>
+    <content><![CDATA[<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ul>
+<li>step 1：游客中心讨要通关文牒, 盖章</li>
+<li>step 2：大门口记录打卡时间, 打开路线记录(keep&#x2F;咕咚)</li>
+<li>step 3：到”华山论剑”山顶, 标识碑前拍照打卡</li>
+</ul>
+<h2 id="中岳嵩山"><a href="#中岳嵩山" class="headerlink" title="中岳嵩山"></a>中岳嵩山</h2><p>嵩山攻略……</p>
+<h2 id="东岳泰山"><a href="#东岳泰山" class="headerlink" title="东岳泰山"></a>东岳泰山</h2><p>日出东方，夜爬泰山看日出</p>
+<h2 id="北岳恒山"><a href="#北岳恒山" class="headerlink" title="北岳恒山"></a>北岳恒山</h2><p>恒山攻略……</p>
+<h2 id="西岳华山"><a href="#西岳华山" class="headerlink" title="西岳华山"></a>西岳华山</h2><p>华山攻略……</p>
+<h2 id="南岳衡山"><a href="#南岳衡山" class="headerlink" title="南岳衡山"></a>南岳衡山</h2><p>衡山攻略……</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>顿牛蹄</title>
+    <url>/2024/05/02/wish/cooking/%E7%89%9B%E8%B9%84%E8%87%AA%E7%94%B1/</url>
+    <content><![CDATA[<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>xxx</li>
+</ul>
+<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
+<li>xxx</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>cooking</category>
+      </categories>
+      <tags>
+        <tag>wish.cooking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.厦漳泉</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%8E%A6%E6%BC%B3%E6%B3%89/</url>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li><em><strong>无</strong></em></li>
+</ul>
+</blockquote>
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门"><a href="#厦门" class="headerlink" title="厦门"></a>厦门</h2><h3 id="鼓浪屿"><a href="#鼓浪屿" class="headerlink" title="鼓浪屿"></a>鼓浪屿</h3><h4 id="最美转角"><a href="#最美转角" class="headerlink" title="最美转角"></a>最美转角</h4><p>xxx</p>
+<h4 id="日光岩"><a href="#日光岩" class="headerlink" title="日光岩"></a>日光岩</h4><p>xxx</p>
+<h4 id="风琴博物馆"><a href="#风琴博物馆" class="headerlink" title="风琴博物馆"></a>风琴博物馆</h4><p>xxx</p>
+<h4 id="菽庄花园"><a href="#菽庄花园" class="headerlink" title="菽庄花园"></a>菽庄花园</h4><p>xxx</p>
+<h2 id="2-漳州"><a href="#2-漳州" class="headerlink" title="2. 漳州"></a>2. 漳州</h2><p>xxx</p>
+<h2 id="3-泉州"><a href="#3-泉州" class="headerlink" title="3. 泉州"></a>3. 泉州</h2><p>xxx</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel.china</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.哈尔滨</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%93%88%E5%B0%94%E6%BB%A8/</url>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li><p><em><strong>滑雪</strong></em>：x</p>
+</li>
+<li><p><em><strong>滑冰</strong></em>：xx</p>
+</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="1-哈尔滨"><a href="#1-哈尔滨" class="headerlink" title="1. 哈尔滨"></a>1. 哈尔滨</h2><p>xx</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel.china</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.西藏</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E8%97%8F/</url>
+    <content><![CDATA[<h2 id="厦门出发"><a href="#厦门出发" class="headerlink" title="厦门出发"></a>厦门出发</h2><h2 id="成都出发"><a href="#成都出发" class="headerlink" title="成都出发"></a>成都出发</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+<li>预防高反</li>
+<li></li>
 </ul>
 ]]></content>
       <categories>
@@ -427,19 +506,28 @@
       </tags>
   </entry>
   <entry>
-    <title>蹦极</title>
-    <url>/2024/05/02/wish/experience/%E8%B9%A6%E6%9E%81/</url>
-    <content><![CDATA[<h2 id="华山"><a href="#华山" class="headerlink" title="华山"></a>华山</h2><ul>
-<li>DA&#x2F;OFA paper</li>
-<li>人物成长KG基金</li>
-</ul>
+    <title>国内游.西安</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E5%AE%89/</url>
+    <content><![CDATA[<h1 id="大唐不夜城"><a href="#大唐不夜城" class="headerlink" title="大唐不夜城"></a>大唐不夜城</h1><p>xxx</p>
 ]]></content>
       <categories>
         <category>wish</category>
-        <category>experience</category>
+        <category>travel</category>
       </categories>
       <tags>
-        <tag>wish.experience</tag>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国外游.新加坡</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%A4%96%E6%B8%B8.%E6%96%B0%E5%8A%A0%E5%9D%A1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
       </tags>
   </entry>
 </search>
