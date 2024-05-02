@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello Hexo</title>
-    <url>/2024/05/01/wish/hello-hexo/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p>在服务器上配置环境: </p>
-<ul>
-<li>sudo apt install nodejs</li>
-<li>sudo apt install npm</li>
-<li>sudo npm install hexo-cli -g</li>
-</ul>
-<p>进入项目文件夹:</p>
-<ul>
-<li>hexo init blog</li>
-<li>cd blog&#x2F;</li>
-<li>npm install</li>
-<li>hexo s</li>
-</ul>
-<p>推送到GitHub:</p>
-<ul>
-<li>新建仓库 jianzquan.github.io</li>
-<li>更改 _config.yml 文件</li>
-<li>hexo clean &#x2F; hexo g &#x2F; hexo d</li>
-</ul>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hidden Markov Model</title>
     <url>/2024/05/01/study/hmm/</url>
     <content><![CDATA[<h2 id="Hidden-Markov-Model"><a href="#Hidden-Markov-Model" class="headerlink" title="Hidden Markov Model"></a>Hidden Markov Model</h2><h3 id="符号"><a href="#符号" class="headerlink" title="符号"></a>符号</h3><ul>
@@ -123,7 +86,7 @@
         <category>study</category>
       </categories>
       <tags>
-        <tag>ml</tag>
+        <tag>study</tag>
       </tags>
   </entry>
   <entry>
@@ -148,6 +111,43 @@
       <tags>
         <tag>food</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello Hexo</title>
+    <url>/2024/05/01/wish/hello-hexo/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p>在服务器上配置环境: </p>
+<ul>
+<li>sudo apt install nodejs</li>
+<li>sudo apt install npm</li>
+<li>sudo npm install hexo-cli -g</li>
+</ul>
+<p>进入项目文件夹:</p>
+<ul>
+<li>hexo init blog</li>
+<li>cd blog&#x2F;</li>
+<li>npm install</li>
+<li>hexo s</li>
+</ul>
+<p>推送到GitHub:</p>
+<ul>
+<li>新建仓库 jianzquan.github.io</li>
+<li>更改 _config.yml 文件</li>
+<li>hexo clean &#x2F; hexo g &#x2F; hexo d</li>
+</ul>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>Large Language Models</title>
@@ -308,7 +308,7 @@
         <category>llm</category>
       </categories>
       <tags>
-        <tag>llm</tag>
+        <tag>study.llm</tag>
       </tags>
   </entry>
   <entry>
@@ -321,7 +321,7 @@
         <category>llm</category>
       </categories>
       <tags>
-        <tag>llm</tag>
+        <tag>study.llm</tag>
       </tags>
   </entry>
   <entry>
@@ -391,39 +391,7 @@
         <category>llm</category>
       </categories>
       <tags>
-        <tag>llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>五岳奖牌</title>
-    <url>/2024/05/02/wish/travel/%E4%BA%94%E5%B2%B3%E5%A5%96%E7%89%8C/</url>
-    <content><![CDATA[<h2 id="华山"><a href="#华山" class="headerlink" title="华山"></a>华山</h2><ul>
-<li>DA&#x2F;OFA paper</li>
-<li>人物成长KG基金</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-      </categories>
-      <tags>
-        <tag>travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>相机摄像</title>
-    <url>/2024/05/02/wish/camera/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%83%8F%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h2 id="华山"><a href="#华山" class="headerlink" title="华山"></a>华山</h2><ul>
-<li>DA&#x2F;OFA paper</li>
-<li>人物成长KG基金</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>camera</category>
-      </categories>
-      <tags>
-        <tag>camera</tag>
+        <tag>study.llm</tag>
       </tags>
   </entry>
   <entry>
@@ -439,7 +407,39 @@
         <category>experience</category>
       </categories>
       <tags>
-        <tag>experience</tag>
+        <tag>wish.experience</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>相机摄像</title>
+    <url>/2024/05/02/wish/camera/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%83%8F%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h2 id="华山"><a href="#华山" class="headerlink" title="华山"></a>华山</h2><ul>
+<li>DA&#x2F;OFA paper</li>
+<li>人物成长KG基金</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>camera</category>
+      </categories>
+      <tags>
+        <tag>wish.camera</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>五岳奖牌</title>
+    <url>/2024/05/02/wish/travel/%E4%BA%94%E5%B2%B3%E5%A5%96%E7%89%8C/</url>
+    <content><![CDATA[<h2 id="华山"><a href="#华山" class="headerlink" title="华山"></a>华山</h2><ul>
+<li>DA&#x2F;OFA paper</li>
+<li>人物成长KG基金</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
       </tags>
   </entry>
 </search>
