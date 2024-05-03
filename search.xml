@@ -127,6 +127,89 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Prompt-Tuning</title>
+    <url>/2024/05/01/study/llm/prompt/</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
+<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
+<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
+<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
+<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
+</li>
+<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
+<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
+<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
+</li>
+<li><p><strong>第三阶段</strong>: </p>
+<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
+<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
+<br/>
+
+
+<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
+<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<ul>
+<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
+<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+</ul>
+<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<ul>
+<li><p>模板构建(template): (大量优化方法)</p>
+<p>人工构建</p>
+<p>启发式发：PTR、AutoPrompt</p>
+<p>生成：LM-BFF、</p>
+<p>词向量微调</p>
+<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
+</li>
+<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
+
+<br/>
+
+<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
+<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
+<p>LLM的Prompt-tuning方法：</p>
+<ul>
+<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
+<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
+  
+<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
+</li>
+<li><p><strong>Instruction-tuning</strong>:</p>
+<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
+</li>
+<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
+<p>  <em><strong>过程</strong></em>：代码的预训练</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Modality Large Language Model</title>
+    <url>/2024/05/01/study/llm/mllm/</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Large Language Models</title>
     <url>/2024/05/01/study/llm/llm/</url>
     <content><![CDATA[<h2 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h2><h3 id="source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md"><a href="#source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md" class="headerlink" title="source: https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md"></a>source: <a href="https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md">https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md</a></h3><h1 id="Catalog-目录"><a href="#Catalog-目录" class="headerlink" title="Catalog(目录)"></a>Catalog(目录)</h1><ul>
@@ -289,119 +372,26 @@
       </tags>
   </entry>
   <entry>
-    <title>Modality Large Language Model</title>
-    <url>/2024/05/01/study/llm/mllm/</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>相机摄像</title>
-    <url>/2024/05/02/wish/camera/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%83%8F%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
-<li>D</li>
+    <title>国内游.哈尔滨</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%93%88%E5%B0%94%E6%BB%A8/</url>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li><p><em><strong>滑雪</strong></em>：x</p>
+</li>
+<li><p><em><strong>滑冰</strong></em>：xx</p>
+</li>
 </ul>
+</blockquote>
+<hr>
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="1-哈尔滨"><a href="#1-哈尔滨" class="headerlink" title="1. 哈尔滨"></a>1. 哈尔滨</h2><p>xx</p>
 ]]></content>
       <categories>
         <category>wish</category>
-        <category>camera</category>
+        <category>travel</category>
+        <category>travel.china</category>
       </categories>
       <tags>
-        <tag>wish.camera</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prompt-Tuning</title>
-    <url>/2024/05/01/study/llm/prompt/</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
-<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
-<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
-<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
-<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
-</li>
-<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
-<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
-<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
-</li>
-<li><p><strong>第三阶段</strong>: </p>
-<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
-<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
-<br/>
-
-
-<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
-<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
-<ul>
-<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
-<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
-</ul>
-<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
-<ul>
-<li><p>模板构建(template): (大量优化方法)</p>
-<p>人工构建</p>
-<p>启发式发：PTR、AutoPrompt</p>
-<p>生成：LM-BFF、</p>
-<p>词向量微调</p>
-<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
-</li>
-<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
-
-<br/>
-
-<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
-<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
-<p>LLM的Prompt-tuning方法：</p>
-<ul>
-<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
-<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
-  
-<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
-</li>
-<li><p><strong>Instruction-tuning</strong>:</p>
-<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
-</li>
-<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
-<p>  <em><strong>过程</strong></em>：代码的预训练</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>家常小菜</title>
-    <url>/2024/05/02/wish/cooking/%E5%AE%B6%E5%B8%B8%E5%B0%8F%E8%8F%9C/</url>
-    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
-<li>xxx</li>
-</ul>
-<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
-<li>xxx</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>cooking</category>
-      </categories>
-      <tags>
-        <tag>wish.cooking</tag>
+        <tag>wish.travel</tag>
       </tags>
   </entry>
   <entry>
@@ -427,27 +417,11 @@
       </tags>
   </entry>
   <entry>
-    <title>顿牛蹄</title>
-    <url>/2024/05/02/wish/cooking/%E7%89%9B%E8%B9%84%E8%87%AA%E7%94%B1/</url>
-    <content><![CDATA[<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
-<li>xxx</li>
-</ul>
-<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
-<li>xxx</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>cooking</category>
-      </categories>
-      <tags>
-        <tag>wish.cooking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游.厦漳泉</title>
+    <title>国内游·厦漳泉</title>
     <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%8E%A6%E6%BC%B3%E6%B3%89/</url>
-    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
 <ul>
 <li><em><strong>无</strong></em></li>
 </ul>
@@ -456,50 +430,13 @@
 <h4 id="日光岩"><a href="#日光岩" class="headerlink" title="日光岩"></a>日光岩</h4><p>xxx</p>
 <h4 id="风琴博物馆"><a href="#风琴博物馆" class="headerlink" title="风琴博物馆"></a>风琴博物馆</h4><p>xxx</p>
 <h4 id="菽庄花园"><a href="#菽庄花园" class="headerlink" title="菽庄花园"></a>菽庄花园</h4><p>xxx</p>
-<h2 id="2-漳州"><a href="#2-漳州" class="headerlink" title="2. 漳州"></a>2. 漳州</h2><p>xxx</p>
-<h2 id="3-泉州"><a href="#3-泉州" class="headerlink" title="3. 泉州"></a>3. 泉州</h2><p>xxx</p>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel.china</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游.哈尔滨</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%93%88%E5%B0%94%E6%BB%A8/</url>
-    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
-<ul>
-<li><p><em><strong>滑雪</strong></em>：x</p>
-</li>
-<li><p><em><strong>滑冰</strong></em>：xx</p>
-</li>
-</ul>
-</blockquote>
-<hr>
-<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="1-哈尔滨"><a href="#1-哈尔滨" class="headerlink" title="1. 哈尔滨"></a>1. 哈尔滨</h2><p>xx</p>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel.china</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游.西藏</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E8%97%8F/</url>
-    <content><![CDATA[<h2 id="厦门出发"><a href="#厦门出发" class="headerlink" title="厦门出发"></a>厦门出发</h2><h2 id="成都出发"><a href="#成都出发" class="headerlink" title="成都出发"></a>成都出发</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
-<li>预防高反</li>
-<li></li>
-</ul>
+<h2 id="漳州"><a href="#漳州" class="headerlink" title="漳州"></a>漳州</h2><p>xxx</p>
+<h2 id="泉州"><a href="#泉州" class="headerlink" title="泉州"></a>泉州</h2><p>xxx</p>
 ]]></content>
       <categories>
         <category>wish</category>
         <category>travel</category>
+        <category>travel.china</category>
       </categories>
       <tags>
         <tag>wish.travel</tag>
@@ -519,6 +456,32 @@
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>/2024/05/02/wish/cooking/%E5%AE%B6%E5%B8%B8%E5%B0%8F%E8%8F%9C/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>国内游.西藏</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E8%97%8F/</url>
+    <content><![CDATA[<h2 id="厦门出发"><a href="#厦门出发" class="headerlink" title="厦门出发"></a>厦门出发</h2><h2 id="成都出发"><a href="#成都出发" class="headerlink" title="成都出发"></a>成都出发</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+<li>预防高反</li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/05/02/wish/cooking/%E7%89%9B%E8%B9%84%E8%87%AA%E7%94%B1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>国外游.新加坡</title>
     <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%A4%96%E6%B8%B8.%E6%96%B0%E5%8A%A0%E5%9D%A1/</url>
     <content><![CDATA[]]></content>
@@ -528,6 +491,41 @@
       </categories>
       <tags>
         <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>家常小菜</title>
+    <url>/2024/05/03/wish/skill/%E7%BE%8E%E9%A3%9F%E7%83%B9%E9%A5%AA%E5%AE%B6%E5%B8%B8/</url>
+    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>xxx</li>
+</ul>
+<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
+<li>xxx</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.cooking</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>相机摄像</title>
+    <url>/2024/05/02/wish/skill/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%83%8F%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
+<li>D</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.camera</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
       </tags>
   </entry>
 </search>
