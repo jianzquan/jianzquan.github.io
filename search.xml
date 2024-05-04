@@ -90,6 +90,22 @@
       </tags>
   </entry>
   <entry>
+    <title>摄像·手机拍照</title>
+    <url>/2024/05/04/wish/skill/%E6%91%84%E5%83%8F.%E6%89%8B%E6%9C%BA%E6%8B%8D%E7%85%A7/</url>
+    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
+<li>D</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.camera</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello Hexo</title>
     <url>/2024/05/01/wish/hello-hexo/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -127,8 +143,27 @@
 ]]></content>
   </entry>
   <entry>
-    <title>相机摄像</title>
-    <url>/2024/05/02/wish/skill/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%83%8F%E5%85%A5%E9%97%A8/</url>
+    <title>烹饪·加餐美食</title>
+    <url>/2024/05/04/wish/skill/%E7%83%B9%E9%A5%AA.%E5%8A%A0%E9%A4%90%E7%BE%8E%E9%A3%9F/</url>
+    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>xxx</li>
+</ul>
+<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
+<li>xxx</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.cooking</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>摄像·相机拍照</title>
+    <url>/2024/05/02/wish/skill/%E6%91%84%E5%83%8F.%E7%9B%B8%E6%9C%BA%E6%8B%8D%E7%85%A7/</url>
     <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
 <li>D</li>
 </ul>
@@ -143,8 +178,21 @@
       </tags>
   </entry>
   <entry>
-    <title>家常小菜</title>
-    <url>/2024/05/03/wish/skill/%E7%BE%8E%E9%A3%9F%E7%83%B9%E9%A5%AA%E5%AE%B6%E5%B8%B8/</url>
+    <title>Modality Large Language Model</title>
+    <url>/2024/05/01/study/llm/mllm/</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>烹饪·家常美食</title>
+    <url>/2024/05/03/wish/skill/%E7%83%B9%E9%A5%AA.%E5%AE%B6%E5%B8%B8%E7%BE%8E%E9%A3%9F/</url>
     <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
 <li>xxx</li>
 </ul>
@@ -324,19 +372,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Modality Large Language Model</title>
-    <url>/2024/05/01/study/llm/mllm/</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Prompt-Tuning</title>
     <url>/2024/05/01/study/llm/prompt/</url>
     <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
@@ -407,6 +442,119 @@
       </tags>
   </entry>
   <entry>
+    <title>国内游·厦漳泉</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%8E%A6%E6%BC%B3%E6%B3%89/</url>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li>鼓浪屿拍照计划</li>
+</ul>
+</blockquote>
+<!-- | 效果图 | 实际图 |
+|  ----  | ----  |
+| <img align='left' src='\image\travel\china\fujian\gly.jpg'> | <img align='left' src='\image\travel\china\fujian\gly.jpg'> |  -->
+<!-- | ![alt text](\image\travel\china\fujian\gly.jpg) | 单元格 | -->
+<table>
+    <colgroup>
+    <col style="width: 50%;">
+    <col style="width: 50%;">
+    </colgroup>
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>效果图</td>
+        <td align='left'>实际图</td>
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/gly.jpg" width="99%"></td> </tr>
+    <tr> <td rowspan="6">coming soon ...</td> </tr>
+    <!-- <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_food.jpg" width="99%"></td> </tr> -->
+</table>
+
+
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门·鼓浪屿"><a href="#厦门·鼓浪屿" class="headerlink" title="厦门·鼓浪屿"></a>厦门·鼓浪屿</h2><h3 id="Plan"><a href="#Plan" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
+<p><em><strong>路线</strong></em>: 三丘田码头 -&gt; 最美转角 -&gt; 龙头路小吃街 -&gt; 皓月园 -&gt; 菽庄花园 -&gt; 日光岩 -&gt; 美华沙滩 -&gt; 内厝澳码头 </p>
+</blockquote>
+<table>
+    <!-- <tr  style="background-color: #eff3f5;">
+        <th colspan="3" style="text-align:center">单元格合并</th>
+    </tr > -->
+    <!-- <tr style="background-color: #f7f7f7;">
+        <td>单元格</td>
+        <td>单元格</td>
+        <td>单元格</td>  
+    </tr>
+    <tr>
+        <td>单元格</td>
+        <td rowspan="3">单元格合并行</td>
+        <td rowspan="3">单元格合并行</td>
+    </tr>
+    <tr>
+        <td>单元格</td>
+    </tr>
+    <tr>
+        <td>单元格</td>
+    </tr> -->
+    <colgroup>
+    <col style="width: 50%;">
+    <col style="width: 15%;">
+    <col style="width: 35%;">
+    </colgroup>
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>地图</td>
+        <td align='left'>景点</td>
+        <td align='left'>计划</td>  
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/gly_map.jpg" width="99%"></td> </tr>
+    <tr> <td>最美转角</td> <td> 1. 最美转角拍照 x1; <br> 2. 晴天墙拍照 x1 <br> <br> <b>Note</b>: 早上去, 下午人超多 </td> </tr>
+    <tr> <td>龙头路小吃街</td> <td> 1. 龙头鲨鱼丸; <br> <br> <b>Note</b>: 不去凑热闹也行 </td> </tr>
+    <tr> <td>皓月园</td> <td> 1. 郑成功雕像; <br> <br> <b>Note</b>:  </td> </tr>
+    <tr> <td>菽庄花园</td> <td> 1. 园林; <br> <br> <b>Note</b>: 苏州园林花园 </td> </tr>
+    <tr> <td>日/月光岩</td> <td> 1. 俯瞰厦门全岛; <br> <br> <b>Note</b>: 日光岩人多, 去月光岩吧 </td> </tr>
+</table>
+
+<h3 id="Review"><a href="#Review" class="headerlink" title="Review"></a>Review</h3><p>coming soon ……</p>
+<h2 id="漳州·漳州古城"><a href="#漳州·漳州古城" class="headerlink" title="漳州·漳州古城"></a>漳州·漳州古城</h2><h3 id="Plan-1"><a href="#Plan-1" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
+<p><em><strong>主题</strong></em>：逛吃… 逛吃…<br><em><strong>自驾</strong></em>：新华立体停车场; 侨乡停车场(逆行路线)</p>
+</blockquote>
+<table>
+    <colgroup>
+    <col style="width: 50%;">
+    <col style="width: 50%;">
+    </colgroup>
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>地图</td>
+        <td align='left'>逛吃</td>
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_map.jpg" width="99%"></td> </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_food.jpg" width="99%"></td> </tr>
+</table>
+
+<h3 id="Review-1"><a href="#Review-1" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
+<h2 id="泉州·泉州古城"><a href="#泉州·泉州古城" class="headerlink" title="泉州·泉州古城"></a>泉州·泉州古城</h2><h3 id="Plan-2"><a href="#Plan-2" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
+<p><em><strong>主题</strong></em>：体验历史<br><em><strong>自驾</strong></em>：</p>
+</blockquote>
+<table>
+    <colgroup>
+    <col style="width: 50%;">
+    <col style="width: 50%;">
+    </colgroup>
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>地图</td>
+        <td align='left'>xxx</td>
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/qz_map.jpg" width="99%"></td> </tr>
+    <tr> <td rowspan="6">coming soon ...</td> </tr>
+</table>
+
+<h3 id="Review-2"><a href="#Review-2" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+        <category>travel.china</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>国内游.五岳</title>
     <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E4%BA%94%E5%B2%B3/</url>
     <content><![CDATA[<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ul>
@@ -423,32 +571,6 @@
       <categories>
         <category>wish</category>
         <category>travel</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游·厦漳泉</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%8E%A6%E6%BC%B3%E6%B3%89/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
-<ul>
-<li><em><strong>无</strong></em></li>
-</ul>
-</blockquote>
-<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门"><a href="#厦门" class="headerlink" title="厦门"></a>厦门</h2><h3 id="鼓浪屿"><a href="#鼓浪屿" class="headerlink" title="鼓浪屿"></a>鼓浪屿</h3><h4 id="最美转角"><a href="#最美转角" class="headerlink" title="最美转角"></a>最美转角</h4><p>xxx</p>
-<h4 id="日光岩"><a href="#日光岩" class="headerlink" title="日光岩"></a>日光岩</h4><p>xxx</p>
-<h4 id="风琴博物馆"><a href="#风琴博物馆" class="headerlink" title="风琴博物馆"></a>风琴博物馆</h4><p>xxx</p>
-<h4 id="菽庄花园"><a href="#菽庄花园" class="headerlink" title="菽庄花园"></a>菽庄花园</h4><p>xxx</p>
-<h2 id="漳州"><a href="#漳州" class="headerlink" title="漳州"></a>漳州</h2><p>xxx</p>
-<h2 id="泉州"><a href="#泉州" class="headerlink" title="泉州"></a>泉州</h2><p>xxx</p>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-        <category>travel.china</category>
       </categories>
       <tags>
         <tag>wish.travel</tag>
@@ -480,7 +602,12 @@
   <entry>
     <title>国内游.西藏</title>
     <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E8%97%8F/</url>
-    <content><![CDATA[<h2 id="厦门出发"><a href="#厦门出发" class="headerlink" title="厦门出发"></a>厦门出发</h2><h2 id="成都出发"><a href="#成都出发" class="headerlink" title="成都出发"></a>成都出发</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li>自驾5000公里</li>
+</ul>
+</blockquote>
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门出发"><a href="#厦门出发" class="headerlink" title="厦门出发"></a>厦门出发</h2><h2 id="成都出发"><a href="#成都出发" class="headerlink" title="成都出发"></a>成都出发</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
 <li>预防高反</li>
 <li></li>
 </ul>
@@ -488,6 +615,7 @@
       <categories>
         <category>wish</category>
         <category>travel</category>
+        <category>travel.china</category>
       </categories>
       <tags>
         <tag>wish.travel</tag>
