@@ -16,22 +16,30 @@
   <meta name="author" content="jiandan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="学习手机摄像">
+    <meta name="description" content="FT &amp; PEFT">
 <meta property="og:type" content="article">
-<meta property="og:title" content="摄像·手机拍照">
-<meta property="og:url" content="http://github.com/jianzquan/2024/05/04/wish/skill/%E6%91%84%E5%83%8F.%E6%89%8B%E6%9C%BA%E6%8B%8D%E7%85%A7/index.html">
+<meta property="og:title" content="LLM.Tuning">
+<meta property="og:url" content="http://github.com/jianzquan/2024/05/25/study/llm/adapter/index.html">
 <meta property="og:site_name" content="Jian&#39;s Page">
-<meta property="og:description" content="学习手机摄像">
+<meta property="og:description" content="FT &amp; PEFT">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-05-04T03:00:33.575Z">
-<meta property="article:modified_time" content="2024-05-04T03:10:05.241Z">
+<meta property="og:image" content="http://github.com/image/study/llm/peft.jpg">
+<meta property="og:image" content="http://github.com/image/study/llm/lora.png">
+<meta property="og:image" content="http://github.com/image/study/llm/lora.png">
+<meta property="og:image" content="http://github.com/image/study/llm/lora.png">
+<meta property="og:image" content="http://github.com/image/study/llm/lora.png">
+<meta property="og:image" content="http://github.com/image/study/llm/lora.png">
+<meta property="og:image" content="http://github.com/image/study/llm/lora.png">
+<meta property="article:published_time" content="2024-05-25T00:59:24.156Z">
+<meta property="article:modified_time" content="2024-05-25T01:55:11.798Z">
 <meta property="article:author" content="jiandan">
-<meta property="article:tag" content="wish.skill">
+<meta property="article:tag" content="study.llm">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://github.com/image/study/llm/peft.jpg">
   
   
   
-  <title>摄像·手机拍照 - Jian&#39;s Page</title>
+  <title>LLM.Tuning - Jian&#39;s Page</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +205,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="摄像·手机拍照"></span>
+            <span id="subtitle" data-typed-text="LLM.Tuning"></span>
           
         </div>
 
@@ -208,8 +216,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-05-04 11:00" pubdate>
-          2024年5月4日 上午
+        <time datetime="2024-05-25 08:59" pubdate>
+          2024年5月25日 早上
         </time>
       </span>
     
@@ -220,7 +228,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3 字
+          218 字
         
       </span>
     
@@ -259,13 +267,88 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">摄像·手机拍照</h1>
+            <h1 id="seo-header">LLM.Tuning</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
-<li>D</li>
+                <div align=center><img src="/image/study/llm/peft.jpg" srcset="/img/loading.gif" lazyload width="800"></div> <br>
+
+<p>Thanks to: <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/675231376">https://zhuanlan.zhihu.com/p/675231376</a><br>Library: <a href="https://github.com/adapter-hub/adapters">https://github.com/adapter-hub/adapters</a></p>
+<h2 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h2><ul>
+<li>调整 PLM&#x2F;LLM 所有层和参数, 使其适应特定任务.</li>
+<li>使用较小的学习率 &amp; 特定任务的数据进行.</li>
+<li>优点: 充分利用预训练模型的通用特征; 缺点: 需要更多的计算资源.</li>
+</ul>
+<h2 id="Parameter-Efficient-Fine-Tuning"><a href="#Parameter-Efficient-Fine-Tuning" class="headerlink" title="Parameter Efficient Fine-Tuning"></a>Parameter Efficient Fine-Tuning</h2><ul>
+<li>最小化微调参数的数量和计算复杂度, 极大降低训练成本.</li>
+<li>不改变 PLM&#x2F;LLM 知识前提下, 迅速适应新任务，实现高效的迁移学习.</li>
+<li>提高模型效果的同时, 大大缩短模型训练时间和计算成本</li>
+</ul>
+<table>
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>Methods</td>
+        <td align='center'>Principle</td>
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 1. [LoRA](https://arxiv.org/abs/2106.09685): </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" srcset="/img/loading.gif" lazyload width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 2. QLoRA: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" srcset="/img/loading.gif" lazyload width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 3. Adapter Tuning: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" srcset="/img/loading.gif" lazyload width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 4. Prefix Tuning: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" srcset="/img/loading.gif" lazyload width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 5. Prompt Tuning: </strong> 
+            <br> * 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" srcset="/img/loading.gif" lazyload width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 6. P Tuning & v2: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" srcset="/img/loading.gif" lazyload width="90%"> 
+        </td> 
+    </tr>
+</table>
+
+
+<h3 id="Low-Rank-Adaptation-LoRA"><a href="#Low-Rank-Adaptation-LoRA" class="headerlink" title="Low-Rank Adaptation (LoRA)"></a><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2106.09685">Low-Rank Adaptation (LoRA)</a></h3><ul>
+<li>123</li>
 </ul>
 
                 
@@ -285,20 +368,13 @@
     
       <span class="category-chain">
         
-  <a href="/categories/wish/" class="category-chain-item">wish</a>
+  <a href="/categories/study/" class="category-chain-item">study</a>
   
   
     <span>></span>
     
-  <a href="/categories/wish/skill/" class="category-chain-item">skill</a>
+  <a href="/categories/study/llm/" class="category-chain-item">llm</a>
   
-  
-    <span>></span>
-    
-  <a href="/categories/wish/skill/skill-camera/" class="category-chain-item">skill.camera</a>
-  
-  
-
   
 
   
@@ -314,7 +390,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/wish-skill/" class="print-no-link">#wish.skill</a>
+        <a href="/tags/study-llm/" class="print-no-link">#study.llm</a>
       
     </div>
   
@@ -326,8 +402,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>摄像·手机拍照</div>
-      <div>http://github.com/jianzquan/2024/05/04/wish/skill/摄像.手机拍照/</div>
+      <div>LLM.Tuning</div>
+      <div>http://github.com/jianzquan/2024/05/25/study/llm/adapter/</div>
     </div>
     <div class="license-meta">
       
@@ -339,7 +415,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年5月4日</div>
+          <div>2024年5月25日</div>
         </div>
       
       
@@ -371,9 +447,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/05/25/study/llm/adapter/" title="LLM.Tuning">
+                      <a href="/2024/06/16/study/skill/Github/" title="Github 仓库配置">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">LLM.Tuning</span>
+                        <span class="hidden-mobile">Github 仓库配置</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -381,8 +457,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/05/04/wish/skill/%E7%83%B9%E9%A5%AA.%E5%8A%A0%E9%A4%90%E7%BE%8E%E9%A3%9F/" title="烹饪·加餐美食">
-                        <span class="hidden-mobile">烹饪·加餐美食</span>
+                      <a href="/2024/05/04/wish/skill/%E6%91%84%E5%83%8F.%E6%89%8B%E6%9C%BA%E6%8B%8D%E7%85%A7/" title="摄像·手机拍照">
+                        <span class="hidden-mobile">摄像·手机拍照</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

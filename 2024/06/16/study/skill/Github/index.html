@@ -16,22 +16,22 @@
   <meta name="author" content="jiandan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="学习手机摄像">
+    <meta name="description" content="本地仓库 - Github仓库">
 <meta property="og:type" content="article">
-<meta property="og:title" content="摄像·手机拍照">
-<meta property="og:url" content="http://github.com/jianzquan/2024/05/04/wish/skill/%E6%91%84%E5%83%8F.%E6%89%8B%E6%9C%BA%E6%8B%8D%E7%85%A7/index.html">
+<meta property="og:title" content="Github 仓库配置">
+<meta property="og:url" content="http://github.com/jianzquan/2024/06/16/study/skill/Github/index.html">
 <meta property="og:site_name" content="Jian&#39;s Page">
-<meta property="og:description" content="学习手机摄像">
+<meta property="og:description" content="本地仓库 - Github仓库">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-05-04T03:00:33.575Z">
-<meta property="article:modified_time" content="2024-05-04T03:10:05.241Z">
+<meta property="article:published_time" content="2024-06-16T06:52:36.142Z">
+<meta property="article:modified_time" content="2024-06-17T02:57:54.202Z">
 <meta property="article:author" content="jiandan">
-<meta property="article:tag" content="wish.skill">
+<meta property="article:tag" content="study.skill">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>摄像·手机拍照 - Jian&#39;s Page</title>
+  <title>Github 仓库配置 - Jian&#39;s Page</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +197,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="摄像·手机拍照"></span>
+            <span id="subtitle" data-typed-text="Github 仓库配置"></span>
           
         </div>
 
@@ -208,8 +208,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-05-04 11:00" pubdate>
-          2024年5月4日 上午
+        <time datetime="2024-06-16 14:52" pubdate>
+          2024年6月16日 下午
         </time>
       </span>
     
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3 字
+          223 字
         
       </span>
     
@@ -259,14 +259,40 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">摄像·手机拍照</h1>
+            <h1 id="seo-header">Github 仓库配置</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
-<li>D</li>
-</ul>
+                <h2 align="center"> <a target="_blank" rel="noopener" href="https://jianzquan.github.io/">Github 相关配置</a></h2>
+<h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
+
+<h4 align="center">
+
+<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
+<h2 id="🎨-Github-Config"><a href="#🎨-Github-Config" class="headerlink" title="🎨 Github Config"></a>🎨 Github Config</h2><h3 id="For-Windows"><a href="#For-Windows" class="headerlink" title="For Windows"></a>For Windows</h3><ol>
+<li><p>下载 <a href="https://github.com/git-for-windows/git/releases">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name xxx<br>git config --global user.email xxxx<br></code></pre></td></tr></table></figure></li>
+<li><p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa (生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;)<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>首次将本地仓库链接到Github上.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init (文件夹下出现 .git 隐藏文件)<br>git add README.md<br>git commit -m <span class="hljs-string">&quot;first commit&quot;</span><br>git branch -M main<br>git remote add origin 仓库地址<br>git push -u origin main<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="For-Linux"><a href="#For-Linux" class="headerlink" title="For Linux"></a>For Linux</h3><p>Coming sooon</p>
+<h2 id="📀-Repository-Update"><a href="#📀-Repository-Update" class="headerlink" title="📀 Repository Update"></a>📀 Repository Update</h2><ol>
+<li><p>文件更新后，上传到github.</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">git add 文件 (. 表示添加所有)<br>git commit -m &quot;xxx&quot;<br>git push (-f 表示强制覆盖远程文件)<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>撤销提交状态.</p>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git <span class="hljs-keyword">reset</span> HEAD (撤销<span class="hljs-keyword">add</span>)<br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--soft HEAD^ (仅撤销commit，保留add)</span><br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🌟-VsCode-服务器免密"><a href="#🌟-VsCode-服务器免密" class="headerlink" title="🌟 VsCode 服务器免密"></a>🌟 VsCode 服务器免密</h2><ol>
+<li><p>安装插件 Remote-SSH</p>
+</li>
+<li><p>本地公钥存放到远程服务器端</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-copy-id 用户名@服务器地址 (Windows 上用 Git 操作)<br></code></pre></td></tr></table></figure></li>
+</ol>
 
                 
               </div>
@@ -285,20 +311,13 @@
     
       <span class="category-chain">
         
-  <a href="/categories/wish/" class="category-chain-item">wish</a>
+  <a href="/categories/study/" class="category-chain-item">study</a>
   
   
     <span>></span>
     
-  <a href="/categories/wish/skill/" class="category-chain-item">skill</a>
+  <a href="/categories/study/study-skill/" class="category-chain-item">study.skill</a>
   
-  
-    <span>></span>
-    
-  <a href="/categories/wish/skill/skill-camera/" class="category-chain-item">skill.camera</a>
-  
-  
-
   
 
   
@@ -314,7 +333,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/wish-skill/" class="print-no-link">#wish.skill</a>
+        <a href="/tags/study-skill/" class="print-no-link">#study.skill</a>
       
     </div>
   
@@ -326,8 +345,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>摄像·手机拍照</div>
-      <div>http://github.com/jianzquan/2024/05/04/wish/skill/摄像.手机拍照/</div>
+      <div>Github 仓库配置</div>
+      <div>http://github.com/jianzquan/2024/06/16/study/skill/Github/</div>
     </div>
     <div class="license-meta">
       
@@ -339,7 +358,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年5月4日</div>
+          <div>2024年6月16日</div>
         </div>
       
       
@@ -371,9 +390,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/05/25/study/llm/adapter/" title="LLM.Tuning">
+                      <a href="/2024/06/17/study/papers/ERC_CCM/" title="CCM for ERC">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">LLM.Tuning</span>
+                        <span class="hidden-mobile">CCM for ERC</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -381,8 +400,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/05/04/wish/skill/%E7%83%B9%E9%A5%AA.%E5%8A%A0%E9%A4%90%E7%BE%8E%E9%A3%9F/" title="烹饪·加餐美食">
-                        <span class="hidden-mobile">烹饪·加餐美食</span>
+                      <a href="/2024/05/25/study/llm/adapter/" title="LLM.Tuning">
+                        <span class="hidden-mobile">LLM.Tuning</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
