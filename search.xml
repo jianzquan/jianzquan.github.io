@@ -1,59 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello Hexo</title>
-    <url>/2024/05/01/wish/hello-hexo/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p>在服务器上配置环境: </p>
-<ul>
-<li>sudo apt install nodejs</li>
-<li>sudo apt install npm</li>
-<li>sudo npm install hexo-cli -g</li>
-</ul>
-<p>进入项目文件夹:</p>
-<ul>
-<li>hexo init blog</li>
-<li>cd blog&#x2F;</li>
-<li>npm install</li>
-<li>hexo s</li>
-</ul>
-<p>推送到GitHub:</p>
-<ul>
-<li>新建仓库 jianzquan.github.io</li>
-<li>更改 _config.yml 文件</li>
-<li>hexo clean &#x2F; hexo g &#x2F; hexo d</li>
-</ul>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>摄像·手机拍照</title>
-    <url>/2024/05/04/wish/skill/%E6%91%84%E5%83%8F.%E6%89%8B%E6%9C%BA%E6%8B%8D%E7%85%A7/</url>
-    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
-<li>D</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>skill</category>
-        <category>skill.camera</category>
-      </categories>
-      <tags>
-        <tag>wish.skill</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hidden Markov Model</title>
     <url>/2024/05/01/study/hmm/</url>
     <content><![CDATA[<h2 id="Hidden-Markov-Model"><a href="#Hidden-Markov-Model" class="headerlink" title="Hidden Markov Model"></a>Hidden Markov Model</h2><h3 id="符号"><a href="#符号" class="headerlink" title="符号"></a>符号</h3><ul>
@@ -143,349 +90,41 @@
       </tags>
   </entry>
   <entry>
-    <title>烹饪·加餐美食</title>
-    <url>/2024/05/04/wish/skill/%E7%83%B9%E9%A5%AA.%E5%8A%A0%E9%A4%90%E7%BE%8E%E9%A3%9F/</url>
-    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
-<li>xxx</li>
-</ul>
-<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
-<li>xxx</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>skill</category>
-        <category>skill.cooking</category>
-      </categories>
-      <tags>
-        <tag>wish.skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>烹饪·家常美食</title>
-    <url>/2024/05/03/wish/skill/%E7%83%B9%E9%A5%AA.%E5%AE%B6%E5%B8%B8%E7%BE%8E%E9%A3%9F/</url>
-    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
-<li>xxx</li>
-</ul>
-<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
-<li>xxx</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>skill</category>
-        <category>skill.cooking</category>
-      </categories>
-      <tags>
-        <tag>wish.skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游.五岳</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E4%BA%94%E5%B2%B3/</url>
-    <content><![CDATA[<h1 id="重点信息"><a href="#重点信息" class="headerlink" title="重点信息"></a>重点信息</h1><h2 id="事前准备"><a href="#事前准备" class="headerlink" title="事前准备"></a>事前准备</h2><table>
-    <!--  -->
-    <tr style="background-color: #f7f7f7;">
-        <td align='center'>地图</td>
-        <td align='center'>装备</td>
-    </tr>
-    <tr> <td rowspan="9"><img align='center' src="/image/travel/china/wuyue/locations.jpg" width="90%"></td> </tr>
-    <tr> <td> 1. <strong>必带:</strong> 移动电源、身份证、学生证 </td> </tr>
-    <tr> <td> 2. <strong>衣物:</strong> 登山鞋、冲锋衣、速干衣裤、手套、帽子、墨镜、护膝 </td> </tr>
-    <tr> <td> 3. <strong>饮料:</strong> 矿泉水(大)(或景区购买)、电解质饮料 </td> </tr>
-    <tr> <td> 4. <strong>食物:</strong> 巧克力、牛肉干、能量棒、坚果、水果 </td> </tr>
-    <tr> <td> 5. <strong>工具:</strong> 登山包(背负系统)、登山杖、运动手表、保温杯、拍立得 </td> </tr>
-    <tr> <td> 6. <strong>药物:</strong> 急救包、创口贴、藿香正气水、 </td> </tr>
-    <tr> <td> 7. <strong>用品:</strong> 纸巾、口香糖、一次性毛巾、一次性雨衣 </td> </tr>
-    <tr> <td> <strong>备注:</strong> 南岳衡山作为最后一站, 直接领取五岳奖牌 </td> </tr>
-</table>
-
-<h2 id="门票价格"><a href="#门票价格" class="headerlink" title="门票价格"></a>门票价格</h2><table>
-<thead>
-<tr>
-<th>三山五岳</th>
-<th>海拔</th>
-<th>开放时间</th>
-<th>门票价格</th>
-<th>索道时间</th>
-<th>索道价格</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>北岳恒山</td>
-<td>2016.1m</td>
-<td>8:00-17:30</td>
-<td>￥45</td>
-<td>8:00-16:30</td>
-<td>￥70</td>
-</tr>
-<tr>
-<td>东岳泰山</td>
-<td>1545m</td>
-<td>5:00-24:00</td>
-<td>￥115</td>
-<td>中天门-南天门: 7:30-17:00 <br> 桃花源-南天门: 8:00-16:30</td>
-<td>￥100</td>
-</tr>
-<tr>
-<td>中岳嵩山</td>
-<td>1491.7m</td>
-<td>8:00-17:00</td>
-<td>￥30</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>西岳华山</td>
-<td>2154.9m</td>
-<td>0:00-24:00</td>
-<td>￥160</td>
-<td>北峰索道: 6:40-19:00 <br> 西峰索道: 7:00-19:00</td>
-<td>西峰: ￥140 <br> 北峰: ￥80</td>
-</tr>
-<tr>
-<td>南岳衡山</td>
-<td>1300.2m</td>
-<td>7:30-17:30</td>
-<td>￥80</td>
-<td>南天门-半山亭: 7:00-17:30</td>
-<td>￥44</td>
-</tr>
-</tbody></table>
-<h2 id="计划安排"><a href="#计划安排" class="headerlink" title="计划安排"></a>计划安排</h2><h3 id="南岳衡山-最后一站-直接领奖牌"><a href="#南岳衡山-最后一站-直接领奖牌" class="headerlink" title="南岳衡山 (最后一站, 直接领奖牌)"></a>南岳衡山 (最后一站, 直接领奖牌)</h3><table>
-<thead>
-<tr>
-<th>时间</th>
-<th>计划</th>
-<th>类型</th>
-<th>预算</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>8:00-8:30</td>
-<td>南岳大巴：衡山站-&gt;衡山风景区</td>
-<td>交通</td>
-<td>8.00</td>
-<td></td>
-</tr>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>衡山攻略……</p>
-<h3 id="中岳嵩山"><a href="#中岳嵩山" class="headerlink" title="中岳嵩山"></a>中岳嵩山</h3><p>嵩山攻略……</p>
-<h3 id="东岳泰山"><a href="#东岳泰山" class="headerlink" title="东岳泰山"></a>东岳泰山</h3><p>日出东方，夜爬泰山看日出</p>
-<h3 id="北岳恒山"><a href="#北岳恒山" class="headerlink" title="北岳恒山"></a>北岳恒山</h3><p>恒山攻略……</p>
-<h3 id="西岳华山"><a href="#西岳华山" class="headerlink" title="西岳华山"></a>西岳华山</h3><p>华山攻略……</p>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>摄像·相机拍照</title>
-    <url>/2024/05/02/wish/skill/%E6%91%84%E5%83%8F.%E7%9B%B8%E6%9C%BA%E6%8B%8D%E7%85%A7/</url>
-    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
-<li>D</li>
-</ul>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>skill</category>
-        <category>skill.camera</category>
-      </categories>
-      <tags>
-        <tag>wish.skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游·厦漳泉</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%8E%A6%E6%BC%B3%E6%B3%89/</url>
-    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+    <title>Hello Hexo</title>
+    <url>/2024/05/01/wish/hello-hexo/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<p>在服务器上配置环境: </p>
 <ul>
-<li>鼓浪屿拍照计划</li>
+<li>sudo apt install nodejs</li>
+<li>sudo apt install npm</li>
+<li>sudo npm install hexo-cli -g</li>
 </ul>
-</blockquote>
-<!-- | 效果图 | 实际图 |
-|  ----  | ----  |
-| <img align='left' src='\image\travel\china\fujian\gly.jpg'> | <img align='left' src='\image\travel\china\fujian\gly.jpg'> |  -->
-<!-- | ![alt text](\image\travel\china\fujian\gly.jpg) | 单元格 | -->
-<table>
-    
-    <tr style="background-color: #f7f7f7;">
-        <td align='center'>效果图</td>
-        <td align='left'>实际图</td>
-    </tr>
-    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/gly.jpg" width="99%"></td> </tr>
-    <tr> <td rowspan="6">coming soon ...</td> </tr>
-    <!-- <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_food.jpg" width="99%"></td> </tr> -->
-</table>
-
-<blockquote>
-<p>漂流体验</p>
-</blockquote>
-<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门·鼓浪屿"><a href="#厦门·鼓浪屿" class="headerlink" title="厦门·鼓浪屿"></a>厦门·鼓浪屿</h2><h3 id="Plan"><a href="#Plan" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
-<p><em><strong>路线</strong></em>: 三丘田码头 -&gt; 最美转角 -&gt; 龙头路小吃街 -&gt; 皓月园 -&gt; 菽庄花园 -&gt; 日光岩 -&gt; 美华沙滩 -&gt; 内厝澳码头 </p>
-</blockquote>
-<table>
-    <!-- <tr  style="background-color: #eff3f5;">
-        <th colspan="3" style="text-align:center">单元格合并</th>
-    </tr > -->
-    <!-- <tr style="background-color: #f7f7f7;">
-        <td>单元格</td>
-        <td>单元格</td>
-        <td>单元格</td>  
-    </tr>
-    <tr>
-        <td>单元格</td>
-        <td rowspan="3">单元格合并行</td>
-        <td rowspan="3">单元格合并行</td>
-    </tr>
-    <tr>
-        <td>单元格</td>
-    </tr>
-    <tr>
-        <td>单元格</td>
-    </tr> -->
-    
-    <tr style="background-color: #f7f7f7;">
-        <td align='center'>地图</td>
-        <td align='left'>景点</td>
-        <td align='left'>计划</td>  
-    </tr>
-    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/gly_map.jpg" width="99%"></td> </tr>
-    <tr> <td>最美转角</td> <td> 1. 最美转角拍照 x1; <br> 2. 晴天墙拍照 x1 <br> <br> <b>Note</b>: 早上去, 下午人超多 </td> </tr>
-    <tr> <td>龙头路小吃街</td> <td> 1. 龙头鲨鱼丸; <br> <br> <b>Note</b>: 不去凑热闹也行 </td> </tr>
-    <tr> <td>皓月园</td> <td> 1. 郑成功雕像; <br> <br> <b>Note</b>:  </td> </tr>
-    <tr> <td>菽庄花园</td> <td> 1. 园林; <br> <br> <b>Note</b>: 苏州园林花园 </td> </tr>
-    <tr> <td>日/月光岩</td> <td> 1. 俯瞰厦门全岛; <br> <br> <b>Note</b>: 日光岩人多, 去月光岩吧 </td> </tr>
-</table>
-
-<h3 id="Review"><a href="#Review" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
-<h2 id="龙岩·森林水乡"><a href="#龙岩·森林水乡" class="headerlink" title="龙岩·森林水乡"></a>龙岩·森林水乡</h2><h3 id="Plan-1"><a href="#Plan-1" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
-<p><em><strong>路线</strong></em>: 厦门 -&gt; 龙岩 2h; 龙岩市区 -&gt; 森林水乡 40m<br><em><strong>门票</strong></em>: 全套票 298 (也许能258, 多找找), 包括: 门票 + 九溪庐漂流 + 森林飞跃 + 天际线滑车 + 射箭 + 小火车</p>
-</blockquote>
-<h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><ul>
-<li>顺序: 射箭 - 步步惊心 - 森林飞跃 - 高空滑车 - 观光车去天际线滑车 - 观光车到森林牧场 - 步行沐光之城 - 观光车下山, 到漂流入口 - 悬崖小火车</li>
-<li>漂流项目为主(14:00 - 16:00), 带手机防水袋、速干衣、防晒衣、水漂(结实点, 水枪没啥用)、毛巾、更换衣物等</li>
-</ul>
-<h3 id="Review-1"><a href="#Review-1" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
-<h2 id="漳州·漳州古城"><a href="#漳州·漳州古城" class="headerlink" title="漳州·漳州古城"></a>漳州·漳州古城</h2><h3 id="Plan-2"><a href="#Plan-2" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
-<p><em><strong>主题</strong></em>：逛吃… 逛吃…<br><em><strong>自驾</strong></em>：新华立体停车场; 侨乡停车场(逆行路线)</p>
-</blockquote>
-<table>
-    
-    <tr style="background-color: #f7f7f7;">
-        <td align='center'>地图</td>
-        <td align='left'>逛吃</td>
-    </tr>
-    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_map.jpg" width="99%"></td> </tr>
-    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_food.jpg" width="99%"></td> </tr>
-</table>
-
-<h3 id="Review-2"><a href="#Review-2" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
-<h2 id="泉州·泉州古城"><a href="#泉州·泉州古城" class="headerlink" title="泉州·泉州古城"></a>泉州·泉州古城</h2><h3 id="Plan-3"><a href="#Plan-3" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
-<p><em><strong>主题</strong></em>：体验历史<br><em><strong>自驾</strong></em>：</p>
-</blockquote>
-<table>
-    
-    <tr style="background-color: #f7f7f7;">
-        <td align='center'>地图</td>
-        <td align='left'>xxx</td>
-    </tr>
-    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/qz_map.jpg" width="99%"></td> </tr>
-    <tr> <td rowspan="6">coming soon ...</td> </tr>
-</table>
-
-<h3 id="Review-3"><a href="#Review-3" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-        <category>travel.china</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游.哈尔滨</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%93%88%E5%B0%94%E6%BB%A8/</url>
-    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<p>进入项目文件夹:</p>
 <ul>
-<li><p><em><strong>滑雪</strong></em>：x</p>
-</li>
-<li><p><em><strong>滑冰</strong></em>：xx</p>
-</li>
+<li>hexo init blog</li>
+<li>cd blog&#x2F;</li>
+<li>npm install</li>
+<li>hexo s</li>
 </ul>
-</blockquote>
-<hr>
-<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="1-哈尔滨"><a href="#1-哈尔滨" class="headerlink" title="1. 哈尔滨"></a>1. 哈尔滨</h2><p>xx</p>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-        <category>travel.china</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游.西安</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E5%AE%89/</url>
-    <content><![CDATA[<h1 id="大唐不夜城"><a href="#大唐不夜城" class="headerlink" title="大唐不夜城"></a>大唐不夜城</h1><p>xxx</p>
-]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国外游.新加坡</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%A4%96%E6%B8%B8.%E6%96%B0%E5%8A%A0%E5%9D%A1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>国内游.西藏</title>
-    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E8%97%8F/</url>
-    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<p>推送到GitHub:</p>
 <ul>
-<li>自驾5000公里</li>
+<li>新建仓库 jianzquan.github.io</li>
+<li>更改 _config.yml 文件</li>
+<li>hexo clean &#x2F; hexo g &#x2F; hexo d</li>
 </ul>
-</blockquote>
-<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门出发"><a href="#厦门出发" class="headerlink" title="厦门出发"></a>厦门出发</h2><h2 id="成都出发"><a href="#成都出发" class="headerlink" title="成都出发"></a>成都出发</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
-<li>预防高反</li>
-<li></li>
-</ul>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>wish</category>
-        <category>travel</category>
-        <category>travel.china</category>
-      </categories>
-      <tags>
-        <tag>wish.travel</tag>
-      </tags>
   </entry>
   <entry>
     <title>Large Language Models</title>
@@ -650,6 +289,89 @@
       </tags>
   </entry>
   <entry>
+    <title>Modality Large Language Model</title>
+    <url>/2024/05/01/study/llm/mllm/</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Prompt-Tuning</title>
+    <url>/2024/05/01/study/llm/prompt/</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
+<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
+<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
+<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
+<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
+</li>
+<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
+<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
+<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
+</li>
+<li><p><strong>第三阶段</strong>: </p>
+<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
+<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
+<br/>
+
+
+<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
+<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<ul>
+<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
+<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+</ul>
+<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<ul>
+<li><p>模板构建(template): (大量优化方法)</p>
+<p>人工构建</p>
+<p>启发式发：PTR、AutoPrompt</p>
+<p>生成：LM-BFF、</p>
+<p>词向量微调</p>
+<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
+</li>
+<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
+
+<br/>
+
+<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
+<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
+<p>LLM的Prompt-tuning方法：</p>
+<ul>
+<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
+<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
+  
+<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
+</li>
+<li><p><strong>Instruction-tuning</strong>:</p>
+<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
+</li>
+<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
+<p>  <em><strong>过程</strong></em>：代码的预训练</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LLM.Tuning</title>
     <url>/2024/05/25/study/llm/adapter/</url>
     <content><![CDATA[<div align=center><img src="/image/study/llm/peft.jpg" width="800"></div> <br>
@@ -740,21 +462,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Modality Large Language Model</title>
-    <url>/2024/05/01/study/llm/mllm/</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CCM for ERC</title>
-    <url>/2024/06/17/study/papers/ERC_CCM/</url>
+    <title>Accepted Papers</title>
+    <url>/2024/06/17/study/papers/Accepted%20Papers/</url>
     <content><![CDATA[<h2 align="center"> <a href="https://ieeexplore.ieee.org/abstract/document/10446226">Conversation Clique-based Model for Emotion Recognition in Conversation</a></h2>
 <h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
 
@@ -805,126 +514,11 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 <figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> /path/to/Uni_MoE<br>conda activate unimoe<br>python demo/demo.py<br>python demo/app.py<br>``` --&gt;<br><br><span class="hljs-comment">## Citation</span><br><br>If you find Uni-MoE useful <span class="hljs-keyword">for</span> your research and applications, please cite using this BibTeX:<br>```bibtex<br><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model <span class="hljs-keyword">for</span> Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>study</category>
-        <category>study.paper</category>
+        <category>paper</category>
+        <category>accept</category>
       </categories>
       <tags>
-        <tag>study.paper</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prompt-Tuning</title>
-    <url>/2024/05/01/study/llm/prompt/</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
-<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
-<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
-<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
-<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
-</li>
-<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
-<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
-<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
-</li>
-<li><p><strong>第三阶段</strong>: </p>
-<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
-<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
-<br/>
-
-
-<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
-<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
-<ul>
-<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
-<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
-</ul>
-<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
-<ul>
-<li><p>模板构建(template): (大量优化方法)</p>
-<p>人工构建</p>
-<p>启发式发：PTR、AutoPrompt</p>
-<p>生成：LM-BFF、</p>
-<p>词向量微调</p>
-<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
-</li>
-<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
-
-<br/>
-
-<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
-<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
-<p>LLM的Prompt-tuning方法：</p>
-<ul>
-<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
-<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
-  
-<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
-</li>
-<li><p><strong>Instruction-tuning</strong>:</p>
-<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
-</li>
-<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
-<p>  <em><strong>过程</strong></em>：代码的预训练</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 系统重装</title>
-    <url>/2024/06/17/study/skill/System/</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Windows 系统重装配置</a></h2>
-<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
-
-<h4 align="center">
-
-
-<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><ol>
-<li><p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
-</li>
-<li><p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
-</li>
-</ol>
-<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><ol>
-<li><p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网</p>
-</li>
-<li><p>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly</p>
-</li>
-<li><p>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a></p>
-</li>
-<li><p>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
-</li>
-<li><p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、</p>
-</li>
-<li><p>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息</p>
-</li>
-<li><p>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
-</li>
-</ol>
-<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
-<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
-</li>
-<li><p>便签设置：月计划、周计划、日计划</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>study.skill</category>
-      </categories>
-      <tags>
-        <tag>study.skill</tag>
+        <tag>accepted_papers</tag>
       </tags>
   </entry>
   <entry>
@@ -995,8 +589,10 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 <li><p>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
 </ol>
-<h2 id="🌟-Others"><a href="#🌟-Others" class="headerlink" title="🌟 Others"></a>🌟 Others</h2><ul>
-<li>SSH 免密（本地公钥存放到远程服务器端）<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">ssh-copy-id 用户名@服务器地址 (Windows 上用 Git 操作)<br></code></pre></td></tr></table></figure></li>
+<h2 id="🌟-Server"><a href="#🌟-Server" class="headerlink" title="🌟 Server"></a>🌟 Server</h2><ul>
+<li>服务器 免密（本地公钥存放到远程服务器端）<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">ssh-copy-id user@server ip <span class="hljs-comment"># (Windows 上用 Git 操作)</span><br></code></pre></td></tr></table></figure></li>
+<li>服务器 启动方式<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># (开机默认进入命令行模式，startx 进入图形界面，Ctrl+Alt+F7 切回命令行)</span><br>sudo systemctl set-default graphical.target  <span class="hljs-comment"># (开机默认进入图形用户界面，Ctrl+Alt+F2 进入命令行模式)</span><br></code></pre></td></tr></table></figure></li>
+<li>服务器 软件安装<br>anaconda3 Linux上<a href="https://blog.csdn.net/G_C_H/article/details/133553961">安装</a> (pip install scikit-learn)<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo bash xxx.sh <span class="hljs-comment"># 安装本地 .sh 软件包</span><br><br></code></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
       <categories>
@@ -1005,6 +601,415 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </categories>
       <tags>
         <tag>study.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 系统重装</title>
+    <url>/2024/06/17/study/skill/System/</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Windows 系统重装配置</a></h2>
+<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
+
+<h4 align="center">
+
+
+<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><ol>
+<li><p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
+</li>
+<li><p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+</li>
+</ol>
+<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><ol>
+<li><p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网</p>
+</li>
+<li><p>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly</p>
+</li>
+<li><p>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a></p>
+</li>
+<li><p>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
+</li>
+<li><p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、</p>
+</li>
+<li><p>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息</p>
+</li>
+<li><p>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
+</li>
+</ol>
+<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
+<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
+</li>
+<li><p>便签设置：月计划、周计划、日计划</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>study.skill</category>
+      </categories>
+      <tags>
+        <tag>study.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>摄像·手机拍照</title>
+    <url>/2024/05/04/wish/skill/%E6%91%84%E5%83%8F.%E6%89%8B%E6%9C%BA%E6%8B%8D%E7%85%A7/</url>
+    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
+<li>D</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.camera</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>摄像·相机拍照</title>
+    <url>/2024/05/02/wish/skill/%E6%91%84%E5%83%8F.%E7%9B%B8%E6%9C%BA%E6%8B%8D%E7%85%A7/</url>
+    <content><![CDATA[<h2 id="课程-1"><a href="#课程-1" class="headerlink" title="课程 1"></a>课程 1</h2><ul>
+<li>D</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.camera</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>烹饪·加餐美食</title>
+    <url>/2024/05/04/wish/skill/%E7%83%B9%E9%A5%AA.%E5%8A%A0%E9%A4%90%E7%BE%8E%E9%A3%9F/</url>
+    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>xxx</li>
+</ul>
+<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
+<li>xxx</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.cooking</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>烹饪·家常美食</title>
+    <url>/2024/05/03/wish/skill/%E7%83%B9%E9%A5%AA.%E5%AE%B6%E5%B8%B8%E7%BE%8E%E9%A3%9F/</url>
+    <content><![CDATA[<h1 id="米饭怎么煮才好吃"><a href="#米饭怎么煮才好吃" class="headerlink" title="米饭怎么煮才好吃"></a>米饭怎么煮才好吃</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>xxx</li>
+</ul>
+<h2 id="制作步骤及注意事项"><a href="#制作步骤及注意事项" class="headerlink" title="制作步骤及注意事项"></a>制作步骤及注意事项</h2><ul>
+<li>xxx</li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>skill</category>
+        <category>skill.cooking</category>
+      </categories>
+      <tags>
+        <tag>wish.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.五岳</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E4%BA%94%E5%B2%B3/</url>
+    <content><![CDATA[<h1 id="重点信息"><a href="#重点信息" class="headerlink" title="重点信息"></a>重点信息</h1><h2 id="事前准备"><a href="#事前准备" class="headerlink" title="事前准备"></a>事前准备</h2><table>
+    <!--  -->
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>地图</td>
+        <td align='center'>装备</td>
+    </tr>
+    <tr> <td rowspan="9"><img align='center' src="/image/travel/china/wuyue/locations.jpg" width="90%"></td> </tr>
+    <tr> <td> 1. <strong>必带:</strong> 移动电源、身份证、学生证 </td> </tr>
+    <tr> <td> 2. <strong>衣物:</strong> 登山鞋√、冲锋衣√、速干衣裤√、手套、帽子√、墨镜、护膝 </td> </tr>
+    <tr> <td> 3. <strong>饮料:</strong> 矿泉水(大)(或景区购买)、电解质饮料 </td> </tr>
+    <tr> <td> 4. <strong>食物:</strong> 巧克力、牛肉干、能量棒、坚果、水果 </td> </tr>
+    <tr> <td> 5. <strong>工具:</strong> 登山包(背负系统)√、登山杖、运动手表、保温杯、拍立得 </td> </tr>
+    <tr> <td> 6. <strong>药物:</strong> 急救包、创口贴、藿香正气水、 </td> </tr>
+    <tr> <td> 7. <strong>用品:</strong> 纸巾、口香糖、一次性毛巾、一次性雨衣 </td> </tr>
+    <tr> <td> <strong>备注:</strong> 南岳衡山作为最后一站, 直接领取五岳奖牌 </td> </tr>
+</table>
+
+
+
+<h2 id="门票价格"><a href="#门票价格" class="headerlink" title="门票价格"></a>门票价格</h2><table>
+<thead>
+<tr>
+<th>三山五岳</th>
+<th>海拔</th>
+<th>开放时间</th>
+<th>门票价格</th>
+<th>索道时间</th>
+<th>索道价格</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>北岳恒山</td>
+<td>2016.1m</td>
+<td>8:00-17:30</td>
+<td>￥45</td>
+<td>8:00-16:30</td>
+<td>￥70</td>
+</tr>
+<tr>
+<td>东岳泰山</td>
+<td>1545m</td>
+<td>5:00-24:00</td>
+<td>￥115</td>
+<td>中天门-南天门: 7:30-17:00 <br> 桃花源-南天门: 8:00-16:30</td>
+<td>￥100</td>
+</tr>
+<tr>
+<td>中岳嵩山</td>
+<td>1491.7m</td>
+<td>8:00-17:00</td>
+<td>￥30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>西岳华山</td>
+<td>2154.9m</td>
+<td>0:00-24:00</td>
+<td>￥160</td>
+<td>北峰索道: 6:40-19:00 <br> 西峰索道: 7:00-19:00</td>
+<td>西峰: ￥140 <br> 北峰: ￥80</td>
+</tr>
+<tr>
+<td>南岳衡山</td>
+<td>1300.2m</td>
+<td>7:30-17:30</td>
+<td>￥80</td>
+<td>南天门-半山亭: 7:00-17:30</td>
+<td>￥44</td>
+</tr>
+</tbody></table>
+<h2 id="计划安排"><a href="#计划安排" class="headerlink" title="计划安排"></a>计划安排</h2><h3 id="南岳衡山-最后一站-直接领奖牌"><a href="#南岳衡山-最后一站-直接领奖牌" class="headerlink" title="南岳衡山 (最后一站, 直接领奖牌)"></a>南岳衡山 (最后一站, 直接领奖牌)</h3><table>
+<thead>
+<tr>
+<th>时间</th>
+<th>计划</th>
+<th>类型</th>
+<th>预算</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>8:00-8:30</td>
+<td>南岳大巴：衡山站-&gt;衡山风景区</td>
+<td>交通</td>
+<td>8.00</td>
+<td></td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>衡山攻略……</p>
+<h3 id="中岳嵩山"><a href="#中岳嵩山" class="headerlink" title="中岳嵩山"></a>中岳嵩山</h3><p>嵩山攻略……</p>
+<h3 id="东岳泰山"><a href="#东岳泰山" class="headerlink" title="东岳泰山"></a>东岳泰山</h3><p>日出东方，夜爬泰山看日出</p>
+<h3 id="北岳恒山"><a href="#北岳恒山" class="headerlink" title="北岳恒山"></a>北岳恒山</h3><p>恒山攻略……</p>
+<h3 id="西岳华山"><a href="#西岳华山" class="headerlink" title="西岳华山"></a>西岳华山</h3><p>华山攻略……</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游·厦漳泉</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%8E%A6%E6%BC%B3%E6%B3%89/</url>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li>鼓浪屿拍照计划</li>
+</ul>
+</blockquote>
+<!-- | 效果图 | 实际图 |
+|  ----  | ----  |
+| <img align='left' src='\image\travel\china\fujian\gly.jpg'> | <img align='left' src='\image\travel\china\fujian\gly.jpg'> |  -->
+<!-- | ![alt text](\image\travel\china\fujian\gly.jpg) | 单元格 | -->
+<table>
+    
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>效果图</td>
+        <td align='left'>实际图</td>
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/gly.jpg" width="99%"></td> </tr>
+    <tr> <td rowspan="6">coming soon ...</td> </tr>
+    <!-- <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_food.jpg" width="99%"></td> </tr> -->
+</table>
+
+<blockquote>
+<p>漂流体验</p>
+</blockquote>
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门·鼓浪屿"><a href="#厦门·鼓浪屿" class="headerlink" title="厦门·鼓浪屿"></a>厦门·鼓浪屿</h2><h3 id="Plan"><a href="#Plan" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
+<p><em><strong>路线</strong></em>: 三丘田码头 -&gt; 最美转角 -&gt; 龙头路小吃街 -&gt; 皓月园 -&gt; 菽庄花园 -&gt; 日光岩 -&gt; 美华沙滩 -&gt; 内厝澳码头 </p>
+</blockquote>
+<table>
+    <!-- <tr  style="background-color: #eff3f5;">
+        <th colspan="3" style="text-align:center">单元格合并</th>
+    </tr > -->
+    <!-- <tr style="background-color: #f7f7f7;">
+        <td>单元格</td>
+        <td>单元格</td>
+        <td>单元格</td>  
+    </tr>
+    <tr>
+        <td>单元格</td>
+        <td rowspan="3">单元格合并行</td>
+        <td rowspan="3">单元格合并行</td>
+    </tr>
+    <tr>
+        <td>单元格</td>
+    </tr>
+    <tr>
+        <td>单元格</td>
+    </tr> -->
+    
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>地图</td>
+        <td align='left'>景点</td>
+        <td align='left'>计划</td>  
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/gly_map.jpg" width="99%"></td> </tr>
+    <tr> <td>最美转角</td> <td> 1. 最美转角拍照 x1; <br> 2. 晴天墙拍照 x1 <br> <br> <b>Note</b>: 早上去, 下午人超多 </td> </tr>
+    <tr> <td>龙头路小吃街</td> <td> 1. 龙头鲨鱼丸; <br> <br> <b>Note</b>: 不去凑热闹也行 </td> </tr>
+    <tr> <td>皓月园</td> <td> 1. 郑成功雕像; <br> <br> <b>Note</b>:  </td> </tr>
+    <tr> <td>菽庄花园</td> <td> 1. 园林; <br> <br> <b>Note</b>: 苏州园林花园 </td> </tr>
+    <tr> <td>日/月光岩</td> <td> 1. 俯瞰厦门全岛; <br> <br> <b>Note</b>: 日光岩人多, 去月光岩吧 </td> </tr>
+</table>
+
+<h3 id="Review"><a href="#Review" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
+<h2 id="龙岩·森林水乡"><a href="#龙岩·森林水乡" class="headerlink" title="龙岩·森林水乡"></a>龙岩·森林水乡</h2><h3 id="Plan-1"><a href="#Plan-1" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
+<p><em><strong>路线</strong></em>: 厦门 -&gt; 龙岩 2h; 龙岩市区 -&gt; 森林水乡 40m<br><em><strong>门票</strong></em>: 全套票 298 (也许能258, 多找找), 包括: 门票 + 九溪庐漂流 + 森林飞跃 + 天际线滑车 + 射箭 + 小火车</p>
+</blockquote>
+<h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><ul>
+<li>顺序: 射箭 - 步步惊心 - 森林飞跃 - 高空滑车 - 观光车去天际线滑车 - 观光车到森林牧场 - 步行沐光之城 - 观光车下山, 到漂流入口 - 悬崖小火车</li>
+<li>漂流项目为主(14:00 - 16:00), 带手机防水袋、速干衣、防晒衣、水漂(结实点, 水枪没啥用)、毛巾、更换衣物等</li>
+</ul>
+<h3 id="Review-1"><a href="#Review-1" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
+<h2 id="漳州·漳州古城"><a href="#漳州·漳州古城" class="headerlink" title="漳州·漳州古城"></a>漳州·漳州古城</h2><h3 id="Plan-2"><a href="#Plan-2" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
+<p><em><strong>主题</strong></em>：逛吃… 逛吃…<br><em><strong>自驾</strong></em>：新华立体停车场; 侨乡停车场(逆行路线)</p>
+</blockquote>
+<table>
+    
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>地图</td>
+        <td align='left'>逛吃</td>
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_map.jpg" width="99%"></td> </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/zz_food.jpg" width="99%"></td> </tr>
+</table>
+
+<h3 id="Review-2"><a href="#Review-2" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
+<h2 id="泉州·泉州古城"><a href="#泉州·泉州古城" class="headerlink" title="泉州·泉州古城"></a>泉州·泉州古城</h2><h3 id="Plan-3"><a href="#Plan-3" class="headerlink" title="Plan"></a>Plan</h3><blockquote>
+<p><em><strong>主题</strong></em>：体验历史<br><em><strong>自驾</strong></em>：</p>
+</blockquote>
+<table>
+    
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>地图</td>
+        <td align='left'>xxx</td>
+    </tr>
+    <tr> <td rowspan="6"><img align='left' src="/image/travel/china/fujian/qz_map.jpg" width="99%"></td> </tr>
+    <tr> <td rowspan="6">coming soon ...</td> </tr>
+</table>
+
+<h3 id="Review-3"><a href="#Review-3" class="headerlink" title="Review"></a>Review</h3><p>coming soon …</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+        <category>travel.china</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.哈尔滨</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E5%93%88%E5%B0%94%E6%BB%A8/</url>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li><p><em><strong>滑雪</strong></em>：x</p>
+</li>
+<li><p><em><strong>滑冰</strong></em>：xx</p>
+</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="1-哈尔滨"><a href="#1-哈尔滨" class="headerlink" title="1. 哈尔滨"></a>1. 哈尔滨</h2><p>xx</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+        <category>travel.china</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.西安</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E5%AE%89/</url>
+    <content><![CDATA[<h1 id="大唐不夜城"><a href="#大唐不夜城" class="headerlink" title="大唐不夜城"></a>大唐不夜城</h1><p>xxx</p>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内游.西藏</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%86%85%E6%B8%B8.%E8%A5%BF%E8%97%8F/</url>
+    <content><![CDATA[<h1 id="体验项目"><a href="#体验项目" class="headerlink" title="体验项目"></a>体验项目</h1><blockquote>
+<ul>
+<li>自驾5000公里</li>
+</ul>
+</blockquote>
+<h1 id="游玩行程"><a href="#游玩行程" class="headerlink" title="游玩行程"></a>游玩行程</h1><h2 id="厦门出发"><a href="#厦门出发" class="headerlink" title="厦门出发"></a>厦门出发</h2><h2 id="成都出发"><a href="#成都出发" class="headerlink" title="成都出发"></a>成都出发</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+<li>预防高反</li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+        <category>travel.china</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国外游.新加坡</title>
+    <url>/2024/05/02/wish/travel/%E5%9B%BD%E5%A4%96%E6%B8%B8.%E6%96%B0%E5%8A%A0%E5%9D%A1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>wish</category>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>wish.travel</tag>
       </tags>
   </entry>
 </search>

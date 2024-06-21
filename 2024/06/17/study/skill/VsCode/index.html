@@ -24,7 +24,7 @@
 <meta property="og:description" content="从头配置VsCode">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-06-17T11:34:27.828Z">
-<meta property="article:modified_time" content="2024-06-17T13:12:29.301Z">
+<meta property="article:modified_time" content="2024-06-20T03:14:29.504Z">
 <meta property="article:author" content="jiandan">
 <meta property="article:tag" content="study.skill">
 <meta name="twitter:card" content="summary_large_image">
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          188 字
+          269 字
         
       </span>
     
@@ -284,8 +284,10 @@
 <li><p>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
 </ol>
-<h2 id="🌟-Others"><a href="#🌟-Others" class="headerlink" title="🌟 Others"></a>🌟 Others</h2><ul>
-<li>SSH 免密（本地公钥存放到远程服务器端）<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-copy-id 用户名@服务器地址 (Windows 上用 Git 操作)<br></code></pre></td></tr></table></figure></li>
+<h2 id="🌟-Server"><a href="#🌟-Server" class="headerlink" title="🌟 Server"></a>🌟 Server</h2><ul>
+<li>服务器 免密（本地公钥存放到远程服务器端）<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-copy-id user@server ip <span class="hljs-comment"># (Windows 上用 Git 操作)</span><br></code></pre></td></tr></table></figure></li>
+<li>服务器 启动方式<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># (开机默认进入命令行模式，startx 进入图形界面，Ctrl+Alt+F7 切回命令行)</span><br>sudo systemctl set-default graphical.target  <span class="hljs-comment"># (开机默认进入图形用户界面，Ctrl+Alt+F2 进入命令行模式)</span><br></code></pre></td></tr></table></figure></li>
+<li>服务器 软件安装<br>anaconda3 Linux上<a target="_blank" rel="noopener" href="https://blog.csdn.net/G_C_H/article/details/133553961">安装</a> (pip install scikit-learn)<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo bash xxx.sh <span class="hljs-comment"># 安装本地 .sh 软件包</span><br><br></code></pre></td></tr></table></figure></li>
 </ul>
 
                 
