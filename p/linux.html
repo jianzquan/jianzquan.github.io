@@ -16,15 +16,15 @@
   <meta name="author" content="jiandan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Linux 系统重装配置   1. Unbntu 22.04 安装；2. cuda 安装；3. Anaconda 安装    🎨 Ubuntu 22.04 系统安装 下载 Ubuntu 22.04系统   使用 Rufus 制作系统盘，使用U盘启动，默认安装  🎨 系统一般设置12345678910111213141516grep bash &#x2F;etc&#x2F;passwd # 查看当前用户usera">
+    <meta name="description" content="Linux Settings   1 🌱 Ubuntu 安装 系统下载   Ubuntu 22.04  U盘启动盘    使用 Rufus 制作系统盘，使用U盘启动，默认安装 2 🌿 基本配置2.1 用户设置12345grep bash &#x2F;etc&#x2F;passwd # 查看当前用户useradd &lt;name&gt; -m &#x2F; userdel -r &lt;name&gt; # 新建用户 &#x2F;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux Installation">
-<meta property="og:url" content="http://jianzquan.github.io/p/linuxinstall.html">
+<meta property="og:url" content="http://jianzquan.github.io/p/linux.html">
 <meta property="og:site_name" content="Jian&#39;s Page">
-<meta property="og:description" content="Linux 系统重装配置   1. Unbntu 22.04 安装；2. cuda 安装；3. Anaconda 安装    🎨 Ubuntu 22.04 系统安装 下载 Ubuntu 22.04系统   使用 Rufus 制作系统盘，使用U盘启动，默认安装  🎨 系统一般设置12345678910111213141516grep bash &#x2F;etc&#x2F;passwd # 查看当前用户usera">
+<meta property="og:description" content="Linux Settings   1 🌱 Ubuntu 安装 系统下载   Ubuntu 22.04  U盘启动盘    使用 Rufus 制作系统盘，使用U盘启动，默认安装 2 🌿 基本配置2.1 用户设置12345grep bash &#x2F;etc&#x2F;passwd # 查看当前用户useradd &lt;name&gt; -m &#x2F; userdel -r &lt;name&gt; # 新建用户 &#x2F;">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-01-31T08:57:53.550Z">
-<meta property="article:modified_time" content="2024-11-03T03:45:46.000Z">
+<meta property="article:modified_time" content="2025-04-05T13:30:40.219Z">
 <meta property="article:author" content="jiandan">
 <meta property="article:tag" content="study.skill">
 <meta name="twitter:card" content="summary_large_image">
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          274 字
+          260 字
         
       </span>
     
@@ -264,25 +264,30 @@
             
               <div class="markdown-body">
                 
-                <h2 align="center"> Linux 系统重装配置 </h2>
-<h5 align="center"> 1. Unbntu 22.04 安装；2. cuda 安装；3. Anaconda 安装 </h2>
+                <h1 align="center"> <a href="https://jianzquan.github.io/p/linux.html">Linux Settings</a></h1>
 
 
-<h2 id="🎨-Ubuntu-22-04-系统安装"><a href="#🎨-Ubuntu-22-04-系统安装" class="headerlink" title="🎨 Ubuntu 22.04 系统安装"></a>🎨 Ubuntu 22.04 系统安装</h2><blockquote>
-<p>下载 <a target="_blank" rel="noopener" href="https://releases.ubuntu.com/22.04/">Ubuntu 22.04</a>系统</p>
+<h2 id="1-🌱-Ubuntu-安装"><a href="#1-🌱-Ubuntu-安装" class="headerlink" title="1 🌱 Ubuntu 安装"></a>1 🌱 Ubuntu 安装</h2><blockquote>
+<p><strong>系统下载</strong></p>
 </blockquote>
+<p> <a target="_blank" rel="noopener" href="https://releases.ubuntu.com/22.04/">Ubuntu 22.04</a></p>
 <blockquote>
-<p>使用 <a target="_blank" rel="noopener" href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+<p><strong>U盘启动盘</strong></p>
 </blockquote>
-<h2 id="🎨-系统一般设置"><a href="#🎨-系统一般设置" class="headerlink" title="🎨 系统一般设置"></a>🎨 系统一般设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs bash">grep bash /etc/passwd <span class="hljs-comment"># 查看当前用户</span><br>useradd &lt;name&gt; -m / userdel -r &lt;name&gt; <span class="hljs-comment"># 新建用户 / 删除用户</span><br>usermod -s /bin/bash &lt;name&gt; <span class="hljs-comment"># 修改用户指向 (cat /etc/passwd 查看指向)</span><br>passwd &lt;name&gt; <span class="hljs-comment"># 创建/更改密码</span><br>sudo usermod -aG sudo &lt;name&gt; <span class="hljs-comment"># 添加用户到sudo组</span><br><br>sudo systemctl set-default multi-user.target <span class="hljs-comment"># 默认命令行启动</span><br>sudo systemctl set-default graphical.target <span class="hljs-comment"># 默认图形页面启动</span><br><br>sudo mount -t cifs //59.77.7.19/jzq My_Codes/ -o username=jzq,password=jzq,dir_mode=0777,file_mode=0777 <span class="hljs-comment"># 挂载 Nas</span><br>sudo umount &lt;<span class="hljs-built_in">dir</span>&gt; <span class="hljs-comment"># 卸载 Nas</span><br><br>sudo apt install openssh-server openssh-client <span class="hljs-comment"># 安装 ssh</span><br>sudo systemctl start ssh <span class="hljs-comment"># 启动 ssh</span><br>sudo systemctl <span class="hljs-built_in">enable</span> ssh <span class="hljs-comment"># ssh 设为开机自启</span><br>sudo systemctl status ssh <span class="hljs-comment"># 检查 ssh 服务状态</span><br></code></pre></td></tr></table></figure>
+<p>  使用 <a target="_blank" rel="noopener" href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+<h2 id="2-🌿-基本配置"><a href="#2-🌿-基本配置" class="headerlink" title="2 🌿 基本配置"></a>2 🌿 基本配置</h2><h3 id="2-1-用户设置"><a href="#2-1-用户设置" class="headerlink" title="2.1 用户设置"></a>2.1 用户设置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">grep bash /etc/passwd <span class="hljs-comment"># 查看当前用户</span><br>useradd &lt;name&gt; -m / userdel -r &lt;name&gt; <span class="hljs-comment"># 新建用户 / 删除用户</span><br>usermod -s /bin/bash &lt;name&gt; <span class="hljs-comment"># 修改用户指向 (cat /etc/passwd 查看指向)</span><br>passwd &lt;name&gt; <span class="hljs-comment"># 创建/更改密码</span><br>sudo usermod -aG sudo &lt;name&gt; <span class="hljs-comment"># 添加用户到sudo组</span><br></code></pre></td></tr></table></figure>
 
-<h2 id="📀-DL-环境配置"><a href="#📀-DL-环境配置" class="headerlink" title="📀 DL 环境配置"></a>📀 DL 环境配置</h2><h3 id="🌟-NVIDIA-驱动安装"><a href="#🌟-NVIDIA-驱动安装" class="headerlink" title="🌟 NVIDIA 驱动安装"></a>🌟 NVIDIA 驱动安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo apt update <span class="hljs-comment"># 更新软件包</span><br>sudo apt upgrade <span class="hljs-comment"># 更新软件包</span><br><br>ubuntu-drivers devices <span class="hljs-comment"># 检查可用的 NVIDIA 驱动</span><br>sudo apt install nvidia-driver-xxx <span class="hljs-comment"># 安装推荐的驱动</span><br>sudo reboot <span class="hljs-comment"># 重启生效</span><br></code></pre></td></tr></table></figure>
+<h3 id="2-2-服务器设置"><a href="#2-2-服务器设置" class="headerlink" title="2.2 服务器设置"></a>2.2 服务器设置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># 默认命令行启动</span><br>sudo systemctl set-default graphical.target <span class="hljs-comment"># 默认图形页面启动</span><br><br>sudo apt install openssh-server openssh-client <span class="hljs-comment"># 安装 ssh</span><br>sudo systemctl start ssh <span class="hljs-comment"># 启动 ssh</span><br>sudo systemctl <span class="hljs-built_in">enable</span> ssh <span class="hljs-comment"># ssh 设为开机自启</span><br>sudo systemctl status ssh <span class="hljs-comment"># 检查 ssh 服务状态</span><br></code></pre></td></tr></table></figure>
+<h3 id="2-3-NAS-设置"><a href="#2-3-NAS-设置" class="headerlink" title="2.3 NAS 设置"></a>2.3 NAS 设置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo mount -t cifs //59.77.7.19/jzq My_Codes/ -o username=jzq,password=jzq,dir_mode=0777,file_mode=0777 <span class="hljs-comment"># 挂载 Nas</span><br>sudo umount &lt;<span class="hljs-built_in">dir</span>&gt; <span class="hljs-comment"># 卸载 Nas</span><br></code></pre></td></tr></table></figure>
 
-<h3 id="🌟-CUDA-安装"><a href="#🌟-CUDA-安装" class="headerlink" title="🌟 CUDA 安装"></a>🌟 <a target="_blank" rel="noopener" href="https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=runfile_local">CUDA 安装</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">wget https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 下载 cuda 到本地</span><br>sudo sh cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 安装 cuda</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="🌟-Anaconda-安装配置"><a href="#🌟-Anaconda-安装配置" class="headerlink" title="🌟 Anaconda 安装配置"></a>🌟 <a href="www.baidu.com">Anaconda 安装配置</a></h3><blockquote>
-<p>See <a target="_blank" rel="noopener" href="http://www.baidu.com/">www.baidu.com</a></p>
+<h3 id="2-4-Cuda-设置"><a href="#2-4-Cuda-设置" class="headerlink" title="2.4 Cuda 设置"></a>2.4 Cuda 设置</h3><blockquote>
+<p>安装 nvidia 驱动</p>
 </blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo apt update <span class="hljs-comment"># 更新软件包</span><br>sudo apt upgrade <span class="hljs-comment"># 更新软件包</span><br><br>ubuntu-drivers devices <span class="hljs-comment"># 检查可用的 NVIDIA 驱动</span><br>sudo apt install nvidia-driver-xxx <span class="hljs-comment"># 安装推荐的驱动</span><br>sudo reboot <span class="hljs-comment"># 重启生效</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p>安装 <a target="_blank" rel="noopener" href="https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=runfile_local">cuda</a></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">wget https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 下载 cuda 到本地</span><br>sudo sh cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 安装 cuda</span><br></code></pre></td></tr></table></figure>
 
                 
               </div>
@@ -336,7 +341,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>Linux Installation</div>
-      <div>http://jianzquan.github.io/p/linuxinstall.html</div>
+      <div>http://jianzquan.github.io/p/linux.html</div>
     </div>
     <div class="license-meta">
       
