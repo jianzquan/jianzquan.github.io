@@ -4,6 +4,85 @@
   
   
   <entry>
+    <title>Hexo Settings</title>
+    <link href="/p/1bcaf232.html"/>
+    <url>/p/1bcaf232.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">🌟 Hexo Settings</a></h2><h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2><h4 align="center"><p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p><h2 id="🌍-Configuration"><a href="#🌍-Configuration" class="headerlink" title="🌍 Configuration"></a>🌍 Configuration</h2><blockquote><p><strong>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo</strong></p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure><blockquote><p><strong>初始化 blog</strong></p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure><blockquote><p><strong>部署到github</strong></p></blockquote><ul><li>安装插件<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li><li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li></ul><h2 id="🌎-Application"><a href="#🌎-Application" class="headerlink" title="🌎 Application"></a>🌎 Application</h2><blockquote><p><strong>上传网页</strong></p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.skill</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Figure</title>
+    <link href="/p/250201-figure.html"/>
+    <url>/p/250201-figure.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://hexo.io/zh-cn/docs/">Figure: config & usage</a></h2><h5 align="center"> 1. Install；2. Tricks </h2><h2 id="🎨-颜色配置"><a href="#🎨-颜色配置" class="headerlink" title="🎨 颜色配置"></a>🎨 颜色配置</h2><ul><li><strong>Git</strong>: Xcode Command Line Tools 自带</li><li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li><li><strong>Hexo</strong>: npm install -g hexo-cli</li></ul><h2 id="🌟-折线图"><a href="#🌟-折线图" class="headerlink" title="🌟 折线图"></a>🌟 折线图</h2><ul><li>hexo deploy</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>skill.figure</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ollama</title>
+    <link href="/p/250231-ollama.html"/>
+    <url>/p/250231-ollama.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2><h5 align="center"> 1. Install；2. Tricks </h2><h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul><li><strong>Git</strong>: Xcode Command Line Tools 自带</li><li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li><li><strong>Hexo</strong>: npm install -g hexo-cli</li></ul><h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul><li>hexo deploy</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>work</category>
+      
+      <category>llm</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>work.llm.ollama</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hexo</title>
     <link href="/p/250131hexo.html"/>
     <url>/p/250131hexo.html</url>
@@ -303,7 +382,7 @@
   
   
   <entry>
-    <title>VsCode Setting</title>
+    <title>VsCode Settings</title>
     <link href="/p/vscodeset.html"/>
     <url>/p/vscodeset.html</url>
     
@@ -330,7 +409,7 @@
   
   
   <entry>
-    <title>Latex</title>
+    <title>Latex Settings</title>
     <link href="/p/240906latex.html"/>
     <url>/p/240906latex.html</url>
     
@@ -355,11 +434,11 @@
   
   
   <entry>
-    <title>Github 仓库配置</title>
+    <title>Github Settings</title>
     <link href="/p/1bcaf232.html"/>
     <url>/p/1bcaf232.html</url>
     
-    <content type="html"><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Github 相关配置</a></h2><h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2><h4 align="center"><p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p><h2 id="🎨-Github-Config"><a href="#🎨-Github-Config" class="headerlink" title="🎨 Github Config"></a>🎨 Github Config</h2><h3 id="For-Windows"><a href="#For-Windows" class="headerlink" title="For Windows"></a>For <a href="https://zhuanlan.zhihu.com/p/496793312">Windows</a></h3><ol><li><p>下载 <a href="https://git-scm.com/download/win">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name xxx<br>git config --global user.email xxxx<br></code></pre></td></tr></table></figure></li><li><p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa (生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;)<br></code></pre></td></tr></table></figure></li><li><p>首次将本地仓库链接到Github上.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init (文件夹下出现 .git 隐藏文件)<br>git add README.md<br>git commit -m <span class="hljs-string">&quot;first commit&quot;</span><br>git branch -M main<br>git remote add origin 仓库地址<br>git push -u origin main<br></code></pre></td></tr></table></figure></li></ol><h3 id="For-Linux"><a href="#For-Linux" class="headerlink" title="For Linux"></a>For Linux</h3><p>Coming sooon</p><h2 id="📀-Repository-Update"><a href="#📀-Repository-Update" class="headerlink" title="📀 Repository Update"></a>📀 Repository Update</h2><ol><li><p>文件更新后，上传到github.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">git add 文件 (. 表示添加所有)<br>git commit -m &quot;xxx&quot;<br>git push (-f 表示强制覆盖远程文件)<br></code></pre></td></tr></table></figure></li><li><p>撤销提交状态.</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git <span class="hljs-keyword">reset</span> HEAD (撤销<span class="hljs-keyword">add</span>)<br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--soft HEAD^ (仅撤销commit，保留add)</span><br></code></pre></td></tr></table></figure></li></ol><h2 id="🌟-Hexo"><a href="#🌟-Hexo" class="headerlink" title="🌟 Hexo"></a>🌟 Hexo</h2><ol><li>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure></li><li>初始化 blog<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure></li><li>部署到github</li></ol><ul><li>安装插件<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li><li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li><li>生成静态网页，并上传<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Github Settings</a></h2><h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2><h4 align="center"><p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p><h2 id="🎨-Github-Config"><a href="#🎨-Github-Config" class="headerlink" title="🎨 Github Config"></a>🎨 Github Config</h2><h3 id="For-Windows"><a href="#For-Windows" class="headerlink" title="For Windows"></a>For <a href="https://zhuanlan.zhihu.com/p/496793312">Windows</a></h3><ol><li><p>下载 <a href="https://git-scm.com/download/win">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name xxx<br>git config --global user.email xxxx<br></code></pre></td></tr></table></figure></li><li><p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa (生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;)<br></code></pre></td></tr></table></figure></li><li><p>首次将本地仓库链接到Github上.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init (文件夹下出现 .git 隐藏文件)<br>git add README.md<br>git commit -m <span class="hljs-string">&quot;first commit&quot;</span><br>git branch -M main<br>git remote add origin 仓库地址<br>git push -u origin main<br></code></pre></td></tr></table></figure></li></ol><h3 id="For-Linux"><a href="#For-Linux" class="headerlink" title="For Linux"></a>For Linux</h3><p>Coming sooon</p><h2 id="📀-Repository-Update"><a href="#📀-Repository-Update" class="headerlink" title="📀 Repository Update"></a>📀 Repository Update</h2><ol><li><p>文件更新后，上传到github.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">git add 文件 (. 表示添加所有)<br>git commit -m &quot;xxx&quot;<br>git push (-f 表示强制覆盖远程文件)<br></code></pre></td></tr></table></figure></li><li><p>撤销提交状态.</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git <span class="hljs-keyword">reset</span> HEAD (撤销<span class="hljs-keyword">add</span>)<br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--soft HEAD^ (仅撤销commit，保留add)</span><br></code></pre></td></tr></table></figure></li></ol>]]></content>
     
     
     <categories>
@@ -436,7 +515,7 @@
   
   
   <entry>
-    <title>Anaconda Installation</title>
+    <title>Anaconda Settings</title>
     <link href="/p/anacondainstall.html"/>
     <url>/p/anacondainstall.html</url>
     
@@ -465,7 +544,7 @@
     <link href="/p/edd9ff2d.html"/>
     <url>/p/edd9ff2d.html</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">🌟 &#x1F31F Template Settings</a></h2><h5 align="center"> 1. xxx </h2><h4 align="center"><h2 id="🌟-Symbols"><a href="#🌟-Symbols" class="headerlink" title="🌟 Symbols"></a>🌟 <a href="https://deepmess.com/zh/unicode/emoji.html">Symbols</a></h2><h2>&#x1F31F Symbols </h2><ul><li>Earths: 🌟 🌍 🌎 🌏 🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 </li><li>Weather: 🌧 🌦 🌤️ 🌥️ 🌨️ 🌩️ 🌪️</li><li>Water: 🌊 🛁 🛀 🚿 ⛲ </li><li>Mountain: 🌋 🏔️ 🏕️ 🏖️ 🏝️ </li><li>Drink: 🍵 🍷 🍸 🍹 🍺 🍻 🍼 🍾 🍮 </li><li>Food: 🌭、🌮、🌯、🌰、🍄、🍔 🍕 🍖 🍗 🍞 🍟 🍩 🍪 🍨 🍰 </li><li>Blood: 🍚 🍛 🍱 🍜 🍝 🍲 🍳 </li><li>Fruit: 🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🍅 🍆</li><li>Leaf: 🌱、🌲、🌳、🌴、🌵、🌶️、🌿、🍀、🍁、🍂、🍃、</li><li>Flower: 🌷、🌸、🌹、🌺、🌻、🌼、🌽、🌾、</li><li>Entertainment: 🎮 🎬 🎧 🎤 🎙️ 🎣 🎯 🎳 🎻 🎺 🎷 🎸 </li><li>Ball: 🏀 🏈 🏉 🎾 🎱 🎳 🏐 🏑 🏓 🏸 🏹 ⚽ ⚾ 🏏</li><li>Car: 🛩 🚁 🚂 🚃 🚄 🚅 🚆 🚋 🚌 🚎 🚑 🚐 🚒 🚓 🚕 🚗 🚙 🚚 🚜 🚠 🚢 🚲 🚴  🚵 🛴 🛵 </li><li>Flag: 🇨🇳 🇩🇪 🇪🇸 🇫🇷 🇬🇧 🇮🇹 🇯🇵 🇰🇷 🇷🇺 🇺🇸</li></ul>]]></content>
     
     
     
