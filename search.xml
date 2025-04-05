@@ -807,7 +807,7 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
   </entry>
   <entry>
     <title>Anaconda Settings</title>
-    <url>/p/anacondainstall.html</url>
+    <url>/p/anaconda.html</url>
     <content><![CDATA[<h2 align="center"> Anaconda 环境配置 </h2>
 <h5 align="center"> 1. anaconda3 安装；2. 系统环境配置；3. 常见问题 </h2>
 
@@ -840,8 +840,8 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
   </entry>
   <entry>
     <title>Hexo Settings</title>
-    <url>/p/1bcaf232.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">🌟 Hexo Settings</a></h2>
+    <url>/p/hexo.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/hexo.html">🌟 Hexo Settings</a></h2>
 <h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
 
 <h4 align="center">
@@ -876,7 +876,7 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
   </entry>
   <entry>
     <title>Github Settings</title>
-    <url>/p/1bcaf232.html</url>
+    <url>/p/github.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Github Settings</a></h2>
 <h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
 
@@ -911,7 +911,7 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
   </entry>
   <entry>
     <title>VsCode Settings</title>
-    <url>/p/vscodeset.html</url>
+    <url>/p/vscode.html</url>
     <content><![CDATA[<h2 align="center"> VsCode 配置 </h2>
 <h5 align="center"> 1. Python；2. Latex；3. Github </h2>
 
@@ -949,7 +949,7 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
   </entry>
   <entry>
     <title>Latex Settings</title>
-    <url>/p/240906latex.html</url>
+    <url>/p/latex.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Latex: config & usage</a></h2>
 <h5 align="center"> 1. Install；2. Tricks </h2>
 
