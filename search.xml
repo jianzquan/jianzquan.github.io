@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>My Academic Life</title>
-    <url>/p/240906academic.html</url>
-    <content><![CDATA[<h2 id="Latex"><a href="#Latex" class="headerlink" title="Latex"></a><a href="http://jianzquan.github.io/p/240906latex">Latex</a></h2><h2 id="Vscode"><a href="#Vscode" class="headerlink" title="Vscode"></a>Vscode</h2><h2 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h2>]]></content>
+    <title>Guidance</title>
+    <url>/p/guidance.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/guidance.html">Guidance</a></h1>
+
+
+
+<h2 id="1-🏔️-Basic-Settings"><a href="#1-🏔️-Basic-Settings" class="headerlink" title="1 🏔️ Basic Settings"></a>1 🏔️ Basic Settings</h2><blockquote>
+<p><a href="http://jianzquan.github.io/p/github.html">Github Settings</a></p>
+</blockquote>
+<blockquote>
+<p><a href="http://jianzquan.github.io/p/latex.html">Latex Settings</a></p>
+</blockquote>
+<h2 id="2-🌋-Academic-Papers"><a href="#2-🌋-Academic-Papers" class="headerlink" title="2 🌋 Academic Papers"></a>2 🌋 Academic Papers</h2>]]></content>
       <categories>
         <category>study</category>
       </categories>
@@ -695,52 +705,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Hexo</title>
-    <url>/p/250131hexo.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://hexo.io/zh-cn/docs/">Hexo: config & usage</a></h1>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-安装要求"><a href="#🎨-安装要求" class="headerlink" title="🎨 安装要求"></a>🎨 安装要求</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>skill.hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Figure</title>
-    <url>/p/250201-figure.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://hexo.io/zh-cn/docs/">Figure: config & usage</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-颜色配置"><a href="#🎨-颜色配置" class="headerlink" title="🎨 颜色配置"></a>🎨 颜色配置</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-折线图"><a href="#🌟-折线图" class="headerlink" title="🌟 折线图"></a>🌟 折线图</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>skill.figure</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Anaconda Settings</title>
     <url>/p/anaconda.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/anaconda.html">Anaconda Settings</a></h1>
@@ -947,7 +911,15 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 <p>安装 <a href="https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=runfile_local">cuda</a></p>
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">wget https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 下载 cuda 到本地</span><br>sudo sh cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 安装 cuda</span><br></code></pre></td></tr></table></figure>
-]]></content>
+
+<h2 id="3-🍀-基本操作"><a href="#3-🍀-基本操作" class="headerlink" title="3 🍀 基本操作"></a>3 🍀 基本操作</h2><h3 id="3-1-跨服务器文件-夹传输"><a href="#3-1-跨服务器文件-夹传输" class="headerlink" title="3.1 跨服务器文件&#x2F;夹传输"></a>3.1 跨服务器文件&#x2F;夹传输</h3><blockquote>
+<p>服务器文件&#x2F;夹 → 本地</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">scp -r username@serve-ip:/source_dir /target_dir # -r 表示文件夹<br></code></pre></td></tr></table></figure>
+<blockquote>
+<p>本地文件&#x2F;夹 → 服务器</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">scp -r /source_dir username@server-ip:/target_dir<br></code></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>study</category>
         <category>skill</category>
@@ -991,6 +963,24 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </categories>
       <tags>
         <tag>study.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HuggingFace Usages</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
+
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
 </search>
