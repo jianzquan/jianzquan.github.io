@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Account</title>
+    <link href="/p/account.html"/>
+    <url>/p/account.html</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="4eae386935c7957e54803183c3400d8e4ba06af6fb199fe25ec91c7645f2270a">559d17c56598efa92f5a884a722b34ca2e0ae67f5edb2501eb50d44b3041cf6e464f402cfa5d7f48672a9613c1cd1ecfabd6a7d701ae22533071944740e63ca0e323e3413db19bd6fc3119b4010e351b06d6db60705ce174361aefca3ec7f8eece039233ede5dfaa7265245d443cff2b20647ae09bc5ca6a5ffe60a65539b741639ba503c9b653011a2a1692672103e76c91ed8baba41c3047af55f602354f63dd22acb0c712a15d8d9f67c90f8e1ee332edd0f286056254863d9939f15ced88c55c36fcaceed8ca3ac45f88b4d2db8e0b61ed5e75c651b3498efb47a3463730bafaa55cece85a6f1c8e4732fcde123837d6e24dd394b7fb097ff375acfd99377e36adec37eb7542c4fecaf9e158c0ce767c7133e158a046af8854d5cf425ea37756c1be41a4ce7eaa7414caa9c65fb1ef1baf2c165b76aad533d2252993e74994ed687a1e636aac124250dda1abea70d092a1fc3db94e09e997e5969640bd29f44e91b8a9c0124fe0be6948c80ff0c1005e51360ad4cf5018194c66667cb47c24b8dfcded427c0a24dbc36270802d44e33073ca747052bb91be1e064bef99a4dd91abb98602189b5aedc8945163c88746d93389fcc6affd9c1139975c3c5e233a8a1c8648d68409ce799fb1abe4eacfd113cc5adf7883e22044b6393ed9071ca27a541e843f709d75b7255bda683c14ce5dd7bbd75a1aa7f41516614ef36dbdf6aee606bfabc616a17eee41eb8d9cf43d6c1fce61162d348e8a8ece4f280477d8c805b6a4759080ccd34a56fb836debb07dbbce79bfce686c0aa2a120c922053ed6b4eb5243e8661d006ed4b1fa0799a25da83e1eb1b80e279c91766c68944f6b9df3b5643ec671d5155cb8a1602d02b00b3bf8838410adca6ab5b61232ad28935b41583ca6d272ee89d7bd7fca7a7816ca2324596b8216ebfd66bc6d6fea8d0dd13993a3a4aa0f950864bfc0aa895253a572514e95790f7a180d352b47833e066bb96c5dc621dbdbc746cb2ac41763dc0238343dad76c7c6cc138f7d5b76735d2d84e395c508192ec10f0115146aaf6183ed38554f7136edba4d71c3ef0db5d156beb089a197ee29cabc6bb4dcc0f548293c0a6aa4633204c26e00f72c94b92cd8d1dc1db4893577e114b66aef4be8b9a6b895781ee3a43d2751e9814e068b1b36fb4ba83153bd8b39138bbb90fa12918433286e33e1c0f55056c38dc66d04d3a598dd79c3763ee96e0265246c0e0d28d228cc883a2d0cac21b3d505206a5eba2d169fbb68677c74af2e04d93670d7a2eed2c98d06a19ab4aada96058436451dbc298664f124446f13174dc35023abbf6c898ce80952852370fe16838ba001833799e3c682fba8b6fe4ea5a1be23aa69af66534aeb25dbe1a2c7d0366e806060c3155dae0803ba8fe405c463ce25c3ae47d457441f6b903605be1312d0785e8e33a0ff8090823b994c34875680fef5b1c3de98317227013961bfa3f20197af25854737774fbcc5c990c140fa6ea63745e1aa6c627b65ea4ae05b366506f9304c3ed1f4083b2184d99ef216fbf944cd0ff35a72a3bcafd64afde503387a8a6c40c7e1b587df2e520e8aadf06cf27fd4720deb0a9ae29033fee92b652bfb32a953134249ff16462eb0c78e3c00ea35f1b18e396c9107c229d8e4fe2dc44f7631efa684b95597097081eec6555a5921d86a6265a190e731b0ffd42960431c60ffe4bbb75d519de1f5a62191cdf2fd31ae0161da94a9face74c39e0803577c1d3eea330d1baafa6d5fd1cc09e68818564047973e2cd3178d4b005dac4a490e49002d14f413cb9ebccbb84a4cec51d1881a8336a70506e5861c992c336e4cb526e9cbffddd05f933f8417e712dbcaae48dc22071bf04bdb0f104e94062114594795bb4982dfe5c142e7fd10b7cf41c1af7f64b306ba598da5cc331e5a26c0c5208e742a1b13f5ea7eb4ce4a77d2d843331eb184692e3362977a7c2c58eb4c3cde746aac0558057ce4a0271a7b4b246b5bfe587a6afc59425a04744f6b9a5adc97d3965232ef95ef3f3729cab154ee2de78baba6ca6c2b40d923659b3787c0190c8e1ebf56035d1b12dcfaa97201cda142c42a8bfb554288e1d624fb7a15035b556ee1cf0fc7e7e851ff6a444f7500986cc48eae72e37ee5e1811da3f31eb34e1fa5ce47820eaee6bcab4dd3e37f3a2764952a414dd87df37a88db0fe4d61a3ad6734fda31642392748d5b66abfb88f45554f6baf5ba6258da9d42ba1767cae088064c4e0c432f108fb9f116df5445e833b4695333247e2d34c34eef5b294a56cfb5b021575c861f65e6aa7ede74e0dc4ac1af89a8191c780d7da00dc049cebe34631a8404574ef4f013ed815e63162c79ed4ad584f41c8122922e135c083745ba5e05304515be552b32a149313e255cb7e13b03c09fe42652d07af32d3339017c73aa10ad8523c0a92c1f6012df34a50b0377f4bf1c2053dc6ff814451c650df890b6aa447b48c0676173021cb5ef08c177d50afadae8f6966b56496d726f7202793fcb1aed7ee5b9e7ac1b665db4eb6f71b9f6b9ae9611740cc3ddf11295056751659dca03eb1f235c2e4fe2462241aab21c5386285b51c6c425177785db115af3bf4ad88eb02db9e254e61ba97b6d30336614c7b92abdd542c314109758d0666e978885d20231981b7db1fe71a1810d4b179990b9e772e02dbe7bd0e0e61a5e1b87d564dfba162cac3167d62e6f0d8aea950d7ebf3a2cc02967373355e7e471699610438d506cda761d9625f13c81b958c8a77772d64b7186f866c52d95ed0b2b5d9e0bdc710bbd234c7153fdef3f46d1dbdce3ff0ee84a8fec66299013809eda68ba7a44e6cb3bc68f6eef20d0eeab13811f26fe822f5fa17d6a9ce47c931493c1635cda7445150194d0487938229aab7ebc61c1e41bf3c85a50e3b5e71eaa4c0c5a22198f9b7b1c8b77a4f0f1ddf655fc3e3ce8ddb1e073f62d7f834649abf57bafc82ec66dea5cedb836d3a03ec782d02ab063333691db962d293ecad6bdf57285e747c02d9294909c248af6aaf756d4abab61cd63617787d5911379e19cdbfde7013f0ec43a77543d4c7c9378193df7729515a6bf068d80007107f985c71b46049a306dd2d73bd60de204edf274f0be7096829739b211bfe327a24697894bb883cdb99b3010b432f1f97a88900f3e85523d354fc719c50d4592fd51603c82afece1e003ef04c1e86680e21410eb597e11800b3862c721163b8823aa8bfd845f1b076476a7e714575a87e36398d65f01ccdc1eaf2de311301ab27f601832f2da471c9e3756e0597a054bcc3d3d1ecda7a60e71a9048194fd34a54b39dc02add19d1b863419805d9ace9e7d3f6274f869a1f413fa1523e6066c04d5004bbd524e8c522ebe6dc6e5b80ad6f725f37296</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>linux</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>HuggingFace Usages</title>
     <link href="/p/huggingface.html"/>
     <url>/p/huggingface.html</url>
@@ -528,11 +553,11 @@
   
   
   <entry>
-    <title>Guidance</title>
+    <title>Navigation</title>
     <link href="/p/guidance.html"/>
     <url>/p/guidance.html</url>
     
-    <content type="html"><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/guidance.html">Guidance</a></h1><h2 id="1-🏔️-Basic-Settings"><a href="#1-🏔️-Basic-Settings" class="headerlink" title="1 🏔️ Basic Settings"></a>1 🏔️ Basic Settings</h2><blockquote><p><a href="http://jianzquan.github.io/p/github.html">Github Settings</a></p></blockquote><blockquote><p><a href="http://jianzquan.github.io/p/latex.html">Latex Settings</a></p></blockquote><h2 id="2-🌋-Academic-Papers"><a href="#2-🌋-Academic-Papers" class="headerlink" title="2 🌋 Academic Papers"></a>2 🌋 Academic Papers</h2>]]></content>
+    <content type="html"><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/guidance.html">Blog Navigation</a></h1><h2 id="1-🏔️-Basic-Settings"><a href="#1-🏔️-Basic-Settings" class="headerlink" title="1 🏔️ Basic Settings"></a>1 🏔️ Basic Settings</h2><blockquote><p><a href="http://jianzquan.github.io/p/github.html">Github Settings</a></p></blockquote><blockquote><p><a href="http://jianzquan.github.io/p/latex.html">Latex Settings</a></p></blockquote><h2 id="2-🌋-Academic-Papers"><a href="#2-🌋-Academic-Papers" class="headerlink" title="2 🌋 Academic Papers"></a>2 🌋 Academic Papers</h2>]]></content>
     
     
     <categories>
