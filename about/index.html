@@ -16,15 +16,15 @@
   <meta name="author" content="jiandan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="👤 基本信息 昵称：Survive  邮箱：&#106;&#x69;&#97;&#x6e;&#x7a;&#x71;&#64;&#x73;&#x74;&#117;&#x2e;&#120;&#x6d;&#117;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e; 📚 科研成果       const isMobile &#x3D; &#x2F;iPhone|iPad|iPod|Andro">
+    <meta name="description" content="🐼 基本信息 昵称：Survive  邮箱：&#x6a;&#105;&#x61;&#x6e;&#x7a;&#x71;&#x40;&#115;&#116;&#117;&#46;&#x78;&#x6d;&#117;&#x2e;&#x65;&#100;&#x75;&#46;&#x63;&#x6e; 📚 科研成果       const isMobile &#x3D; &#x2F;iPhone|iPad|iPod|And">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于">
 <meta property="og:url" content="http://jianzquan.github.io/about/index.html">
 <meta property="og:site_name" content="Jian&#39;s Page">
-<meta property="og:description" content="👤 基本信息 昵称：Survive  邮箱：&#106;&#x69;&#97;&#x6e;&#x7a;&#x71;&#64;&#x73;&#x74;&#117;&#x2e;&#120;&#x6d;&#117;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e; 📚 科研成果       const isMobile &#x3D; &#x2F;iPhone|iPad|iPod|Andro">
+<meta property="og:description" content="🐼 基本信息 昵称：Survive  邮箱：&#x6a;&#105;&#x61;&#x6e;&#x7a;&#x71;&#x40;&#115;&#116;&#117;&#46;&#x78;&#x6d;&#117;&#x2e;&#x65;&#100;&#x75;&#46;&#x63;&#x6e; 📚 科研成果       const isMobile &#x3D; &#x2F;iPhone|iPad|iPod|And">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-04-07T08:55:17.443Z">
-<meta property="article:modified_time" content="2025-04-07T08:55:17.443Z">
+<meta property="article:published_time" content="2025-04-07T09:32:37.647Z">
+<meta property="article:modified_time" content="2025-04-07T09:32:37.647Z">
 <meta property="article:author" content="jiandan">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -277,10 +277,10 @@
 
 <article class="about-content page-content mt-5">
   <div class="markdown-body">
-    <h2>👤 基本信息</h2>
+    <h2>🐼 基本信息</h2>
 昵称：Survive
 
-<p>邮箱：<a href="mailto:&#106;&#x69;&#97;&#x6e;&#x7a;&#x71;&#64;&#x73;&#x74;&#117;&#x2e;&#120;&#x6d;&#117;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e;">&#106;&#x69;&#97;&#x6e;&#x7a;&#x71;&#64;&#x73;&#x74;&#117;&#x2e;&#120;&#x6d;&#117;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e;</a></p>
+<p>邮箱：<a href="mailto:&#x6a;&#105;&#x61;&#x6e;&#x7a;&#x71;&#x40;&#115;&#116;&#117;&#46;&#x78;&#x6d;&#117;&#x2e;&#x65;&#100;&#x75;&#46;&#x63;&#x6e;">&#x6a;&#105;&#x61;&#x6e;&#x7a;&#x71;&#x40;&#115;&#116;&#117;&#46;&#x78;&#x6d;&#117;&#x2e;&#x65;&#100;&#x75;&#46;&#x63;&#x6e;</a></p>
 <h2>📚 科研成果</h2>
 
 <div id="pdf-container"></div>
@@ -336,25 +336,54 @@
     }
   ];
 
+//   let html = "";
+//   for (const p of papers) {
+//     html += `
+//     <div style="margin-bottom: 30px;">
+//       <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
+//       <p>${p.authors}<br>
+//       <em><a href="${p.link}" target="_blank">${p.cite}</a></em></p>
+//     `;
+
+//     if (isMobile) {
+//       html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
+//     } else {
+//       html += `<iframe src="${p.pdf}" width="100%" height="300px" style="border:1px solid #ccc;"></iframe>`;
+//     }
+
+//     html += `</div>`;
+//   }
+
+//   container.innerHTML = html;
+
   let html = "";
-  for (const p of papers) {
+  papers.forEach((p, index) => {
     html += `
     <div style="margin-bottom: 30px;">
       <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
       <p>${p.authors}<br>
       <em><a href="${p.link}" target="_blank">${p.cite}</a></em></p>
-    `;
-
-    if (isMobile) {
-      html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
-    } else {
-      html += `<iframe src="${p.pdf}" width="100%" height="300px" style="border:1px solid #ccc;"></iframe>`;
-    }
-
-    html += `</div>`;
-  }
+      <p>
+        <button onclick="togglePDF(${index})" style="padding: 8px 12px; background: #444; color: white; border: none; border-radius: 5px; cursor: pointer;">
+          📄 点击展开/折叠 PDF
+        </button>
+      </p>
+      <div id="pdf-${index}" style="display: none; margin-top: 10px;">
+        ${isMobile
+          ? `<a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;" target="_blank">点击查看 PDF</a>`
+          : `<iframe src="${p.pdf}" width="100%" height="600px" style="border:1px solid #ccc;"></iframe>`}
+      </div>
+    </div>`;
+  });
 
   container.innerHTML = html;
+
+  // 切换显示/隐藏 PDF 区块
+  function togglePDF(index) {
+    const el = document.getElementById(`pdf-${index}`);
+    el.style.display = el.style.display === "none" ? "block" : "none";
+  }
+
 </script>
 
 <!-- # 科研成果
