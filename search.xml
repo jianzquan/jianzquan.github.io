@@ -95,35 +95,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Machine / Deep Learning</title>
-    <url>/p/12367031.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://www.bilibili.com/video/BV1j94y1u7pR/?spm_id_from=333.337.search-card.all.click&vd_source=1a3db25c48420a7d4d2f3103fd37d117">
-Course of Machine / Deep Learning</a></h2>
-
-
-<h1 id="🌟-Introduction-of-Machine-Deep-Learning"><a href="#🌟-Introduction-of-Machine-Deep-Learning" class="headerlink" title="🌟 Introduction of Machine &#x2F; Deep Learning"></a>🌟 Introduction of Machine &#x2F; Deep Learning</h1><ul>
-<li><strong>Machine Learning: Looking for Function</strong><blockquote>
-<p><em><strong>Speech Recognition</strong></em>: <img src="\image\study\ml_dl\ml_sr_example.png" align="middle" /><br><em><strong>Image Recognition</strong></em>:  <img src="\image\study\ml_dl\ml_ir_example.png" align="middle" /></p>
-</blockquote>
-</li>
-<li><strong>Different Types of Functions</strong><blockquote>
-<p><em><strong>Regression</strong></em>: the function outputs a scalar. <img src="\image\study\ml_dl\ml_reg_example.png" align="middle" /><br><em><strong>Classification</strong></em>: given opinions (classes), the function outputs the correct one. <img src="\image\study\ml_dl\ml_cls_example.png" align="middle" /><br><em><strong>Structured Learning</strong></em>: create something with structure (image, document)</p>
-</blockquote>
-</li>
-<li><strong>Find the Optimal Function</strong><blockquote>
-<p><em><strong>Select Function</strong></em>: function with unknown parameters, e.g., y &#x3D; wx + b<br><em><strong>Definite Loss</strong></em>: calculate loss from training data, e.g., MAE &#x2F; MSE &#x2F; Cross Entropy<br><em><strong>Optimization</strong></em>: gradient descent</p>
-</blockquote>
-</li>
-</ul>
-<h1 id="Pytorch"><a href="#Pytorch" class="headerlink" title="Pytorch"></a>Pytorch</h1>]]></content>
-      <categories>
-        <category>study</category>
-      </categories>
-      <tags>
-        <tag>study</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hidden Markov Model</title>
     <url>/p/abc07e40.html</url>
     <content><![CDATA[<h2 id="Hidden-Markov-Model"><a href="#Hidden-Markov-Model" class="headerlink" title="Hidden Markov Model"></a>Hidden Markov Model</h2><h3 id="符号"><a href="#符号" class="headerlink" title="符号"></a>符号</h3><ul>
@@ -213,6 +184,35 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
+    <title>Machine / Deep Learning</title>
+    <url>/p/12367031.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://www.bilibili.com/video/BV1j94y1u7pR/?spm_id_from=333.337.search-card.all.click&vd_source=1a3db25c48420a7d4d2f3103fd37d117">
+Course of Machine / Deep Learning</a></h2>
+
+
+<h1 id="🌟-Introduction-of-Machine-Deep-Learning"><a href="#🌟-Introduction-of-Machine-Deep-Learning" class="headerlink" title="🌟 Introduction of Machine &#x2F; Deep Learning"></a>🌟 Introduction of Machine &#x2F; Deep Learning</h1><ul>
+<li><strong>Machine Learning: Looking for Function</strong><blockquote>
+<p><em><strong>Speech Recognition</strong></em>: <img src="\image\study\ml_dl\ml_sr_example.png" align="middle" /><br><em><strong>Image Recognition</strong></em>:  <img src="\image\study\ml_dl\ml_ir_example.png" align="middle" /></p>
+</blockquote>
+</li>
+<li><strong>Different Types of Functions</strong><blockquote>
+<p><em><strong>Regression</strong></em>: the function outputs a scalar. <img src="\image\study\ml_dl\ml_reg_example.png" align="middle" /><br><em><strong>Classification</strong></em>: given opinions (classes), the function outputs the correct one. <img src="\image\study\ml_dl\ml_cls_example.png" align="middle" /><br><em><strong>Structured Learning</strong></em>: create something with structure (image, document)</p>
+</blockquote>
+</li>
+<li><strong>Find the Optimal Function</strong><blockquote>
+<p><em><strong>Select Function</strong></em>: function with unknown parameters, e.g., y &#x3D; wx + b<br><em><strong>Definite Loss</strong></em>: calculate loss from training data, e.g., MAE &#x2F; MSE &#x2F; Cross Entropy<br><em><strong>Optimization</strong></em>: gradient descent</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="Pytorch"><a href="#Pytorch" class="headerlink" title="Pytorch"></a>Pytorch</h1>]]></content>
+      <categories>
+        <category>study</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Anaconda</title>
     <url>/p/anaconda.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
@@ -293,32 +293,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>Latex</title>
-    <url>/p/latex.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-<h4 align="center">
-
-
-<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
-<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
-<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
-<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
-<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
-<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>skill.latex</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo</title>
     <url>/p/hexo.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
@@ -352,6 +326,32 @@ Course of Machine / Deep Learning</a></h2>
       </categories>
       <tags>
         <tag>study.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Latex</title>
+    <url>/p/latex.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h2>
+<h5 align="center"> 1. Install；2. Tricks </h2>
+
+<h4 align="center">
+
+
+<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
+<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
+<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
+<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
+<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
+<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>skill.latex</tag>
       </tags>
   </entry>
   <entry>
@@ -442,24 +442,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>HuggingFace Usages</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows</title>
     <url>/p/windowsinstall.html</url>
     <content><![CDATA[<h2 align="center"> Windows Settings</h2>
@@ -494,41 +476,6 @@ Course of Machine / Deep Learning</a></h2>
       </categories>
       <tags>
         <tag>study.skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tools</title>
-    <url>/p/tools.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
-
-
-<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
-<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
-</blockquote>
-<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
-<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
-</blockquote>
-<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
-<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -957,57 +904,56 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>EmoTrans for ERC</title>
-    <url>/p/9066766e.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2>
-<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
+    <title>Tools</title>
+    <url>/p/tools.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
 
-<h4 align="center">
 
-<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/emotrans"><strong>EmoTrans</strong></a>!</p>
-<p>EmoTrans addresses the unimodal ERC task by modeling emotion transition feature, accepted by COLING2024.</p>
-<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
-<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
-<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
-<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
-
-<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=zh-CN">Ante Wang</a>, <a href="https://scholar.google.com/citations?user=w6qCk3sAAAAJ&hl=zh-CN">Jinsong Su</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
-</h4>
-
-<!-- ## 🌟 Structure
-
-The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
-
-<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
-
-<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
-<ul>
-<li>Python &#x3D;&#x3D; 3.9.16</li>
-<li>CUDA Version &gt;&#x3D; 11.7</li>
-</ul>
-<ol>
-<li><p>Clone this repository and navigate to the ccm folder</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/emotrans.git<br><span class="hljs-built_in">cd</span> emotrans<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>Install Package</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n emotrans python==3.9.16<br>conda activate emotrans<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
-<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
-</li>
-<li><p>run the script:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_emotrans.py<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
+<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
+</blockquote>
+<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
+<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
+</blockquote>
+<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
+<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>study</category>
-        <category>paper</category>
-        <category>accept</category>
+        <category>tools</category>
       </categories>
       <tags>
-        <tag>accepted_papers</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HuggingFace Usages</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
+
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -1054,6 +1000,60 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 </ol>
 <h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>paper</category>
+        <category>accept</category>
+      </categories>
+      <tags>
+        <tag>accepted_papers</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>EmoTrans for ERC</title>
+    <url>/p/9066766e.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2>
+<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
+
+<h4 align="center">
+
+<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/emotrans"><strong>EmoTrans</strong></a>!</p>
+<p>EmoTrans addresses the unimodal ERC task by modeling emotion transition feature, accepted by COLING2024.</p>
+<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
+<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
+<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
+<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
+
+<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=zh-CN">Ante Wang</a>, <a href="https://scholar.google.com/citations?user=w6qCk3sAAAAJ&hl=zh-CN">Jinsong Su</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
+</h4>
+
+<!-- ## 🌟 Structure
+
+The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
+
+<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
+
+<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
+<ul>
+<li>Python &#x3D;&#x3D; 3.9.16</li>
+<li>CUDA Version &gt;&#x3D; 11.7</li>
+</ul>
+<ol>
+<li><p>Clone this repository and navigate to the ccm folder</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/emotrans.git<br><span class="hljs-built_in">cd</span> emotrans<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Install Package</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n emotrans python==3.9.16<br>conda activate emotrans<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
+<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
+</li>
+<li><p>run the script:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_emotrans.py<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>study</category>
