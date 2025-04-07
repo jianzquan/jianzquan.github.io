@@ -213,6 +213,59 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
+    <title>Tools</title>
+    <url>/p/tools.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
+
+
+<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
+<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
+</blockquote>
+<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
+<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
+</blockquote>
+<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
+<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HuggingFace Usages</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
+
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Anaconda</title>
     <url>/p/anaconda.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
@@ -353,11 +406,6 @@ Course of Machine / Deep Learning</a></h2>
       <tags>
         <tag>skill.latex</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/p/undefined.html</url>
-    <content><![CDATA[{"latex-workshop.latex.autoBuild.run":"never","latex-workshop.showContextMenu":true,"latex-workshop.intellisense.package.enabled":true,"latex-workshop.message.error.show":false,"latex-workshop.message.warning.show":false,"latex-workshop.latex.tools":[{"name":"xelatex","command":"xelatex","args":["-synctex=1","-interaction=nonstopmode","-file-line-error","%DOCFILE%"]},{"name":"pdflatex","command":"pdflatex","args":["-synctex=1","-interaction=nonstopmode","-file-line-error","%DOCFILE%"]},{"name":"latexmk","command":"latexmk","args":["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%OUTDIR%","%DOCFILE%"]},{"name":"bibtex","command":"bibtex","args":["%DOCFILE%"]}],"latex-workshop.latex.recipes":[{"name":"XeLaTeX","tools":["xelatex"]},{"name":"PDFLaTeX","tools":["pdflatex"]},{"name":"BibTeX","tools":["bibtex"]},{"name":"LaTeXmk","tools":["latexmk"]},{"name":"xelatex -> bibtex -> xelatex*2","tools":["xelatex","bibtex","xelatex","xelatex"]},{"name":"pdflatex -> bibtex -> pdflatex*2","tools":["pdflatex","bibtex","pdflatex","pdflatex"]}],"latex-workshop.latex.clean.fileTypes":["*.aux","*.bbl","*.blg","*.idx","*.ind","*.lof","*.lot","*.out","*.toc","*.acn","*.acr","*.alg","*.glg","*.glo","*.gls","*.ist","*.fls","*.log","*.fdb_latexmk"],"latex-workshop.latex.autoClean.run":"onBuilt","latex-workshop.latex.recipe.default":"lastUsed","latex-workshop.view.pdf.internal.synctex.keybinding":"double-click","tabnine.experimentalAutoImports":true,"grammarly.files.include":["**/readme.md","**/README.md","**/*.txt","**/*.tex"],"jupyter.askForKernelRestart":false,"explorer.confirmDelete":false,"liveServer.settings.donotVerifyTags":true,"git.openRepositoryInParentFolders":"never","files.autoSave":"afterDelay","github.copilot.enable":{"*":true,"plaintext":false,"markdown":false,"scminput":false},"editor.unicodeHighlight.ambiguousCharacters":false,"editor.accessibilitySupport":"off","github.copilot.editor.enableAutoCompletions":true,"git.ignoreMissingGitWarning":true,"security.workspace.trust.untrustedFiles":"open","python.defaultInterpreterPath":"D:\\Program\\Anaconda3\\envs\\jzq_sa\\python.exe","git.enableSmartCommit":true,"editor.wordWrap":"on","explorer.confirmDragAndDrop":false,"terminal.integrated.inheritEnv":false}]]></content>
   </entry>
   <entry>
     <title>Linux</title>
@@ -744,6 +792,30 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
+    <title>Ollama</title>
+    <url>/p/250231-ollama.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
+<h5 align="center"> 1. Install；2. Tricks </h2>
+
+
+<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
+<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
+<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
+<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
+</ul>
+<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
+<li>hexo deploy</li>
+</ul>
+]]></content>
+      <categories>
+        <category>work</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>work.llm.ollama</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Prompt-Tuning</title>
     <url>/p/4d136056.html</url>
     <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
@@ -814,30 +886,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>Ollama</title>
-    <url>/p/250231-ollama.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>work</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>work.llm.ollama</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Accepted Papers</title>
     <url>/p/82354480.html</url>
     <content><![CDATA[<h2 id="⚡️-Aspect-based-Sentiment-Analysis"><a href="#⚡️-Aspect-based-Sentiment-Analysis" class="headerlink" title="⚡️ Aspect-based Sentiment Analysis"></a>⚡️ Aspect-based Sentiment Analysis</h2><blockquote>
@@ -904,56 +952,57 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>Tools</title>
-    <url>/p/tools.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
+    <title>EmoTrans for ERC</title>
+    <url>/p/9066766e.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2>
+<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
 
+<h4 align="center">
 
-<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
-<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
-</blockquote>
-<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
-<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
-</blockquote>
-<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
-<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
-</blockquote>
+<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/emotrans"><strong>EmoTrans</strong></a>!</p>
+<p>EmoTrans addresses the unimodal ERC task by modeling emotion transition feature, accepted by COLING2024.</p>
+<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
+<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
+<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
+<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
+
+<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=zh-CN">Ante Wang</a>, <a href="https://scholar.google.com/citations?user=w6qCk3sAAAAJ&hl=zh-CN">Jinsong Su</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
+</h4>
+
+<!-- ## 🌟 Structure
+
+The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
+
+<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
+
+<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
+<ul>
+<li>Python &#x3D;&#x3D; 3.9.16</li>
+<li>CUDA Version &gt;&#x3D; 11.7</li>
+</ul>
+<ol>
+<li><p>Clone this repository and navigate to the ccm folder</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/emotrans.git<br><span class="hljs-built_in">cd</span> emotrans<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Install Package</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n emotrans python==3.9.16<br>conda activate emotrans<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
+<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
+</li>
+<li><p>run the script:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_emotrans.py<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>tools</category>
+        <category>study</category>
+        <category>paper</category>
+        <category>accept</category>
       </categories>
       <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HuggingFace Usages</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
+        <tag>accepted_papers</tag>
       </tags>
   </entry>
   <entry>
@@ -1000,60 +1049,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 </ol>
 <h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>paper</category>
-        <category>accept</category>
-      </categories>
-      <tags>
-        <tag>accepted_papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EmoTrans for ERC</title>
-    <url>/p/9066766e.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2>
-<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
-
-<h4 align="center">
-
-<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/emotrans"><strong>EmoTrans</strong></a>!</p>
-<p>EmoTrans addresses the unimodal ERC task by modeling emotion transition feature, accepted by COLING2024.</p>
-<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
-<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
-<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
-<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
-
-<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=zh-CN">Ante Wang</a>, <a href="https://scholar.google.com/citations?user=w6qCk3sAAAAJ&hl=zh-CN">Jinsong Su</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
-</h4>
-
-<!-- ## 🌟 Structure
-
-The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
-
-<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
-
-<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
-<ul>
-<li>Python &#x3D;&#x3D; 3.9.16</li>
-<li>CUDA Version &gt;&#x3D; 11.7</li>
-</ul>
-<ol>
-<li><p>Clone this repository and navigate to the ccm folder</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/emotrans.git<br><span class="hljs-built_in">cd</span> emotrans<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>Install Package</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n emotrans python==3.9.16<br>conda activate emotrans<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
-<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
-</li>
-<li><p>run the script:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_emotrans.py<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>study</category>
