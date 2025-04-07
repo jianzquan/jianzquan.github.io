@@ -24,7 +24,7 @@
 <meta property="og:description" content="中国计算机学会推荐国际学术会议和期刊目录">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-04-07T03:47:34.831Z">
-<meta property="article:modified_time" content="2025-04-07T08:45:20.784Z">
+<meta property="article:modified_time" content="2025-04-07T08:54:33.633Z">
 <meta property="article:author" content="jiandan">
 <meta property="article:tag" content="study.skill">
 <meta name="twitter:card" content="summary_large_image">
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          82 字
+          91 字
         
       </span>
     
@@ -273,7 +273,8 @@
   const papers = [
     {
       title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
-      path: "/pdfs/ccf-2022.pdf"
+      pdf: "/pdfs/ccf-2022.pdf",
+      conf: "COLING 2025"
     },
     // {
     //   title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
@@ -282,12 +283,20 @@
   ];
 
   let html = "";
-  for (const paper of papers) {
+  for (const p of papers) {
+    html += `
+    <div style="margin-bottom: 30px;">
+      <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
+      </p>
+    `;
+
     if (isMobile) {
-      html += `<p><a href="${paper.path}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">${paper.title}</a></p>`;
+      html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
     } else {
-      html += `<h4>${paper.title}</h4><iframe src="${paper.path}" width="100%" height="300px"></iframe><br>`;
+      html += `<iframe src="${p.pdf}" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>`;
     }
+
+    html += `</div>`;
   }
 
   container.innerHTML = html;

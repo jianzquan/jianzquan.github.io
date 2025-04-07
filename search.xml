@@ -93,7 +93,8 @@
   const papers = [
     {
       title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
-      path: "/pdfs/ccf-2022.pdf"
+      pdf: "/pdfs/ccf-2022.pdf",
+      conf: "COLING 2025"
     },
     // {
     //   title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
@@ -102,12 +103,20 @@
   ];
 
   let html = "";
-  for (const paper of papers) {
+  for (const p of papers) {
+    html += `
+    <div style="margin-bottom: 30px;">
+      <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
+      </p>
+    `;
+
     if (isMobile) {
-      html += `<p><a href="${paper.path}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">${paper.title}</a></p>`;
+      html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
     } else {
-      html += `<h4>${paper.title}</h4><iframe src="${paper.path}" width="100%" height="300px"></iframe><br>`;
+      html += `<iframe src="${p.pdf}" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>`;
     }
+
+    html += `</div>`;
   }
 
   container.innerHTML = html;
@@ -239,59 +248,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>HuggingFace Usages</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tools</title>
-    <url>/p/tools.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
-
-
-<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
-<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
-</blockquote>
-<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
-<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
-</blockquote>
-<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
-<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Anaconda</title>
     <url>/p/anaconda.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
@@ -348,57 +304,6 @@ Course of Machine / Deep Learning</a></h2>
 <p><strong>上传网页</strong></p>
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>study</category>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>study.skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github</title>
-    <url>/p/github.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Github Settings</a></h1>
-
-<h4 align="center">
-
-<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
-<h2 id="1-☀️-Setting"><a href="#1-☀️-Setting" class="headerlink" title="1 ☀️ Setting"></a>1 ☀️ Setting</h2><h3 id="1-1-Windows"><a href="#1-1-Windows" class="headerlink" title="1.1 Windows"></a>1.1 <a href="https://zhuanlan.zhihu.com/p/496793312">Windows</a></h3><blockquote>
-<p>下载 <a href="https://git-scm.com/download/win">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa # 生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;<br></code></pre></td></tr></table></figure>
-
-<h3 id="1-2-Linux"><a href="#1-2-Linux" class="headerlink" title="1.2 Linux"></a>1.2 Linux</h3><blockquote>
-<p>直接配置 git </p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p>将公钥（id_rsa.pub）添加到 GitHub</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa -b 4096 -C &quot;jian0dan@gmail.com&quot; # 生成密钥，位于 ~/.ssh&#x27;<br>cat ~/.ssh/id_rsa.pub # 在 GitHub 中，进入 Settings &gt; SSH and GPG keys，点击 New SSH key，将公钥粘贴到框中<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="2-🌤️-Configuration"><a href="#2-🌤️-Configuration" class="headerlink" title="2 🌤️ Configuration"></a>2 🌤️ Configuration</h2><h3 id="2-1-本地文件夹-→-Github"><a href="#2-1-本地文件夹-→-Github" class="headerlink" title="2.1 本地文件夹 → Github"></a>2.1 本地文件夹 → Github</h3><blockquote>
-<p>仓库干净：本地数据上传 Github</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git add .gitignore <span class="hljs-comment"># 新建并编辑 .gitignore 禁止上传大文件夹</span><br>git commit -m <span class="hljs-string">&quot;gitignore&quot;</span> <span class="hljs-comment"># 提交缓存</span><br>git push -u origin main <span class="hljs-comment"># 更新远程仓库</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="2-2-Github-→-本地文件夹"><a href="#2-2-Github-→-本地文件夹" class="headerlink" title="2.2 Github → 本地文件夹"></a>2.2 Github → 本地文件夹</h3><blockquote>
-<p>本地干净: 现有仓库拉到本地</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git pull origin main  <span class="hljs-comment"># 文件拉到本地</span><br></code></pre></td></tr></table></figure>
-
-<h2 id="3-🌥️-Updating"><a href="#3-🌥️-Updating" class="headerlink" title="3 🌥️ Updating"></a>3 🌥️ Updating</h2><h3 id="3-1-上传修改"><a href="#3-1-上传修改" class="headerlink" title="3.1 上传修改"></a>3.1 上传修改</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git add xxx # . 表示添加所有<br>git commit -m &quot;xxx&quot;<br>git push # -f 强制覆盖远程文件<br></code></pre></td></tr></table></figure>
-
-<h3 id="3-2-撤销提交"><a href="#3-2-撤销提交" class="headerlink" title="3.2 撤销提交"></a>3.2 撤销提交</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git reset HEAD # 撤销add<br>git reset --soft HEAD^ # 仅撤销commit，保留add<br></code></pre></td></tr></table></figure>
-
-]]></content>
       <categories>
         <category>study</category>
         <category>skill</category>
@@ -506,6 +411,57 @@ Course of Machine / Deep Learning</a></h2>
 <li>服务器 启动方式<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># (开机默认进入命令行模式，startx 进入图形界面，Ctrl+Alt+F7 切回命令行)</span><br>sudo systemctl set-default graphical.target  <span class="hljs-comment"># (开机默认进入图形用户界面，Ctrl+Alt+F2 进入命令行模式)</span><br></code></pre></td></tr></table></figure></li>
 <li>服务器 软件安装<br>anaconda3 Linux上<a href="https://blog.csdn.net/G_C_H/article/details/133553961">安装</a> (pip install scikit-learn)<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo bash xxx.sh <span class="hljs-comment"># 安装本地 .sh 软件包</span><br><br></code></pre></td></tr></table></figure></li>
 </ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>study.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github</title>
+    <url>/p/github.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Github Settings</a></h1>
+
+<h4 align="center">
+
+<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
+<h2 id="1-☀️-Setting"><a href="#1-☀️-Setting" class="headerlink" title="1 ☀️ Setting"></a>1 ☀️ Setting</h2><h3 id="1-1-Windows"><a href="#1-1-Windows" class="headerlink" title="1.1 Windows"></a>1.1 <a href="https://zhuanlan.zhihu.com/p/496793312">Windows</a></h3><blockquote>
+<p>下载 <a href="https://git-scm.com/download/win">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa # 生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;<br></code></pre></td></tr></table></figure>
+
+<h3 id="1-2-Linux"><a href="#1-2-Linux" class="headerlink" title="1.2 Linux"></a>1.2 Linux</h3><blockquote>
+<p>直接配置 git </p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p>将公钥（id_rsa.pub）添加到 GitHub</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa -b 4096 -C &quot;jian0dan@gmail.com&quot; # 生成密钥，位于 ~/.ssh&#x27;<br>cat ~/.ssh/id_rsa.pub # 在 GitHub 中，进入 Settings &gt; SSH and GPG keys，点击 New SSH key，将公钥粘贴到框中<br></code></pre></td></tr></table></figure>
+
+
+<h2 id="2-🌤️-Configuration"><a href="#2-🌤️-Configuration" class="headerlink" title="2 🌤️ Configuration"></a>2 🌤️ Configuration</h2><h3 id="2-1-本地文件夹-→-Github"><a href="#2-1-本地文件夹-→-Github" class="headerlink" title="2.1 本地文件夹 → Github"></a>2.1 本地文件夹 → Github</h3><blockquote>
+<p>仓库干净：本地数据上传 Github</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git add .gitignore <span class="hljs-comment"># 新建并编辑 .gitignore 禁止上传大文件夹</span><br>git commit -m <span class="hljs-string">&quot;gitignore&quot;</span> <span class="hljs-comment"># 提交缓存</span><br>git push -u origin main <span class="hljs-comment"># 更新远程仓库</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="2-2-Github-→-本地文件夹"><a href="#2-2-Github-→-本地文件夹" class="headerlink" title="2.2 Github → 本地文件夹"></a>2.2 Github → 本地文件夹</h3><blockquote>
+<p>本地干净: 现有仓库拉到本地</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git pull origin main  <span class="hljs-comment"># 文件拉到本地</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="3-🌥️-Updating"><a href="#3-🌥️-Updating" class="headerlink" title="3 🌥️ Updating"></a>3 🌥️ Updating</h2><h3 id="3-1-上传修改"><a href="#3-1-上传修改" class="headerlink" title="3.1 上传修改"></a>3.1 上传修改</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git add xxx # . 表示添加所有<br>git commit -m &quot;xxx&quot;<br>git push # -f 强制覆盖远程文件<br></code></pre></td></tr></table></figure>
+
+<h3 id="3-2-撤销提交"><a href="#3-2-撤销提交" class="headerlink" title="3.2 撤销提交"></a>3.2 撤销提交</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git reset HEAD # 撤销add<br>git reset --soft HEAD^ # 仅撤销commit，保留add<br></code></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>study</category>
@@ -633,6 +589,19 @@ Course of Machine / Deep Learning</a></h2>
 <h3 id="Low-Rank-Adaptation-LoRA"><a href="#Low-Rank-Adaptation-LoRA" class="headerlink" title="Low-Rank Adaptation (LoRA)"></a><a href="https://arxiv.org/abs/2106.09685">Low-Rank Adaptation (LoRA)</a></h3><ul>
 <li>123</li>
 </ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Modality Large Language Model</title>
+    <url>/p/642db888.html</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
 ]]></content>
       <categories>
         <category>study</category>
@@ -805,19 +774,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>Modality Large Language Model</title>
-    <url>/p/642db888.html</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ollama</title>
     <url>/p/250231-ollama.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
@@ -912,32 +868,56 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>Accepted Papers</title>
-    <url>/p/82354480.html</url>
-    <content><![CDATA[<h2 id="⚡️-Aspect-based-Sentiment-Analysis"><a href="#⚡️-Aspect-based-Sentiment-Analysis" class="headerlink" title="⚡️ Aspect-based Sentiment Analysis"></a>⚡️ Aspect-based Sentiment Analysis</h2><blockquote>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+    <title>HuggingFace Usages</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
 
-<h2 id="🌈-Emotion-Recognition-in-Conversation"><a href="#🌈-Emotion-Recognition-in-Conversation" class="headerlink" title="🌈 Emotion Recognition in Conversation"></a>🌈 Emotion Recognition in Conversation</h2><blockquote>
-<ol>
-<li><a href="">CCM</a></li>
-</ol>
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;https://doi.org/10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-<blockquote>
-<ol start="2">
-<li><a href="">EmoTrans</a></li>
-</ol>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>study</category>
-        <category>paper</category>
-        <category>accept</category>
+        <category>tools</category>
       </categories>
       <tags>
-        <tag>papers_accepted</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools</title>
+    <url>/p/tools.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
+
+
+<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
+<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
+</blockquote>
+<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
+<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
+</blockquote>
+<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
+<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -975,6 +955,35 @@ Course of Machine / Deep Learning</a></h2>
       </categories>
       <tags>
         <tag>papers_reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Accepted Papers</title>
+    <url>/p/82354480.html</url>
+    <content><![CDATA[<h2 id="⚡️-Aspect-based-Sentiment-Analysis"><a href="#⚡️-Aspect-based-Sentiment-Analysis" class="headerlink" title="⚡️ Aspect-based Sentiment Analysis"></a>⚡️ Aspect-based Sentiment Analysis</h2><blockquote>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h2 id="🌈-Emotion-Recognition-in-Conversation"><a href="#🌈-Emotion-Recognition-in-Conversation" class="headerlink" title="🌈 Emotion Recognition in Conversation"></a>🌈 Emotion Recognition in Conversation</h2><blockquote>
+<ol>
+<li><a href="">CCM</a></li>
+</ol>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;https://doi.org/10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<blockquote>
+<ol start="2">
+<li><a href="">EmoTrans</a></li>
+</ol>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>paper</category>
+        <category>accept</category>
+      </categories>
+      <tags>
+        <tag>papers_accepted</tag>
       </tags>
   </entry>
   <entry>
