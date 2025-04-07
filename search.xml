@@ -89,7 +89,7 @@
   // 判断是否为移动设备
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   if (isMobile) {
-    document.write('<p><a href="/pdfs/ccf-2022.pdf" style="padding: 10px; background: #007bff; color: white; text-decoration: none; border-radius: 5px;">📄 CCF-2022</a></p>');
+    document.write('<p><a href="/pdfs/ccf-2022.pdf" style="padding: 10px; background:rgb(124, 125, 125); color: white; text-decoration: none; border-radius: 5px;">📄 CCF-2022</a></p>');
   } else {
     document.write('<iframe src="/pdfs/ccf-2022.pdf" width="100%" height="300px"></iframe>');
   }
@@ -221,56 +221,362 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>HuggingFace Usages</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+    <title>Large Language Models</title>
+    <url>/p/e8397a02.html</url>
+    <content><![CDATA[<h2 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h2><h3 id="source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md"><a href="#source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md" class="headerlink" title="source: https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md"></a>source: <a href="https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md">https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md</a></h3><h1 id="Catalog-目录"><a href="#Catalog-目录" class="headerlink" title="Catalog(目录)"></a>Catalog(目录)</h1><ul>
+<li><a href="#catalog%E7%9B%AE%E5%BD%95">Catalog(目录)</a><ul>
+<li><a href="#training%E8%AE%AD%E7%BB%83">Training【训练】</a><ul>
+<li><a href="#pre-training%E9%A2%84%E8%AE%AD%E7%BB%83">Pre-Training【预训练】</a></li>
+<li><a href="#instruction-tuning%E6%8C%87%E4%BB%A4%E5%BE%AE%E8%B0%83">Instruction Tuning【指令微调】</a></li>
+</ul>
+</li>
+<li><a href="#utilization%E4%BD%BF%E7%94%A8">Utilization【使用】</a><ul>
+<li><a href="#in-context-learning%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AD%A6%E4%B9%A0">In-Context Learning【上下文学习】</a></li>
+<li><a href="#chain-of-thought-prompting%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8F%90%E7%A4%BA">Chain-of-Thought Prompting【思维链提示】</a></li>
+<li><a href="#z%E5%8E%8B%E7%BC%A9">z【压缩】</a></li>
+<li><a href="#others%E5%85%B6%E4%BB%96">Others【其他】</a></li>
+</ul>
+</li>
+<li><a href="#application%E5%BA%94%E7%94%A8">Application【应用】</a><ul>
+<li><a href="#multi-modal%E5%A4%9A%E6%A8%A1%E6%80%81">Multi-Modal【多模态】</a></li>
+<li><a href="#code%E4%BB%A3%E7%A0%81">Code【代码】</a></li>
+<li><a href="#retrieval%E6%A3%80%E7%B4%A2">Retrieval【检索】</a></li>
+<li><a href="#text-generation%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90">Text Generation【文本生成】</a></li>
+<li><a href="#others%E5%85%B6%E4%BB%96-1">Others【其他】</a></li>
+</ul>
+</li>
+<li><a href="#analysis--evaluation%E5%88%86%E6%9E%90%E4%B8%8E%E8%AF%84%E6%B5%8B">Analysis &amp; Evaluation【分析与评测】</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Training【训练】"><a href="#Training【训练】" class="headerlink" title="Training【训练】"></a>Training【训练】</h2><h3 id="Pre-Training【预训练】"><a href="#Pre-Training【预训练】" class="headerlink" title="Pre-Training【预训练】"></a>Pre-Training【预训练】</h3><ul>
+<li>UL2: Unifying Language Learning Paradigms</li>
+<li>Learning to Grow Pretrained Models for Efficient Transformer Training</li>
+<li>Efficient Large Scale Language Modeling with Mixtures of Experts</li>
+<li>Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models</li>
+<li>CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis</li>
+<li>InCoder: A Generative Model for Code Infilling and Synthesis</li>
+<li>CodeBPE: Investigating Subtokenization Options for Large Language Model Pretraining on Source Code</li>
+<li>CodeRetriever: A Large Scale Contrastive Pre-Training Method for Code Search</li>
+<li>UniMax: Fairer and More Effective Language Sampling for Large-Scale Multilingual Pretraining</li>
+<li>GLM-130B: An Open Bilingual Pre-trained Model</li>
+<li>When FLUE Meets FLANG: Benchmarks and Large Pretrained Language Model for Financial Domain</li>
+</ul>
+<h3 id="Instruction-Tuning【指令微调】"><a href="#Instruction-Tuning【指令微调】" class="headerlink" title="Instruction Tuning【指令微调】"></a>Instruction Tuning【指令微调】</h3><ul>
+<li>What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment</li>
+<li>InstructDial: Improving Zero and Few-shot Generalization in Dialogue through Instruction Tuning</li>
+<li>Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization</li>
+<li>Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks</li>
+<li>Boosting Natural Language Generation from Instructions with Meta-Learning</li>
+<li>Help me write a Poem - Instruction Tuning as a Vehicle for Collaborative Poetry Writing</li>
+<li>Multitask Instruction-based Prompting for Fallacy Recognition</li>
+<li>Not All Tasks Are Born Equal: Understanding Zero-Shot Generalization</li>
+<li>HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization</li>
+</ul>
+<h2 id="Utilization【使用】"><a href="#Utilization【使用】" class="headerlink" title="Utilization【使用】"></a>Utilization【使用】</h2><h3 id="In-Context-Learning【上下文学习】"><a href="#In-Context-Learning【上下文学习】" class="headerlink" title="In-Context Learning【上下文学习】"></a>In-Context Learning【上下文学习】</h3><ul>
+<li>​​What learning algorithm is in-context learning? Investigations with linear models</li>
+<li>Ask Me Anything: A simple strategy for prompting language models</li>
+<li>Large Language Models are Human-Level Prompt Engineers</li>
+<li>Using Both Demonstrations and Language Instructions to Efficiently Learn Robotic Tasks</li>
+<li>kNN Prompting: Beyond-Context Learning with Calibration-Free Nearest Neighbor Inference</li>
+<li>Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners</li>
+<li>Selective Annotation Makes Language Models Better Few-Shot Learners</li>
+<li>Active Example Selection for In-Context Learning</li>
+<li>Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?</li>
+<li>In-Context Learning for Few-Shot Dialogue State Tracking</li>
+<li>Few-Shot Anaphora Resolution in Scientific Protocols via Mixtures of In-Context Experts</li>
+<li>ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback</li>
+<li>Controllable Dialogue Simulation with In-context Learning</li>
+<li>Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again</li>
+<li>XRICL: Cross-lingual Retrieval-Augmented In-Context Learning for Cross-lingual Text-to-SQL Semantic Parsing</li>
+<li>On the Compositional Generalization Gap of In-Context Learning</li>
+<li>Towards In-Context Non-Expert Evaluation of Reflection Generation for Counselling Conversations</li>
+<li>Towards Few-Shot Identification of Morality Frames using In-Context Learning</li>
+</ul>
+<h3 id="Chain-of-Thought-Prompting【思维链提示】"><a href="#Chain-of-Thought-Prompting【思维链提示】" class="headerlink" title="Chain-of-Thought Prompting【思维链提示】"></a>Chain-of-Thought Prompting【思维链提示】</h3><ul>
+<li>ReAct: Synergizing Reasoning and Acting in Language Models</li>
+<li>Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning</li>
+<li>Neuro-Symbolic Procedural Planning with Commonsense Prompting</li>
+<li>Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought</li>
+<li>PINTO: Faithful Language Reasoning Using Prompt-Generated Rationales</li>
+<li>Decomposed Prompting: A Modular Approach for Solving Complex Tasks</li>
+<li>Complexity-Based Prompting for Multi-step Reasoning</li>
+<li>Automatic Chain of Thought Prompting in Large Language Models</li>
+<li>Compositional Semantic Parsing with Large Language Models</li>
+<li>Self-Consistency Improves Chain of Thought Reasoning in Language Models</li>
+<li>Least-to-Most Prompting Enables Complex Reasoning in Large Language Models</li>
+<li>Entailer: Answering Questions with Faithful and Truthful Chains of Reasoning</li>
+<li>Iteratively Prompt Pre-trained Language Models for Chain of Thought</li>
+<li>ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering</li>
+<li>Induced Natural Language Rationales and Interleaved Markup Tokens Enable Extrapolation in Large Language Models</li>
+</ul>
+<h3 id="z【压缩】"><a href="#z【压缩】" class="headerlink" title="z【压缩】"></a>z【压缩】</h3><ul>
+<li>Understanding and Improving Knowledge Distillation for Quantization Aware Training of Large Transformer Encoders</li>
+<li>The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models</li>
+<li>AlphaTuning: Quantization-Aware Parameter-Efficient Adaptation of Large-Scale Pre-Trained Language Models</li>
+</ul>
+<h3 id="Others【其他】"><a href="#Others【其他】" class="headerlink" title="Others【其他】"></a>Others【其他】</h3><ul>
+<li>BBTv2: Towards a Gradient-Free Future with Large Language Models</li>
+<li>Compositional Task Representations for Large Language Models</li>
+<li>Just Fine-tune Twice: Selective Differential Privacy for Large Language Models</li>
+</ul>
+<h2 id="Application【应用】"><a href="#Application【应用】" class="headerlink" title="Application【应用】"></a>Application【应用】</h2><h3 id="Multi-Modal【多模态】"><a href="#Multi-Modal【多模态】" class="headerlink" title="Multi-Modal【多模态】"></a>Multi-Modal【多模态】</h3><ul>
+<li>Visual Classification via Description from Large Language Models</li>
+<li>Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language</li>
+<li>Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training</li>
+</ul>
+<h3 id="Code【代码】"><a href="#Code【代码】" class="headerlink" title="Code【代码】"></a>Code【代码】</h3><ul>
+<li>DocPrompting: Generating Code by Retrieving the Docs</li>
+<li>Planning with Large Language Models for Code Generation</li>
+<li>CodeT: Code Generation with Generated Tests</li>
+<li>Language Models Can Teach Themselves to Program Better</li>
+</ul>
+<h3 id="Retrieval【检索】"><a href="#Retrieval【检索】" class="headerlink" title="Retrieval【检索】"></a>Retrieval【检索】</h3><ul>
+<li>Promptagator: Few-shot Dense Retrieval From 8 Examples</li>
+<li>Recitation-Augmented Language Models</li>
+<li>Generate rather than Retrieve: Large Language Models are Strong Context Generators</li>
+<li>QUILL: Query Intent with Large Language Models using Retrieval Augmentation and Multi-stage Distillation</li>
+</ul>
+<h3 id="Text-Generation【文本生成】"><a href="#Text-Generation【文本生成】" class="headerlink" title="Text Generation【文本生成】"></a>Text Generation【文本生成】</h3><ul>
+<li>Generating Sequences by Learning to Self-Correct</li>
+<li>RankGen: Improving Text Generation with Large Ranking Models</li>
+<li>Eliciting Knowledge from Large Pre-Trained Models for Unsupervised Knowledge-Grounded Conversation</li>
+</ul>
+<h3 id="Others【其他】-1"><a href="#Others【其他】-1" class="headerlink" title="Others【其他】"></a>Others【其他】</h3><ul>
+<li>Systematic Rectification of Language Models via Dead-end Analysis</li>
+<li>Reward Design with Language Models</li>
+<li>Bidirectional Language Models Are Also Few-shot Learners</li>
+<li>Composing Ensembles of Pre-trained Models via Iterative Consensus</li>
+<li>Binding Language Models in Symbolic Languages</li>
+<li>Mind’s Eye: Grounded Language Model Reasoning through Simulation</li>
+</ul>
+<h2 id="Analysis-Evaluation【分析与评测】"><a href="#Analysis-Evaluation【分析与评测】" class="headerlink" title="Analysis &amp; Evaluation【分析与评测】"></a>Analysis &amp; Evaluation【分析与评测】</h2><ul>
+<li>WikiWhy: Answering and Explaining Cause-and-Effect Questions</li>
+<li>ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning</li>
+<li>Quantifying Memorization Across Neural Language Models</li>
+<li>Mass-Editing Memory in a Transformer</li>
+<li>Multi-lingual Evaluation of Code Generation Models</li>
+<li>STREET: A MULTI-TASK STRUCTURED REASONING AND EXPLANATION BENCHMARK</li>
+<li>Leveraging Large Language Models for Multiple Choice Question Answering</li>
+<li>Broken Neural Scaling Laws</li>
+<li>Language models are multilingual chain-of-thought reasoners</li>
+<li>Language Models are Realistic Tabular Data Generators</li>
+<li>Task Ambiguity in Humans and Language Models</li>
+<li>Discovering Latent Knowledge in Language Models Without Supervision</li>
+<li>Prompting GPT-3 To Be Reliable</li>
+<li>Large language models are few-shot clinical information extractors</li>
+<li>How Large Language Models are Transforming Machine-Paraphrase Plagiarism</li>
+<li>Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs</li>
+<li>SLING: Sino Linguistic Evaluation of Large Language Models</li>
+<li>A Systematic Investigation of Commonsense Knowledge in Large Language Models</li>
+<li>Lexical Generalization Improves with Larger Models and Longer Training</li>
+<li>What do Large Language Models Learn beyond Language?</li>
+<li>Probing for Understanding of English Verb Classes and Alternations in Large Pre-trained Language Models</li>
+</ul>
 ]]></content>
       <categories>
-        <category>tools</category>
+        <category>study</category>
+        <category>llm</category>
       </categories>
       <tags>
-        <tag>linux</tag>
+        <tag>study.llm</tag>
       </tags>
   </entry>
   <entry>
-    <title>Tools</title>
-    <url>/p/tools.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
-
-
-<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
-<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
-</blockquote>
-<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
-<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
-</blockquote>
-<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
-<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
-</blockquote>
+    <title>Modality Large Language Model</title>
+    <url>/p/642db888.html</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
 ]]></content>
       <categories>
-        <category>tools</category>
+        <category>study</category>
+        <category>llm</category>
       </categories>
       <tags>
-        <tag>linux</tag>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Prompt-Tuning</title>
+    <url>/p/4d136056.html</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
+<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
+<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
+<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
+<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
+</li>
+<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
+<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
+<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
+</li>
+<li><p><strong>第三阶段</strong>: </p>
+<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
+<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
+<br/>
+
+
+<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
+<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<ul>
+<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
+<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+</ul>
+<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<ul>
+<li><p>模板构建(template): (大量优化方法)</p>
+<p>人工构建</p>
+<p>启发式发：PTR、AutoPrompt</p>
+<p>生成：LM-BFF、</p>
+<p>词向量微调</p>
+<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
+</li>
+<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
+
+<br/>
+
+<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
+<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
+<p>LLM的Prompt-tuning方法：</p>
+<ul>
+<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
+<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
+  
+<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
+</li>
+<li><p><strong>Instruction-tuning</strong>:</p>
+<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
+</li>
+<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
+<p>  <em><strong>过程</strong></em>：代码的预训练</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ollama</title>
+    <url>/p/250231-ollama.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
+<h5 align="center"> 1. Install；2. Tricks </h2>
+
+
+<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
+<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
+<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
+<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
+</ul>
+<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
+<li>hexo deploy</li>
+</ul>
+]]></content>
+      <categories>
+        <category>work</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>work.llm.ollama</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LLM.Tuning</title>
+    <url>/p/60ca0da5.html</url>
+    <content><![CDATA[<div align=center><img src="/image/study/llm/peft.jpg" width="800"></div> <br>
+
+<p>Thanks to: <a href="https://zhuanlan.zhihu.com/p/675231376">https://zhuanlan.zhihu.com/p/675231376</a><br>Library: <a href="https://github.com/adapter-hub/adapters">https://github.com/adapter-hub/adapters</a></p>
+<h2 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h2><ul>
+<li>调整 PLM&#x2F;LLM 所有层和参数, 使其适应特定任务.</li>
+<li>使用较小的学习率 &amp; 特定任务的数据进行.</li>
+<li>优点: 充分利用预训练模型的通用特征; 缺点: 需要更多的计算资源.</li>
+</ul>
+<h2 id="Parameter-Efficient-Fine-Tuning"><a href="#Parameter-Efficient-Fine-Tuning" class="headerlink" title="Parameter Efficient Fine-Tuning"></a>Parameter Efficient Fine-Tuning</h2><ul>
+<li>最小化微调参数的数量和计算复杂度, 极大降低训练成本.</li>
+<li>不改变 PLM&#x2F;LLM 知识前提下, 迅速适应新任务，实现高效的迁移学习.</li>
+<li>提高模型效果的同时, 大大缩短模型训练时间和计算成本</li>
+</ul>
+<table>
+    <tr style="background-color: #f7f7f7;">
+        <td align='center'>Methods</td>
+        <td align='center'>Principle</td>
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 1. [LoRA](https://arxiv.org/abs/2106.09685): </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 2. QLoRA: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 3. Adapter Tuning: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 4. Prefix Tuning: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 5. Prompt Tuning: </strong> 
+            <br> * 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
+        </td> 
+    </tr>
+    <tr> 
+        <td> 
+            <strong> 6. P Tuning & v2: </strong> 
+            <br> 1. 好，很好，非常好 
+        </td> 
+        <td> 
+            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
+        </td> 
+    </tr>
+</table>
+
+
+<h3 id="Low-Rank-Adaptation-LoRA"><a href="#Low-Rank-Adaptation-LoRA" class="headerlink" title="Low-Rank Adaptation (LoRA)"></a><a href="https://arxiv.org/abs/2106.09685">Low-Rank Adaptation (LoRA)</a></h3><ul>
+<li>123</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>study.llm</tag>
       </tags>
   </entry>
   <entry>
@@ -535,365 +841,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>LLM.Tuning</title>
-    <url>/p/60ca0da5.html</url>
-    <content><![CDATA[<div align=center><img src="/image/study/llm/peft.jpg" width="800"></div> <br>
-
-<p>Thanks to: <a href="https://zhuanlan.zhihu.com/p/675231376">https://zhuanlan.zhihu.com/p/675231376</a><br>Library: <a href="https://github.com/adapter-hub/adapters">https://github.com/adapter-hub/adapters</a></p>
-<h2 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h2><ul>
-<li>调整 PLM&#x2F;LLM 所有层和参数, 使其适应特定任务.</li>
-<li>使用较小的学习率 &amp; 特定任务的数据进行.</li>
-<li>优点: 充分利用预训练模型的通用特征; 缺点: 需要更多的计算资源.</li>
-</ul>
-<h2 id="Parameter-Efficient-Fine-Tuning"><a href="#Parameter-Efficient-Fine-Tuning" class="headerlink" title="Parameter Efficient Fine-Tuning"></a>Parameter Efficient Fine-Tuning</h2><ul>
-<li>最小化微调参数的数量和计算复杂度, 极大降低训练成本.</li>
-<li>不改变 PLM&#x2F;LLM 知识前提下, 迅速适应新任务，实现高效的迁移学习.</li>
-<li>提高模型效果的同时, 大大缩短模型训练时间和计算成本</li>
-</ul>
-<table>
-    <tr style="background-color: #f7f7f7;">
-        <td align='center'>Methods</td>
-        <td align='center'>Principle</td>
-    </tr>
-    <tr> 
-        <td> 
-            <strong> 1. [LoRA](https://arxiv.org/abs/2106.09685): </strong> 
-            <br> 1. 好，很好，非常好 
-        </td> 
-        <td> 
-            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
-        </td> 
-    </tr>
-    <tr> 
-        <td> 
-            <strong> 2. QLoRA: </strong> 
-            <br> 1. 好，很好，非常好 
-        </td> 
-        <td> 
-            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
-        </td> 
-    </tr>
-    <tr> 
-        <td> 
-            <strong> 3. Adapter Tuning: </strong> 
-            <br> 1. 好，很好，非常好 
-        </td> 
-        <td> 
-            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
-        </td> 
-    </tr>
-    <tr> 
-        <td> 
-            <strong> 4. Prefix Tuning: </strong> 
-            <br> 1. 好，很好，非常好 
-        </td> 
-        <td> 
-            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
-        </td> 
-    </tr>
-    <tr> 
-        <td> 
-            <strong> 5. Prompt Tuning: </strong> 
-            <br> * 好，很好，非常好 
-        </td> 
-        <td> 
-            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
-        </td> 
-    </tr>
-    <tr> 
-        <td> 
-            <strong> 6. P Tuning & v2: </strong> 
-            <br> 1. 好，很好，非常好 
-        </td> 
-        <td> 
-            <img align='center' src="/image/study/llm/lora.png" width="90%"> 
-        </td> 
-    </tr>
-</table>
-
-
-<h3 id="Low-Rank-Adaptation-LoRA"><a href="#Low-Rank-Adaptation-LoRA" class="headerlink" title="Low-Rank Adaptation (LoRA)"></a><a href="https://arxiv.org/abs/2106.09685">Low-Rank Adaptation (LoRA)</a></h3><ul>
-<li>123</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Large Language Models</title>
-    <url>/p/e8397a02.html</url>
-    <content><![CDATA[<h2 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h2><h3 id="source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md"><a href="#source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md" class="headerlink" title="source: https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md"></a>source: <a href="https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md">https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md</a></h3><h1 id="Catalog-目录"><a href="#Catalog-目录" class="headerlink" title="Catalog(目录)"></a>Catalog(目录)</h1><ul>
-<li><a href="#catalog%E7%9B%AE%E5%BD%95">Catalog(目录)</a><ul>
-<li><a href="#training%E8%AE%AD%E7%BB%83">Training【训练】</a><ul>
-<li><a href="#pre-training%E9%A2%84%E8%AE%AD%E7%BB%83">Pre-Training【预训练】</a></li>
-<li><a href="#instruction-tuning%E6%8C%87%E4%BB%A4%E5%BE%AE%E8%B0%83">Instruction Tuning【指令微调】</a></li>
-</ul>
-</li>
-<li><a href="#utilization%E4%BD%BF%E7%94%A8">Utilization【使用】</a><ul>
-<li><a href="#in-context-learning%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AD%A6%E4%B9%A0">In-Context Learning【上下文学习】</a></li>
-<li><a href="#chain-of-thought-prompting%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8F%90%E7%A4%BA">Chain-of-Thought Prompting【思维链提示】</a></li>
-<li><a href="#z%E5%8E%8B%E7%BC%A9">z【压缩】</a></li>
-<li><a href="#others%E5%85%B6%E4%BB%96">Others【其他】</a></li>
-</ul>
-</li>
-<li><a href="#application%E5%BA%94%E7%94%A8">Application【应用】</a><ul>
-<li><a href="#multi-modal%E5%A4%9A%E6%A8%A1%E6%80%81">Multi-Modal【多模态】</a></li>
-<li><a href="#code%E4%BB%A3%E7%A0%81">Code【代码】</a></li>
-<li><a href="#retrieval%E6%A3%80%E7%B4%A2">Retrieval【检索】</a></li>
-<li><a href="#text-generation%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90">Text Generation【文本生成】</a></li>
-<li><a href="#others%E5%85%B6%E4%BB%96-1">Others【其他】</a></li>
-</ul>
-</li>
-<li><a href="#analysis--evaluation%E5%88%86%E6%9E%90%E4%B8%8E%E8%AF%84%E6%B5%8B">Analysis &amp; Evaluation【分析与评测】</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="Training【训练】"><a href="#Training【训练】" class="headerlink" title="Training【训练】"></a>Training【训练】</h2><h3 id="Pre-Training【预训练】"><a href="#Pre-Training【预训练】" class="headerlink" title="Pre-Training【预训练】"></a>Pre-Training【预训练】</h3><ul>
-<li>UL2: Unifying Language Learning Paradigms</li>
-<li>Learning to Grow Pretrained Models for Efficient Transformer Training</li>
-<li>Efficient Large Scale Language Modeling with Mixtures of Experts</li>
-<li>Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models</li>
-<li>CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis</li>
-<li>InCoder: A Generative Model for Code Infilling and Synthesis</li>
-<li>CodeBPE: Investigating Subtokenization Options for Large Language Model Pretraining on Source Code</li>
-<li>CodeRetriever: A Large Scale Contrastive Pre-Training Method for Code Search</li>
-<li>UniMax: Fairer and More Effective Language Sampling for Large-Scale Multilingual Pretraining</li>
-<li>GLM-130B: An Open Bilingual Pre-trained Model</li>
-<li>When FLUE Meets FLANG: Benchmarks and Large Pretrained Language Model for Financial Domain</li>
-</ul>
-<h3 id="Instruction-Tuning【指令微调】"><a href="#Instruction-Tuning【指令微调】" class="headerlink" title="Instruction Tuning【指令微调】"></a>Instruction Tuning【指令微调】</h3><ul>
-<li>What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment</li>
-<li>InstructDial: Improving Zero and Few-shot Generalization in Dialogue through Instruction Tuning</li>
-<li>Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization</li>
-<li>Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks</li>
-<li>Boosting Natural Language Generation from Instructions with Meta-Learning</li>
-<li>Help me write a Poem - Instruction Tuning as a Vehicle for Collaborative Poetry Writing</li>
-<li>Multitask Instruction-based Prompting for Fallacy Recognition</li>
-<li>Not All Tasks Are Born Equal: Understanding Zero-Shot Generalization</li>
-<li>HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization</li>
-</ul>
-<h2 id="Utilization【使用】"><a href="#Utilization【使用】" class="headerlink" title="Utilization【使用】"></a>Utilization【使用】</h2><h3 id="In-Context-Learning【上下文学习】"><a href="#In-Context-Learning【上下文学习】" class="headerlink" title="In-Context Learning【上下文学习】"></a>In-Context Learning【上下文学习】</h3><ul>
-<li>​​What learning algorithm is in-context learning? Investigations with linear models</li>
-<li>Ask Me Anything: A simple strategy for prompting language models</li>
-<li>Large Language Models are Human-Level Prompt Engineers</li>
-<li>Using Both Demonstrations and Language Instructions to Efficiently Learn Robotic Tasks</li>
-<li>kNN Prompting: Beyond-Context Learning with Calibration-Free Nearest Neighbor Inference</li>
-<li>Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners</li>
-<li>Selective Annotation Makes Language Models Better Few-Shot Learners</li>
-<li>Active Example Selection for In-Context Learning</li>
-<li>Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?</li>
-<li>In-Context Learning for Few-Shot Dialogue State Tracking</li>
-<li>Few-Shot Anaphora Resolution in Scientific Protocols via Mixtures of In-Context Experts</li>
-<li>ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback</li>
-<li>Controllable Dialogue Simulation with In-context Learning</li>
-<li>Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again</li>
-<li>XRICL: Cross-lingual Retrieval-Augmented In-Context Learning for Cross-lingual Text-to-SQL Semantic Parsing</li>
-<li>On the Compositional Generalization Gap of In-Context Learning</li>
-<li>Towards In-Context Non-Expert Evaluation of Reflection Generation for Counselling Conversations</li>
-<li>Towards Few-Shot Identification of Morality Frames using In-Context Learning</li>
-</ul>
-<h3 id="Chain-of-Thought-Prompting【思维链提示】"><a href="#Chain-of-Thought-Prompting【思维链提示】" class="headerlink" title="Chain-of-Thought Prompting【思维链提示】"></a>Chain-of-Thought Prompting【思维链提示】</h3><ul>
-<li>ReAct: Synergizing Reasoning and Acting in Language Models</li>
-<li>Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning</li>
-<li>Neuro-Symbolic Procedural Planning with Commonsense Prompting</li>
-<li>Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought</li>
-<li>PINTO: Faithful Language Reasoning Using Prompt-Generated Rationales</li>
-<li>Decomposed Prompting: A Modular Approach for Solving Complex Tasks</li>
-<li>Complexity-Based Prompting for Multi-step Reasoning</li>
-<li>Automatic Chain of Thought Prompting in Large Language Models</li>
-<li>Compositional Semantic Parsing with Large Language Models</li>
-<li>Self-Consistency Improves Chain of Thought Reasoning in Language Models</li>
-<li>Least-to-Most Prompting Enables Complex Reasoning in Large Language Models</li>
-<li>Entailer: Answering Questions with Faithful and Truthful Chains of Reasoning</li>
-<li>Iteratively Prompt Pre-trained Language Models for Chain of Thought</li>
-<li>ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering</li>
-<li>Induced Natural Language Rationales and Interleaved Markup Tokens Enable Extrapolation in Large Language Models</li>
-</ul>
-<h3 id="z【压缩】"><a href="#z【压缩】" class="headerlink" title="z【压缩】"></a>z【压缩】</h3><ul>
-<li>Understanding and Improving Knowledge Distillation for Quantization Aware Training of Large Transformer Encoders</li>
-<li>The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models</li>
-<li>AlphaTuning: Quantization-Aware Parameter-Efficient Adaptation of Large-Scale Pre-Trained Language Models</li>
-</ul>
-<h3 id="Others【其他】"><a href="#Others【其他】" class="headerlink" title="Others【其他】"></a>Others【其他】</h3><ul>
-<li>BBTv2: Towards a Gradient-Free Future with Large Language Models</li>
-<li>Compositional Task Representations for Large Language Models</li>
-<li>Just Fine-tune Twice: Selective Differential Privacy for Large Language Models</li>
-</ul>
-<h2 id="Application【应用】"><a href="#Application【应用】" class="headerlink" title="Application【应用】"></a>Application【应用】</h2><h3 id="Multi-Modal【多模态】"><a href="#Multi-Modal【多模态】" class="headerlink" title="Multi-Modal【多模态】"></a>Multi-Modal【多模态】</h3><ul>
-<li>Visual Classification via Description from Large Language Models</li>
-<li>Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language</li>
-<li>Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training</li>
-</ul>
-<h3 id="Code【代码】"><a href="#Code【代码】" class="headerlink" title="Code【代码】"></a>Code【代码】</h3><ul>
-<li>DocPrompting: Generating Code by Retrieving the Docs</li>
-<li>Planning with Large Language Models for Code Generation</li>
-<li>CodeT: Code Generation with Generated Tests</li>
-<li>Language Models Can Teach Themselves to Program Better</li>
-</ul>
-<h3 id="Retrieval【检索】"><a href="#Retrieval【检索】" class="headerlink" title="Retrieval【检索】"></a>Retrieval【检索】</h3><ul>
-<li>Promptagator: Few-shot Dense Retrieval From 8 Examples</li>
-<li>Recitation-Augmented Language Models</li>
-<li>Generate rather than Retrieve: Large Language Models are Strong Context Generators</li>
-<li>QUILL: Query Intent with Large Language Models using Retrieval Augmentation and Multi-stage Distillation</li>
-</ul>
-<h3 id="Text-Generation【文本生成】"><a href="#Text-Generation【文本生成】" class="headerlink" title="Text Generation【文本生成】"></a>Text Generation【文本生成】</h3><ul>
-<li>Generating Sequences by Learning to Self-Correct</li>
-<li>RankGen: Improving Text Generation with Large Ranking Models</li>
-<li>Eliciting Knowledge from Large Pre-Trained Models for Unsupervised Knowledge-Grounded Conversation</li>
-</ul>
-<h3 id="Others【其他】-1"><a href="#Others【其他】-1" class="headerlink" title="Others【其他】"></a>Others【其他】</h3><ul>
-<li>Systematic Rectification of Language Models via Dead-end Analysis</li>
-<li>Reward Design with Language Models</li>
-<li>Bidirectional Language Models Are Also Few-shot Learners</li>
-<li>Composing Ensembles of Pre-trained Models via Iterative Consensus</li>
-<li>Binding Language Models in Symbolic Languages</li>
-<li>Mind’s Eye: Grounded Language Model Reasoning through Simulation</li>
-</ul>
-<h2 id="Analysis-Evaluation【分析与评测】"><a href="#Analysis-Evaluation【分析与评测】" class="headerlink" title="Analysis &amp; Evaluation【分析与评测】"></a>Analysis &amp; Evaluation【分析与评测】</h2><ul>
-<li>WikiWhy: Answering and Explaining Cause-and-Effect Questions</li>
-<li>ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning</li>
-<li>Quantifying Memorization Across Neural Language Models</li>
-<li>Mass-Editing Memory in a Transformer</li>
-<li>Multi-lingual Evaluation of Code Generation Models</li>
-<li>STREET: A MULTI-TASK STRUCTURED REASONING AND EXPLANATION BENCHMARK</li>
-<li>Leveraging Large Language Models for Multiple Choice Question Answering</li>
-<li>Broken Neural Scaling Laws</li>
-<li>Language models are multilingual chain-of-thought reasoners</li>
-<li>Language Models are Realistic Tabular Data Generators</li>
-<li>Task Ambiguity in Humans and Language Models</li>
-<li>Discovering Latent Knowledge in Language Models Without Supervision</li>
-<li>Prompting GPT-3 To Be Reliable</li>
-<li>Large language models are few-shot clinical information extractors</li>
-<li>How Large Language Models are Transforming Machine-Paraphrase Plagiarism</li>
-<li>Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs</li>
-<li>SLING: Sino Linguistic Evaluation of Large Language Models</li>
-<li>A Systematic Investigation of Commonsense Knowledge in Large Language Models</li>
-<li>Lexical Generalization Improves with Larger Models and Longer Training</li>
-<li>What do Large Language Models Learn beyond Language?</li>
-<li>Probing for Understanding of English Verb Classes and Alternations in Large Pre-trained Language Models</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Modality Large Language Model</title>
-    <url>/p/642db888.html</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ollama</title>
-    <url>/p/250231-ollama.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>work</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>work.llm.ollama</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prompt-Tuning</title>
-    <url>/p/4d136056.html</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
-<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
-<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
-<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
-<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
-</li>
-<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
-<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
-<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
-</li>
-<li><p><strong>第三阶段</strong>: </p>
-<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
-<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
-<br/>
-
-
-<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
-<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
-<ul>
-<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
-<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
-</ul>
-<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
-<ul>
-<li><p>模板构建(template): (大量优化方法)</p>
-<p>人工构建</p>
-<p>启发式发：PTR、AutoPrompt</p>
-<p>生成：LM-BFF、</p>
-<p>词向量微调</p>
-<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
-</li>
-<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
-
-<br/>
-
-<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
-<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
-<p>LLM的Prompt-tuning方法：</p>
-<ul>
-<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
-<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
-  
-<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
-</li>
-<li><p><strong>Instruction-tuning</strong>:</p>
-<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
-</li>
-<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
-<p>  <em><strong>过程</strong></em>：代码的预训练</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>study.llm</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Accepted Papers</title>
     <url>/p/82354480.html</url>
     <content><![CDATA[<h2 id="⚡️-Aspect-based-Sentiment-Analysis"><a href="#⚡️-Aspect-based-Sentiment-Analysis" class="headerlink" title="⚡️ Aspect-based Sentiment Analysis"></a>⚡️ Aspect-based Sentiment Analysis</h2><blockquote>
@@ -957,6 +904,59 @@ Course of Machine / Deep Learning</a></h2>
       </categories>
       <tags>
         <tag>papers_reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HuggingFace Usages</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
+
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools</title>
+    <url>/p/tools.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
+
+
+<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
+<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
+</blockquote>
+<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
+<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
+</blockquote>
+<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
+<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
