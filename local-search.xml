@@ -8,7 +8,7 @@
     <link href="/p/ccf.html"/>
     <url>/p/ccf.html</url>
     
-    <content type="html"><![CDATA[<iframe src="/pdfs/ccf-2022.pdf" width="100%" height="800px"></iframe>]]></content>
+    <content type="html"><![CDATA[<!-- <iframe src="/pdfs/ccf-2022.pdf" width="100%" height="800px"></iframe> --><script>  // 判断是否为移动设备  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);  if (isMobile) {    document.write('<p><a href="/pdfs/ccf-2022.pdf" style="padding: 10px; background: #007bff; color: white; text-decoration: none; border-radius: 5px;">📄 CCF-2022</a></p>');  } else {    document.write('<iframe src="/pdfs/ccf-2022.pdf" width="100%" height="300px"></iframe>');  }</script>]]></content>
     
     
     <categories>
