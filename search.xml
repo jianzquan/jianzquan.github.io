@@ -79,6 +79,12 @@
 <h2 id="Arrows"><a href="#Arrows" class="headerlink" title="Arrows"></a>Arrows</h2><ul>
 <li>→ ←</li>
 </ul>
+<iframe src="/pdfs/ccf-2022.pdf" width="100%" height="600px"></iframe>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/p/0.html</url>
+    <content><![CDATA[<iframe src="/pdfs/ccf-2022.pdf" width="100%" height="600px"></iframe>
 ]]></content>
   </entry>
   <entry>
@@ -200,35 +206,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>Anaconda</title>
-    <url>/p/anaconda.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
-
-
-<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
-<p><strong>For Linux</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p><strong>For Windows</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
-<ul>
-<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
-</ul>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Github</title>
     <url>/p/github.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Github Settings</a></h1>
@@ -277,6 +254,35 @@ Course of Machine / Deep Learning</a></h2>
       </categories>
       <tags>
         <tag>study.skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anaconda</title>
+    <url>/p/anaconda.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
+
+
+<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
+<p><strong>For Linux</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>For Windows</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
+
+
+<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
+<ul>
+<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
+</ul>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -854,30 +860,6 @@ Course of Machine / Deep Learning</a></h2>
       </tags>
   </entry>
   <entry>
-    <title>Ollama</title>
-    <url>/p/250231-ollama.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>work</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>work.llm.ollama</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Accepted Papers</title>
     <url>/p/82354480.html</url>
     <content><![CDATA[<h2 id="⚡️-Aspect-based-Sentiment-Analysis"><a href="#⚡️-Aspect-based-Sentiment-Analysis" class="headerlink" title="⚡️ Aspect-based Sentiment Analysis"></a>⚡️ Aspect-based Sentiment Analysis</h2><blockquote>
@@ -941,6 +923,30 @@ Course of Machine / Deep Learning</a></h2>
       </categories>
       <tags>
         <tag>papers_reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ollama</title>
+    <url>/p/250231-ollama.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
+<h5 align="center"> 1. Install；2. Tricks </h2>
+
+
+<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
+<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
+<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
+<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
+</ul>
+<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
+<li>hexo deploy</li>
+</ul>
+]]></content>
+      <categories>
+        <category>work</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>work.llm.ollama</tag>
       </tags>
   </entry>
   <entry>
