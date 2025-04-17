@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Account</title>
+    <url>/p/account.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="91a368bb59745d38c9f53b153f3b9f46901f182316177f0214016f421ebffaf0">559d17c56598efa92f5a884a722b34ca2e0ae67f5edb2501eb50d44b3041cf6e464f402cfa5d7f48672a9613c1cd1ecfabd6a7d701ae22533071944740e63ca0e323e3413db19bd6fc3119b4010e351b04ee67d36728f8cd94cfe69937601e153826068dcf729d4fab3970fa36e4c804e6ca665bf1bc0e1f8785dbb58fead83b43e415dd18df40cfb4050cdfb7c26a5e82de78cde335d86351921adbf31adb7d6f3cc08e54990b43fc795c36f8d6bef316f5b04b2fbf6bc925be2bfb41a1dcac664aaeab47b3a3541e47193acfcbea060d75a58a446f6da8df3d4050bedf54d66cd8d6d933b9ca7bea21299ae2e4a684e11bca40c67a90f22b65baaa681a18d38baac598d1bbb2abe933b8baa5e024a8e6be9226de2e61e042e0269ed049504a30bd2057b1600acce94d1215c39f4b75ab954ad9ae52190a46de96fc0f25f0b83aefda6e47e2caecc2a1d56224fd33c0e016b74d6b4c0a503810bc355d593d4a4bb925a4e733d1bca090aa1b938c359e73f2eedc3233e8d69d5e3dfc86354e8cde2a26ea2c620e5c38ee304a33a3e0a38cc0c3da6737f5dd53559a4472bbb5e39de7dc51a9851e77d4678439c5553930d30b8d1313316017b3210997a9c0411a293c7a952be8c241daf08f2fa92baa88b071827143e1a1b6df8aa6941fc4dabf002919add7657548bedb611b7a8ad321004e56d8a388d40215e57e6f7649b47a0272d5d017338e75400ae2422001abe299c661ad8cab918b51dd5334148873fe52a36748be6da770ba2cb4a8ad7dd23bb0a8e4d64ed5f5ed8c9b73cc720bc93ebd1b0add6c5b98b64a4f3498549e83f8fe48c000b7cb25ceb1af9f15ac498b98ab0cbc183b8464b10e3b042e51c76d8ec9d8ae930315315f5a0684865d239380291b7a4c8252e187145bf2680f27de4bf091c606d3646efacc607734611d0cc258af644bddf719f90633363e44bb91e4f6067c0e430a2cae9924adf3efbe95cc96c0f30c6125b5e7b59d9fa9fe6a2acabf3f84f997965c0a5772ad348412b53ab35506de9e77d9d09d0d768f3a0a5be271b586e6d45eabcc7263749303e8cdbc19e1a92b1c6a4fc91c89c762d11463f7a51f98883455ebe90899385c0d600aa433891b87dde9bec8dc5ef596c39bb1be1b8e05bad4bfffd8a6a2ead403358fbb32434a46b3febab5bed87f0f45e8af3b96b037ccab61e3f6b17c9760f35de11cca85e55108688d7197a21bad41add0470ea30cdc34200ef090016d9749ab153483922d6796ec7d1b57efa283b98e8a459958436535fc8b8734b6a6c9ead2a4ec0902965714678b24093ef6a7a6105e5e4a7b6c522ca125200160e90091373c3d1e958db807f22635ef3acc1594c26c31e284292d74c0a20e92b9b0fe499f87ab08ec8a613a5360c6e9938cad5f451868a0b583f68d87ebccc49b7af95217b522656bf549a7ebf5e00f4cd1655e8ccfe92efb39962cbd37fb603bb6a6923b65ec02249c600f101224d9f1a41215160663b4deca2bdbe0d4521bf88c2e1e90897c4407d01465d282cc1a38658bc909fd45ffbdf0c55921d69ea0147f73e810922f423114b3f870d22ffc8eb3163b2681fa88b3579f9c8c2e46adcf0fbfa0b38bbcb2e97de0d4081c797a48ad4f743d6f6925eddd0914908996b5c25c1c1c94818ac1681654954cee07ec32e413be7ba5b2c255412080f5b6482652671b1675146e160b5875517e0f2d0df65c2c2e15de870a4c263a97b892caef532fcb6844d09eaabb69d8ce481b97744254464e468ddd34ea50ff3bbc9ce7e13cc208cb7355bd8dcb37b30890909be8c02e2fea92b3043abbe69e16c5a640a0c2b42cfbc37ce38bcba718f3846b90d4437976b5281929c3d105750a5232346ca51becf8100b1eedde7798a32dcb2b0e092ed8ce3adde8f392a871156ac40dce5cfd69d26778d2e17b5f62c4cab217db0b9f6eca22a39a4426002db3c6280b1d870389fcf1f5a7ffdf3e9855242364abddcaeb5572a073c8ffc41baa52f1b7d7fc2cd0ed9c935a6b358c335583d60a0665c3c10e683fe7b9cebb290f630cb2a38db52ea9cd9ad2e347a638ea42392fae4d53ed6724b240f3a09cebc2848c6924ba48134b3963be4cbda6cf9ed0d7b3cb5e1bd333678144f6eab280cf1443650e1582017db7973ff41ce51fd8206312eab6f35d543df8fae06c3610776753378a4fb191814828155edab5d3fe4b75401862e095cd1170e2b23088a6913bd1272e874bdd3516a72c813eba53f3c73e530eda8de981abf6944a308fedf4b04537e7bfd60d7c03e933d7130ddd8c3e619ca5b20b56c39557f8ed4d8bb52340783b133e4e8852c4090d8e477e0c45d52607845a9748fd330c34f78c48d4733d149b550197673e0a89959d743388edfa31618f7f0b290a826ba7d0a3852e4d34a4af8e2e92cababca199649b01b38fbd37fbbdb7ea66e03a73992daa217f0255338a86ba2b8262f1f421c9a0f31117fa95b7f7ce6d63d4459808ea220dec9bc366a78bd3d3a39f10742e8a25efe850383e5b63e07766ff6a8b596da7a48a2499cc7042df785bd719e5a7495fef6f8737793556743057c6fafa3f01352b5b380783c94bf01085b6597829ace8a9740eabc8b51b422340f1b9bdcee91ef8f1025c1b7580e3d540bf45ae313bc3cce6d795493c8bd03341546bd40c5a8415b77050d8c243519a4dc09c90db2e5a8f4bf84c86b879590d4ae1aaa80d43a374348ba63c0e030492c99040cd5c3dc460c8f0b1513e35685a324c2e233d7856fea02e341765f7f1630f93c0d26b0afe739e1ddc129300732d482b97f73f8a2779d5bc4d73e733a1a906a25888572cc3a0ec31ea726762380dec29baf5930c0377e6611ba9215f075f3391a89acd24cb3be25b1c976a61fa7634f19a8d4b70d24c3acbff324d24fc2d3cf1f357b49b61abb93492cda58c245905eaad7c088b3ababa8df337aa0d6e87c1ef2bf861d8abd5dcff0bfcac12d7fb53374fb488be67500e86755a248d4e924ce0f7f60555ce0cf9f20c127b3896b09aabf0d2582be08dd07db8813a41806782bbe158c7cd9e7944e6f5bff104042d58a498bdd507e60bb90da1c306c67b0c8a2b3cf7a31a8467132c9e9907623edb607fda479b434f883e5bba1c5e84087acd2ccbd16de68a526f563ebe617c143a78c579d8bfadf050bdbbffa16b15ab0cbafa94fe2fe6cace9e60905e9e4d2b6ebbfc5503af41559f2fde43fa4e63ebacffc0c0196684b7136d7464b5b84a7fde6750f120457f0fd43726eb0522993971673829fb79b341f45ba470f20b1d4c2d65c43ad02fc2a85572180dcf3ab65621cfd1a83d831e67b4e7eb4bb156a076b29a40fe56c1d6f1f5c28dd405692969af2812aa5c9aa23f2e14ac7275f00c0091edc0e4580a28a9d296041b937d733ec6f400c4e198107c0208905375a9cae6775a50b63152279ccf570367cc8dd1d894c9abba537b971294855f46766953adbfe3b3dddb43c5e6c14384d0ad2083f07d90c2bdc9005a6097521ee902b43b9b7198531dcddd8bb90b296b929d5b1b7bfd392b55f55d40a6e819da32b917de987ce82e58e77ca8d0e36fac372d6734f6c1df5faa99cf65d8686fd1ce776a1d6743519673db8821323bb3830e4eed098f5adc80b4f16dc516b93428f5c6974f27c7b73239b5a55f4dd3847925bb4c683f4059414384510e258a7e7f84f66ecdb9338f05c6d94b1ebeb2aac7f1c9a8855f3f081a189be67c71a296078774144a28d26a0b662736084d54d82dbc386c4c9cb0e567ae8c6730f4417f001b6cab2c8657e74161fa0b299eb5b217c710586a1f2fef6adf7b41e0d2d65b6af8c5ea2764e0e86130cb88c091e313edc0de42a88a23daca791df5c489a6b13bc5e116889c0d5f04f11b328b49ca1d548b1f98542a723e6d7131cb940ad960210ab448d05efad4406a5f07db83e6590727f0082b6046aa39b63fefb3452bf65a03365f80fbd3f386b4bb2e23063d56242ac336cdc89c7694aef2fc12e0f6b2ee2587aa687127fa56f558cfe3fed2c6ff1549c75249c6ab576bde10140debabf1fb94df04858464fa186f253fbbdda1abb9148824128eec4d77b956598e4d9de0fb8ca694de9b530e38112676434a48067ee339bee8eb3d92114f51ee6a4b8adb2cf769b6ca6a9a1ac1ec53a38868565e4cb49e90f9139271815dfc94e90f98683b59115770c402b249c4c4c8aea55973a6352485960ee8a93e7b4f51d750669bb0ae31ebfb04836da4a74c13e9e5e73a947e757be511440486071fa46b4343538bed9bb4723de80c72cba5d069014725132e7b08b5b0caf09f94ccceec1ab48b4969a3ef928ba5465c3c42484c2eff6a505425466089415453aa30bd18e6d0b164d115ac8378cf7b2a6f7a2b99ce01ca90cdac517064f7cf28a6a1e94c5dbdea796ddf724d6aecea3ee873ab7decec889870f56c8933d3deaf4a5f657485e57018f89fcb8e55b4dc7fbbd9767ef6c21240cd4d50a818dabf7f40402997d07b42d9a07391ba1d48314811700fcb27a2c70dd7901044434677546bd8c2409efadf5d2ee3336355022482f572b94c6126cfaa8fd51b353ca489c6cfc67e0e37062c81900d633e3b8a7abbd7a9c8b77a82698801936c8719609f225c59f496ee2c188666ad78bf3a4a051afc173dec4eff6caa38cd0e90e65a4c2a96e05ddb89136858f3c47de2f92f192c6e6955f149568b68b1396f6a09a57f98628eab03ff5e5d9c1ccb6521609579afe92109b5615aa5a08ffa918b6694915818c1ed60f1a54caf2c9cdd06c6d00f2a54bffbd2d8546b8828ae8f7e0e67d3c37258c063e9a333ba5156fd5d0d3ecc1cc000f73941677095acad953094b3d32702a015f3216ca74ef8f3a3f6abbcd7df63136e059092e351d11715aa69c5877a41904272f2a166ca778f09146294dcf463f0a66670b9dcff1adecefaa0d0c53e4a283b4598a4717d035ee27624bbaeeab8274851745ebadf7d5f92d3544ce767a0b42dfc987cec18d2f698db1cd75c8f2e30d18252c1364a2288d853862b4d0e5f4dcb66cf2cf551576360fd3fe89b9703dc99017bae302d733afbdf10d0c039f821db8984f7a0010f108501dbfc271757fdef83c7004e038b9c3b834d5fc765cd6c586c78b40d547e1b4d446968b5ae0cff0d2e5f5209af9f846ffffb726fd4acaaecb0a3d5f93c0a463b20a19e92f74c7b5c3e0a5177b7fbcb6b78550d6540e8369684259b38fa64960ac7af46aec5019ad7932ec0b1dbf42fa6d180e2146862724ab2f6e61ddf1c4d29aea29e83060b57701ecfa48144369d245174fe731b8595d0e38f30c39787f554d2d3297b512f24e4c9a48ae4c67e1efba70fe1e313f7517a75daa5f58a0049688190c9ad6ebc7bf1429332135563abdb2ef87233bfb84700ce94efc11ca0389d43eee6cd01dbbe6874b437673c05f4805347e2ef3ad91400121dc03d4bc50505ee004a975701a3adba3ad8b4fb9387e01fb0d0f3c728327e10a3fef88d47d74f4c4ef7d42e3b64e84a0c26a9c1bfa1337155ad7f63cfbe994c9664290c800589f6e48f1e48819a7af110c489a39e131da4a0ef19e53a0c0ceb8a681d7db2814335e6d3223a47e5d8f1e2f557c57ba4f02a8398f87b4e4b04abf6f2d2726c7f4625843b6fae2fb7d6c0124a5853dd4b19e93df1269ffbf2bbc748b57639cc9f91057826cc1745a7cc0fdd6731fc1e5b652792f09b91d9b2033d04dab51f7d9d58c1bcc7bee1cfd9d01f37ce93250dbfa641e591a537d8a55616716f8c430609f2316211b604be67d41ce8789ed6a26f5e85006c02883b83b60bec6c0f55dc3d3620ce17eddecae5283b7ce7b39dea12caa689cd8a0b20a914802b83c6d54d7ef435b128713a038b4d97b44f5da79ac412776028fd0c72fb727ef0a0ebf98fe657e2e209071789a2d7ddc780ea50dfbccb3677256db20fe5b883da496022eb887f696aa70a57fdf90373b12383f0fffb74be9cacda63a68e29a046780e80c2123955a2a88a08f4d5fda9ddeeb725742b4df9747bd37f60c498974bbccccf37482f0e2f441ad84e38727a4a38730f628c85e086a3727d7593ee4bb2e13c3cf2aad5bc884a4bda2d0b9090dd8da0fbd325e99af30f555b96b84ab0284086e7c8e9785b1e20d6c14814db875500c474e4e21266c9463beedab173d401c4ab15f88c0e39d20778c5441b5bc33e027ea51cd77cea468e090b99f5a1de5adeaaff90b70a4066c07c5ce6803edd504d2b9dfafb3cf1a98ba2c8044dc78f6d0b9e3c8697d2c09695ceebf57c6f374e870cad2f0180130e2cb054362c3f486f630ff75d74c89405f699fbd6f9640908e9e316fc3398ecd6b11ece2af3b89b4bb8420d982381b506192aef5021b4126eccdb44cd833d30549b6da3c65df1be2e71f969f0557fdfac26fe34f5cdc2d2c2a6e86218c3cbc3218e83e66dbc9708d82accb124794b0ea9993b2eb1cec53e324ade147605fa91a5432df14a9960546bc4339d4cd9fae53d3e25e2b2d5c0c0d01d956c445d204dbc2f4a795d6ba51aa6ee90c75168ddf70f852c2ae5bf3da03940e76cf867d9a641c496563ceddb2a3dcfec18868cff02cd98a5eca23eec6bc299c793b1806a89bc4a035eff9c571b95a6b212e5fec34c5fda129c761b7cea68482fd57052f4dd98a48f90312d18252f3a3ce5cddcd884730d6530e73fe2b45d792eeb7d8aeb177014b48c2b74892433cdc582cefd581ce363259d662ebbc4fcc4acca214c8455af73b3a6d4aeab10b84b70abd7cbef33ab5e1b27a4df0212d475c28ba6654e17364975fc2241ea81047062ffde74aa616afd84ddcbe9072d51bce4d974ffb0e24fb47089c0e62d97344d60dc489f14b162e390f603560adf7275ad2bd0c8128d0be7bab095ed6513a3c87182cbbfbe56d7d5469b17a97ed64144ec1e0bb84f8a724b41b2b8d4</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>base</category>
+      </categories>
+      <tags>
+        <tag>Base</tag>
+        <tag>Account</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Navigation</title>
     <url>/p/navigate.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io">Blog Navigation</a></h1>
@@ -26,29 +49,6 @@
       <tags>
         <tag>Base</tag>
         <tag>Navigation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Account</title>
-    <url>/p/account.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="91a368bb59745d38c9f53b153f3b9f46901f182316177f0214016f421ebffaf0">559d17c56598efa92f5a884a722b34ca2e0ae67f5edb2501eb50d44b3041cf6e464f402cfa5d7f48672a9613c1cd1ecfabd6a7d701ae22533071944740e63ca0e323e3413db19bd6fc3119b4010e351b04ee67d36728f8cd94cfe69937601e153826068dcf729d4fab3970fa36e4c804e6ca665bf1bc0e1f8785dbb58fead83b43e415dd18df40cfb4050cdfb7c26a5e82de78cde335d86351921adbf31adb7d6f3cc08e54990b43fc795c36f8d6bef316f5b04b2fbf6bc925be2bfb41a1dcac664aaeab47b3a3541e47193acfcbea060d75a58a446f6da8df3d4050bedf54d66cd8d6d933b9ca7bea21299ae2e4a684e11bca40c67a90f22b65baaa681a18d38baac598d1bbb2abe933b8baa5e024a8e6be9226de2e61e042e0269ed049504a30bd2057b1600acce94d1215c39f4b75ab954ad9ae52190a46de96fc0f25f0b83aefda6e47e2caecc2a1d56224fd33c0e016b74d6b4c0a503810bc355d593d4a4bb925a4e733d1bca090aa1b938c359e73f2eedc3233e8d69d5e3dfc86354e8cde2a26ea2c620e5c38ee304a33a3e0a38cc0c3da6737f5dd53559a4472bbb5e39de7dc51a9851e77d4678439c5553930d30b8d1313316017b3210997a9c0411a293c7a952be8c241daf08f2fa92baa88b071827143e1a1b6df8aa6941fc4dabf002919add7657548bedb611b7a8ad321004e56d8a388d40215e57e6f7649b47a0272d5d017338e75400ae2422001abe299c661ad8cab918b51dd5334148873fe52a36748be6da770ba2cb4a8ad7dd23bb0a8e4d64ed5f5ed8c9b73cc720bc93ebd1b0add6c5b98b64a4f3498549e83f8fe48c000b7cb25ceb1af9f15ac498b98ab0cbc183b8464b10e3b042e51c76d8ec9d8ae930315315f5a0684865d239380291b7a4c8252e187145bf2680f27de4bf091c606d3646efacc607734611d0cc258af644bddf719f90633363e44bb91e4f6067c0e430a2cae9924adf3efbe95cc96c0f30c6125b5e7b59d9fa9fe6a2acabf3f84f997965c0a5772ad348412b53ab35506de9e77d9d09d0d768f3a0a5be271b586e6d45eabcc7263749303e8cdbc19e1a92b1c6a4fc91c89c762d11463f7a51f98883455ebe90899385c0d600aa433891b87dde9bec8dc5ef596c39bb1be1b8e05bad4bfffd8a6a2ead403358fbb32434a46b3febab5bed87f0f45e8af3b96b037ccab61e3f6b17c9760f35de11cca85e55108688d7197a21bad41add0470ea30cdc34200ef090016d9749ab153483922d6796ec7d1b57efa283b98e8a459958436535fc8b8734b6a6c9ead2a4ec0902965714678b24093ef6a7a6105e5e4a7b6c522ca125200160e90091373c3d1e958db807f22635ef3acc1594c26c31e284292d74c0a20e92b9b0fe499f87ab08ec8a613a5360c6e9938cad5f451868a0b583f68d87ebccc49b7af95217b522656bf549a7ebf5e00f4cd1655e8ccfe92efb39962cbd37fb603bb6a6923b65ec02249c600f101224d9f1a41215160663b4deca2bdbe0d4521bf88c2e1e90897c4407d01465d282cc1a38658bc909fd45ffbdf0c55921d69ea0147f73e810922f423114b3f870d22ffc8eb3163b2681fa88b3579f9c8c2e46adcf0fbfa0b38bbcb2e97de0d4081c797a48ad4f743d6f6925eddd0914908996b5c25c1c1c94818ac1681654954cee07ec32e413be7ba5b2c255412080f5b6482652671b1675146e160b5875517e0f2d0df65c2c2e15de870a4c263a97b892caef532fcb6844d09eaabb69d8ce481b97744254464e468ddd34ea50ff3bbc9ce7e13cc208cb7355bd8dcb37b30890909be8c02e2fea92b3043abbe69e16c5a640a0c2b42cfbc37ce38bcba718f3846b90d4437976b5281929c3d105750a5232346ca51becf8100b1eedde7798a32dcb2b0e092ed8ce3adde8f392a871156ac40dce5cfd69d26778d2e17b5f62c4cab217db0b9f6eca22a39a4426002db3c6280b1d870389fcf1f5a7ffdf3e9855242364abddcaeb5572a073c8ffc41baa52f1b7d7fc2cd0ed9c935a6b358c335583d60a0665c3c10e683fe7b9cebb290f630cb2a38db52ea9cd9ad2e347a638ea42392fae4d53ed6724b240f3a09cebc2848c6924ba48134b3963be4cbda6cf9ed0d7b3cb5e1bd333678144f6eab280cf1443650e1582017db7973ff41ce51fd8206312eab6f35d543df8fae06c3610776753378a4fb191814828155edab5d3fe4b75401862e095cd1170e2b23088a6913bd1272e874bdd3516a72c813eba53f3c73e530eda8de981abf6944a308fedf4b04537e7bfd60d7c03e933d7130ddd8c3e619ca5b20b56c39557f8ed4d8bb52340783b133e4e8852c4090d8e477e0c45d52607845a9748fd330c34f78c48d4733d149b550197673e0a89959d743388edfa31618f7f0b290a826ba7d0a3852e4d34a4af8e2e92cababca199649b01b38fbd37fbbdb7ea66e03a73992daa217f0255338a86ba2b8262f1f421c9a0f31117fa95b7f7ce6d63d4459808ea220dec9bc366a78bd3d3a39f10742e8a25efe850383e5b63e07766ff6a8b596da7a48a2499cc7042df785bd719e5a7495fef6f8737793556743057c6fafa3f01352b5b380783c94bf01085b6597829ace8a9740eabc8b51b422340f1b9bdcee91ef8f1025c1b7580e3d540bf45ae313bc3cce6d795493c8bd03341546bd40c5a8415b77050d8c243519a4dc09c90db2e5a8f4bf84c86b879590d4ae1aaa80d43a374348ba63c0e030492c99040cd5c3dc460c8f0b1513e35685a324c2e233d7856fea02e341765f7f1630f93c0d26b0afe739e1ddc129300732d482b97f73f8a2779d5bc4d73e733a1a906a25888572cc3a0ec31ea726762380dec29baf5930c0377e6611ba9215f075f3391a89acd24cb3be25b1c976a61fa7634f19a8d4b70d24c3acbff324d24fc2d3cf1f357b49b61abb93492cda58c245905eaad7c088b3ababa8df337aa0d6e87c1ef2bf861d8abd5dcff0bfcac12d7fb53374fb488be67500e86755a248d4e924ce0f7f60555ce0cf9f20c127b3896b09aabf0d2582be08dd07db8813a41806782bbe158c7cd9e7944e6f5bff104042d58a498bdd507e60bb90da1c306c67b0c8a2b3cf7a31a8467132c9e9907623edb607fda479b434f883e5bba1c5e84087acd2ccbd16de68a526f563ebe617c143a78c579d8bfadf050bdbbffa16b15ab0cbafa94fe2fe6cace9e60905e9e4d2b6ebbfc5503af41559f2fde43fa4e63ebacffc0c0196684b7136d7464b5b84a7fde6750f120457f0fd43726eb0522993971673829fb79b341f45ba470f20b1d4c2d65c43ad02fc2a85572180dcf3ab65621cfd1a83d831e67b4e7eb4bb156a076b29a40fe56c1d6f1f5c28dd405692969af2812aa5c9aa23f2e14ac7275f00c0091edc0e4580a28a9d296041b937d733ec6f400c4e198107c0208905375a9cae6775a50b63152279ccf570367cc8dd1d894c9abba537b971294855f46766953adbfe3b3dddb43c5e6c14384d0ad2083f07d90c2bdc9005a6097521ee902b43b9b7198531dcddd8bb90b296b929d5b1b7bfd392b55f55d40a6e819da32b917de987ce82e58e77ca8d0e36fac372d6734f6c1df5faa99cf65d8686fd1ce776a1d6743519673db8821323bb3830e4eed098f5adc80b4f16dc516b93428f5c6974f27c7b73239b5a55f4dd3847925bb4c683f4059414384510e258a7e7f84f66ecdb9338f05c6d94b1ebeb2aac7f1c9a8855f3f081a189be67c71a296078774144a28d26a0b662736084d54d82dbc386c4c9cb0e567ae8c6730f4417f001b6cab2c8657e74161fa0b299eb5b217c710586a1f2fef6adf7b41e0d2d65b6af8c5ea2764e0e86130cb88c091e313edc0de42a88a23daca791df5c489a6b13bc5e116889c0d5f04f11b328b49ca1d548b1f98542a723e6d7131cb940ad960210ab448d05efad4406a5f07db83e6590727f0082b6046aa39b63fefb3452bf65a03365f80fbd3f386b4bb2e23063d56242ac336cdc89c7694aef2fc12e0f6b2ee2587aa687127fa56f558cfe3fed2c6ff1549c75249c6ab576bde10140debabf1fb94df04858464fa186f253fbbdda1abb9148824128eec4d77b956598e4d9de0fb8ca694de9b530e38112676434a48067ee339bee8eb3d92114f51ee6a4b8adb2cf769b6ca6a9a1ac1ec53a38868565e4cb49e90f9139271815dfc94e90f98683b59115770c402b249c4c4c8aea55973a6352485960ee8a93e7b4f51d750669bb0ae31ebfb04836da4a74c13e9e5e73a947e757be511440486071fa46b4343538bed9bb4723de80c72cba5d069014725132e7b08b5b0caf09f94ccceec1ab48b4969a3ef928ba5465c3c42484c2eff6a505425466089415453aa30bd18e6d0b164d115ac8378cf7b2a6f7a2b99ce01ca90cdac517064f7cf28a6a1e94c5dbdea796ddf724d6aecea3ee873ab7decec889870f56c8933d3deaf4a5f657485e57018f89fcb8e55b4dc7fbbd9767ef6c21240cd4d50a818dabf7f40402997d07b42d9a07391ba1d48314811700fcb27a2c70dd7901044434677546bd8c2409efadf5d2ee3336355022482f572b94c6126cfaa8fd51b353ca489c6cfc67e0e37062c81900d633e3b8a7abbd7a9c8b77a82698801936c8719609f225c59f496ee2c188666ad78bf3a4a051afc173dec4eff6caa38cd0e90e65a4c2a96e05ddb89136858f3c47de2f92f192c6e6955f149568b68b1396f6a09a57f98628eab03ff5e5d9c1ccb6521609579afe92109b5615aa5a08ffa918b6694915818c1ed60f1a54caf2c9cdd06c6d00f2a54bffbd2d8546b8828ae8f7e0e67d3c37258c063e9a333ba5156fd5d0d3ecc1cc000f73941677095acad953094b3d32702a015f3216ca74ef8f3a3f6abbcd7df63136e059092e351d11715aa69c5877a41904272f2a166ca778f09146294dcf463f0a66670b9dcff1adecefaa0d0c53e4a283b4598a4717d035ee27624bbaeeab8274851745ebadf7d5f92d3544ce767a0b42dfc987cec18d2f698db1cd75c8f2e30d18252c1364a2288d853862b4d0e5f4dcb66cf2cf551576360fd3fe89b9703dc99017bae302d733afbdf10d0c039f821db8984f7a0010f108501dbfc271757fdef83c7004e038b9c3b834d5fc765cd6c586c78b40d547e1b4d446968b5ae0cff0d2e5f5209af9f846ffffb726fd4acaaecb0a3d5f93c0a463b20a19e92f74c7b5c3e0a5177b7fbcb6b78550d6540e8369684259b38fa64960ac7af46aec5019ad7932ec0b1dbf42fa6d180e2146862724ab2f6e61ddf1c4d29aea29e83060b57701ecfa48144369d245174fe731b8595d0e38f30c39787f554d2d3297b512f24e4c9a48ae4c67e1efba70fe1e313f7517a75daa5f58a0049688190c9ad6ebc7bf1429332135563abdb2ef87233bfb84700ce94efc11ca0389d43eee6cd01dbbe6874b437673c05f4805347e2ef3ad91400121dc03d4bc50505ee004a975701a3adba3ad8b4fb9387e01fb0d0f3c728327e10a3fef88d47d74f4c4ef7d42e3b64e84a0c26a9c1bfa1337155ad7f63cfbe994c9664290c800589f6e48f1e48819a7af110c489a39e131da4a0ef19e53a0c0ceb8a681d7db2814335e6d3223a47e5d8f1e2f557c57ba4f02a8398f87b4e4b04abf6f2d2726c7f4625843b6fae2fb7d6c0124a5853dd4b19e93df1269ffbf2bbc748b57639cc9f91057826cc1745a7cc0fdd6731fc1e5b652792f09b91d9b2033d04dab51f7d9d58c1bcc7bee1cfd9d01f37ce93250dbfa641e591a537d8a55616716f8c430609f2316211b604be67d41ce8789ed6a26f5e85006c02883b83b60bec6c0f55dc3d3620ce17eddecae5283b7ce7b39dea12caa689cd8a0b20a914802b83c6d54d7ef435b128713a038b4d97b44f5da79ac412776028fd0c72fb727ef0a0ebf98fe657e2e209071789a2d7ddc780ea50dfbccb3677256db20fe5b883da496022eb887f696aa70a57fdf90373b12383f0fffb74be9cacda63a68e29a046780e80c2123955a2a88a08f4d5fda9ddeeb725742b4df9747bd37f60c498974bbccccf37482f0e2f441ad84e38727a4a38730f628c85e086a3727d7593ee4bb2e13c3cf2aad5bc884a4bda2d0b9090dd8da0fbd325e99af30f555b96b84ab0284086e7c8e9785b1e20d6c14814db875500c474e4e21266c9463beedab173d401c4ab15f88c0e39d20778c5441b5bc33e027ea51cd77cea468e090b99f5a1de5adeaaff90b70a4066c07c5ce6803edd504d2b9dfafb3cf1a98ba2c8044dc78f6d0b9e3c8697d2c09695ceebf57c6f374e870cad2f0180130e2cb054362c3f486f630ff75d74c89405f699fbd6f9640908e9e316fc3398ecd6b11ece2af3b89b4bb8420d982381b506192aef5021b4126eccdb44cd833d30549b6da3c65df1be2e71f969f0557fdfac26fe34f5cdc2d2c2a6e86218c3cbc3218e83e66dbc9708d82accb124794b0ea9993b2eb1cec53e324ade147605fa91a5432df14a9960546bc4339d4cd9fae53d3e25e2b2d5c0c0d01d956c445d204dbc2f4a795d6ba51aa6ee90c75168ddf70f852c2ae5bf3da03940e76cf867d9a641c496563ceddb2a3dcfec18868cff02cd98a5eca23eec6bc299c793b1806a89bc4a035eff9c571b95a6b212e5fec34c5fda129c761b7cea68482fd57052f4dd98a48f90312d18252f3a3ce5cddcd884730d6530e73fe2b45d792eeb7d8aeb177014b48c2b74892433cdc582cefd581ce363259d662ebbc4fcc4acca214c8455af73b3a6d4aeab10b84b70abd7cbef33ab5e1b27a4df0212d475c28ba6654e17364975fc2241ea81047062ffde74aa616afd84ddcbe9072d51bce4d974ffb0e24fb47089c0e62d97344d60dc489f14b162e390f603560adf7275ad2bd0c8128d0be7bab095ed6513a3c87182cbbfbe56d7d5469b17a97ed64144ec1e0bb84f8a724b41b2b8d4</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>base</category>
-      </categories>
-      <tags>
-        <tag>Base</tag>
-        <tag>Account</tag>
       </tags>
   </entry>
   <entry>
@@ -100,26 +100,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HuggingFace</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>HuggingFace</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ollama</title>
     <url>/p/ollama.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
@@ -151,13 +131,25 @@
 
 
 <h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
-<p><a href="https://fontawesome.com/">Font-Awesome</a>: </p>
+<p><a href="https://fontawesome.com/">Font-Awesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://fontawesome.dashgame.com/">Font Awesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="http://www.wapadd.cn/icons/awesome/index.htm">FontAwesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://www.iconfont.cn/">IconFont</a></p>
 </blockquote>
 <h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
 <p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
 </blockquote>
 <blockquote>
 <p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://storm.genie.stanford.edu/">头脑风暴</a></p>
 </blockquote>
 <h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
 <p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
@@ -173,6 +165,21 @@
 </blockquote>
 <blockquote>
 <p><a href="https://github.com/yaotingwangofficial/Awesome-MCoT">Awesome-MCoT</a></p>
+</blockquote>
+<h2 id="4-PPT"><a href="#4-PPT" class="headerlink" title="4 PPT"></a>4 PPT</h2><blockquote>
+<p><a href="https://www.51pptmoban.com/">51 PPT 模版</a></p>
+</blockquote>
+<h2 id="5-PDF"><a href="#5-PDF" class="headerlink" title="5 PDF"></a>5 PDF</h2><blockquote>
+<p><a href="https://combinepdf.com/">PDF Combine</a></p>
+</blockquote>
+<h2 id="6-VPN"><a href="#6-VPN" class="headerlink" title="6 VPN"></a>6 VPN</h2><blockquote>
+<p><a href="https://www.flareix.com/dashboard">FlareIX</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://cocoyun.xyz/auth/login">CoCo</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://一元机场.com/#/login">一元机场</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -241,6 +248,58 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
+    <title>HuggingFace</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
+
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>usages</category>
+      </categories>
+      <tags>
+        <tag>Usage</tag>
+        <tag>HuggingFace</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anaconda</title>
+    <url>/p/anaconda.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
+
+
+<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
+<p><strong>For Linux</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>For Windows</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
+
+
+<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
+<ul>
+<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Code</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github</title>
     <url>/p/github.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Github Settings</a></h1>
@@ -290,38 +349,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       <tags>
         <tag>Setting</tag>
         <tag>Code</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anaconda</title>
-    <url>/p/anaconda.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
-
-
-<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
-<p><strong>For Linux</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p><strong>For Windows</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
-<ul>
-<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Code</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -417,6 +444,34 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
+    <title>Latex</title>
+    <url>/p/latex.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h1>
+<h5 align="center"> 1. Install；2. Tricks </h5>
+
+<h4 align="center">
+
+
+<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
+<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
+<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
+<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
+<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
+<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux</title>
     <url>/p/linux.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Linux Settings</a></h1>
@@ -462,44 +517,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Windows</title>
-    <url>/p/windows.html</url>
-    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
-<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
-
-
-<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
-<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
-</blockquote>
-<blockquote>
-<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
-</blockquote>
-<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
-<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
-</blockquote>
-<blockquote>
-<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
-</blockquote>
-<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
-<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
-</li>
-<li><p>便签设置：月计划、周计划、日计划</p>
-</li>
-</ol>
-<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
-<p>See </p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VsCode</title>
     <url>/p/vscode.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">VsCode Settings</a></h1>
@@ -536,28 +553,38 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       <tags>
         <tag>Setting</tag>
         <tag>Python</tag>
-        <tag>VsCode</tag>
         <tag>Latex</tag>
+        <tag>VsCode</tag>
       </tags>
   </entry>
   <entry>
-    <title>Latex</title>
-    <url>/p/latex.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h1>
-<h5 align="center"> 1. Install；2. Tricks </h5>
-
-<h4 align="center">
+    <title>Windows</title>
+    <url>/p/windows.html</url>
+    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
+<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
 
 
-<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
-<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
-<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
-<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
-<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
-<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
+<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
+<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
+</blockquote>
+<blockquote>
+<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+</blockquote>
+<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
+<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
+</blockquote>
+<blockquote>
+<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
+</blockquote>
+<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
+<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
+</li>
+<li><p>便签设置：月计划、周计划、日计划</p>
+</li>
 </ol>
+<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
+<p>See </p>
+</blockquote>
 ]]></content>
       <categories>
         <category>study</category>
@@ -565,7 +592,7 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </categories>
       <tags>
         <tag>Setting</tag>
-        <tag>Latex</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -661,6 +688,77 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
+    <title>Prompting</title>
+    <url>/p/llm-prompt.html</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
+<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
+<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
+<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
+<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
+</li>
+<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
+<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
+<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
+</li>
+<li><p><strong>第三阶段</strong>: </p>
+<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
+<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
+<br/>
+
+
+<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
+<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<ul>
+<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
+<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+</ul>
+<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<ul>
+<li><p>模板构建(template): (大量优化方法)</p>
+<p>人工构建</p>
+<p>启发式发：PTR、AutoPrompt</p>
+<p>生成：LM-BFF、</p>
+<p>词向量微调</p>
+<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
+</li>
+<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
+
+<br/>
+
+<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
+<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
+<p>LLM的Prompt-tuning方法：</p>
+<ul>
+<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
+<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
+  
+<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
+</li>
+<li><p><strong>Instruction-tuning</strong>:</p>
+<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
+</li>
+<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
+<p>  <em><strong>过程</strong></em>：代码的预训练</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>work</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>Work</tag>
+        <tag>LLM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Summary</title>
     <url>/p/llm-summary.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">LLM Summary</a></h1>
@@ -729,78 +827,88 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 <p><img src="/images/study/llm/summary/prompt.text2sql.example.png" alt="Prompt Text2SQL"><br><strong>图 1.10: Text-to-SQL 示例</strong></p>
 <p>最早使用大语言模型来做零样本 Text-to-SQL 的方法是C3。<br>C3 的核心在于 Prompt 工程的设计，给出了如何针对 Text-to-SQL 任务设计 Prompt 来优化生成效果。<br>如图 1.11 所示，C3 由三个关键部分组成：清晰提示（Clear Prompting）、提示校准（Calibration with Hints）和一致输出（Consistent Output），分别对应模型输入、模型偏差和模型输出。</p>
 <p><img src="/images/study/llm/summary/prompt.text2sql.c3.png" alt="Prompt C3"><br><strong>图 1.11: C3 方法整体框架图</strong></p>
-<h2 id="🚓-模型微调-Fine-Tuning"><a href="#🚓-模型微调-Fine-Tuning" class="headerlink" title="🚓 模型微调 (Fine-Tuning)"></a>🚓 模型微调 (Fine-Tuning)</h2><h3 id="Adapter"><a href="#Adapter" class="headerlink" title="Adapter"></a>Adapter</h3><h3 id="LoRA"><a href="#LoRA" class="headerlink" title="LoRA"></a>LoRA</h3><h2 id="🚚-模型编辑-Editation"><a href="#🚚-模型编辑-Editation" class="headerlink" title="🚚 模型编辑 (Editation)"></a>🚚 模型编辑 (Editation)</h2><h3 id="外部扩展法"><a href="#外部扩展法" class="headerlink" title="外部扩展法"></a>外部扩展法</h3><h3 id="内部扩展法"><a href="#内部扩展法" class="headerlink" title="内部扩展法"></a>内部扩展法</h3><h2 id="🚎-检索增强生成-RAG"><a href="#🚎-检索增强生成-RAG" class="headerlink" title="🚎 检索增强生成 (RAG)"></a>🚎 检索增强生成 (RAG)</h2><h3 id="黑盒增强架构"><a href="#黑盒增强架构" class="headerlink" title="黑盒增强架构"></a>黑盒增强架构</h3><h3 id="白盒增强架构"><a href="#白盒增强架构" class="headerlink" title="白盒增强架构"></a>白盒增强架构</h3><h2 id="🚜-本地化部署-Deploy"><a href="#🚜-本地化部署-Deploy" class="headerlink" title="🚜 本地化部署 (Deploy)"></a>🚜 本地化部署 (Deploy)</h2><h3 id="MoE"><a href="#MoE" class="headerlink" title="MoE"></a>MoE</h3><h3 id="压缩、裁剪"><a href="#压缩、裁剪" class="headerlink" title="压缩、裁剪"></a>压缩、裁剪</h3>]]></content>
-      <categories>
-        <category>work</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>Work</tag>
-        <tag>LLM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prompting</title>
-    <url>/p/llm-prompt.html</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
-<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
-<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
-<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
-<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
-</li>
-<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
-<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
-<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
-</li>
-<li><p><strong>第三阶段</strong>: </p>
-<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
-<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
-<br/>
-
-
-<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
-<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<h2 id="🚓-模型微调-Fine-Tuning"><a href="#🚓-模型微调-Fine-Tuning" class="headerlink" title="🚓 模型微调 (Fine-Tuning)"></a>🚓 模型微调 (Fine-Tuning)</h2><p>对于预训练数据涉及较少的垂直领域，大语言模型需要对这些领域及相应的下游任务进行适配。<br>上下文学习和指令微调是进行下游任务适配的有效途径，但它们在效果或效率上存在缺陷。<br>为弥补这些不足，参数高效微调（Parameter-EﬀicientFine-Tuning, PEFT）技术应运而生。</p>
+<h3 id="研究内容"><a href="#研究内容" class="headerlink" title="研究内容"></a>研究内容</h3><h4 id="下游任务适配"><a href="#下游任务适配" class="headerlink" title="下游任务适配"></a>下游任务适配</h4><p>通常，大语言模型通过在大规模数据集上进行预训练，能够积累丰富的世界知识，并获得处理多任务的能力。<br>但由于开源大语言模型训练数据有限，因此仍存在知识边界，导致其在垂直领域（如医学、金融、法学等）上的知识不足，进而影响在垂直领域的性能表现。<br>因此，需要进行下游任务适配才能进一步提高其在垂直和细分领域上的性能。主流的下游任务适配方法有两种：<br>a) <strong>上下文学习</strong>（In-context learning）；b）<strong>指令微调</strong>（Instruction Tuning）。</p>
 <ul>
-<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
-<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+<li>上下文学习：它的核心思想是将不同类型的任务都转化为生成任务，通过设计 Prompt 来驱动大语言模型完成这些下游任务。小样本上下文学习（Few-shot in-context learning）将数据集中的样本-标签对转化为自然语言指令（Instruction）和样例（Demonstrations），并拼接上需要测试的样本一同输入给大语言模型，将模型输出作为最终预测结果。上下文学习完全不需要对模型进行参数更新，因此能快速将单个模型应用到多种不同的任务上。</li>
+<li>指令微调：指令微调旨在对模型进行任务指令的学习，使其能更好地理解和执行各种自然语言处理任务的指令。指令微调需首先构建指令数据集，然后在该数据集上进行监督微调。尽管指令微调能有效帮助大语言模型理解新领域的数据知识，提高大语言模型在下游任务上的性能。</li>
 </ul>
-<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<h4 id="参数高效微调"><a href="#参数高效微调" class="headerlink" title="参数高效微调"></a>参数高效微调</h4><p>参数高效微调（Parameter-Eﬀicient Fine-Tuning，PEFT）旨在避免微调全部参数，减少在微调过程中需要更新的参数数量和计算开销，从而提高微调大语言模型的效率。<br>主流的PEFT 方法可以分为三类：<strong>参数附加方法</strong>（Additional ParametersMethods），<strong>参数选择方法</strong>（Parameter Selection Methods）以及<strong>低秩适配方法</strong>（Low-Rank Adaptation Methods），其方法思想如图 4.1 所示。</p>
+<p><img src="/source/images/study/llm/summary/peft.types.png" alt="图 4.1：参数微调方法类别"></p>
 <ul>
-<li><p>模板构建(template): (大量优化方法)</p>
-<p>人工构建</p>
-<p>启发式发：PTR、AutoPrompt</p>
-<p>生成：LM-BFF、</p>
-<p>词向量微调</p>
-<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
-</li>
-<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
-</li>
+<li>参数附加方法：参数附加方法（Additional Parameters Methods）在模型结构中附加新的、较小的可训练模块。在进行微调时，将原始模型参数冻结，仅微调这些新加入的模块，从而来实现高效微调。这些模块通常称为适应层（Adapter Layer）。它们被插入到模型的不同层之间，用于捕获特定任务的信息。由于这些新增的适应层参数量很小，所以参数附加方法能够显著减少需要更新的参数量。典型方法包括：<strong>适配器微调</strong>（Adapter-tuning）、<strong>提示微调</strong>（Prompt-tuning）、<strong>前缀微调</strong>（Prefix-tuning）和<strong>代理微调</strong>（Proxy-tuning）等。</li>
+<li>参数选择方法：参数选择方法（Parameter Selection Methods）仅选择模型的一部分参数进行微调，而冻结其余参数。这种方法利用了模型中仅有部分参数对下游任务具有决定性作用的特性，“抓住主要矛盾”，仅微调这些关键参数。选择性地微调这些关键参数，可以在降低计算负担的同时提升模型的性能。典型的方法包括：BitFit、Child-tuning 以及FishMask 等。</li>
+<li>低秩适配方法：低秩适配方法（Low-rank Adaptation Methods）通过低秩矩阵来近似原始权重更新矩阵，并冻结原始参数矩阵，仅微调低秩更新矩阵。由于低秩更新矩阵的参数数量远小于原始的参数更新矩阵，因此大幅节省了微调时的内存开销。LoRA 是经典的低秩适配方法，后续有 AdaLoRA、DyLoRA 以及DoRA 等变体被提出，进一步改进了LoRA 性能。</li>
 </ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
-
-<br/>
-
-<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
-<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
-<p>LLM的Prompt-tuning方法：</p>
+<h3 id="应用案例"><a href="#应用案例" class="headerlink" title="应用案例"></a>应用案例</h3><p>PEFT 技术在许多领域中展现了其强大的应用潜力。<br>目前最流行的 PEFT 框架是由 Hugging Face 开发的开源库HF-PEFT，它旨在提供最先进的参数高效微调方法。<br>HF-PEFT 框架的设计哲学是高效和灵活性。<br>HF-PEFT 集成了多种先进的微调技术，如 LoRA、Apdater-tuning、Prompt-tuning 和IA3 等。<br>HF-PEFT 支持与 Hugging Face 的其他工具如 Transformers、Diffusers 和 Accelerate 无缝集成，并且支持从单机到分布式环境的多样化训练和推理场景。<br>HF-PEFT 特别适用于大模型，能够在消费级硬件上实现高性能，并且可以与模型量化技术兼容，进一步减少了模型的内存需求。HF-PEFT 支持多种架构模型，包括Transformer 和Diffusion，并且允许用户手动配置，在自己的模型上启用PEFT。</p>
+<h4 id="表格数据查询"><a href="#表格数据查询" class="headerlink" title="表格数据查询"></a>表格数据查询</h4><p>大语言模型的强大代码生成能力为 Text-to-SQL 技术带来了新的机遇。<br>但是，在众多垂直领域，如金融领域，难以收集足够的用于微调的数据。<br>利用少量数据进行全参数微调时则容易导致大模型过拟合，因此采用 PEFT 技术进行部分参数微调十分适合金融等垂直领域Text-to-SQL 任务。</p>
+<p>面向金融垂直领域，FinSQL 提出了一套针对金融垂直领域 Text-to-SQL 训练推理框架。<br>如图 4.2 所示，该框架包含<strong>提示构造</strong>、<strong>参数高效微调</strong>和<strong>输出校准</strong>三个部分。<br>首先，提示构造通过不同策略增强原始数据，并且构造高效检索器，检索与用户查询相关表格和字段。<br>然后，采用 PEFT 技术对基座模型进行微调，通过 LoRAHub 融合多个 LoRA 模块，提高少样本场景的性能。<br>最后，输出校准模块会修正生成 SQL 中的语法错误，并用 Self-Consistency 方法来选择一致性 SQL。<br>FinSQL 相比于基线方法，不仅显著提升了准确性和效率，还展现了在处理复杂金融查询时的强大能力，为金融领域的数据分析和决策支持提供了强有力的技术支撑。</p>
+<p><img src="/source/images/study/llm/summary/peft.appl.finsql.png" alt="图 4.2：FinSQL 示意图"></p>
+<h4 id="表格数据分析"><a href="#表格数据分析" class="headerlink" title="表格数据分析"></a>表格数据分析</h4><p>TabLLM 提出基于大语言模型的少样本表格数据分类框架，图 4.3 为该方法的框架图。<br>该框架将表格数据序列化为自然语言字符串，并附上分类问题的简短描述来提示大语言模型。<br>在少样本设置中，使用 LoRA 在一些带标签的样本对大语言模型进行微调。<br>微调后，TabLLM 在多个基准数据集上超过基于深度学习的表格分类基线方法。<br>此外，在少样本设置下，TabLLM 的性能超过了梯度提升树等强大的传统基线，表现出了强大的小样本学习能力。</p>
+<p><img src="/source/images/study/llm/summary/peft.appl.tabllm.png" alt="图 4.3：TabLLM 框架图"></p>
+<h2 id="🚚-模型编辑-Editation"><a href="#🚚-模型编辑-Editation" class="headerlink" title="🚚 模型编辑 (Editation)"></a>🚚 模型编辑 (Editation)</h2><p>预训练大语言模型中，可能存在偏见、毒性、知识错误等问题。<br><strong>偏见</strong>是指模型生成的内容中包含刻板印象和社会偏见等不公正的观点，<strong>毒性</strong>是指模型生成的内容中包含有害成分，而<strong>知识错误</strong>则是指模型提供的信息与事实不符。<br>为了纠正这些问题，可以将大语言模型“回炉重造”——用清洗过的数据重新进行预训练，但成本过高，舍本逐末。<br>此外，也可对大语言模型“继续教育”——利用高效微调技术向大语言模型注入新知识，但因为新知识相关样本有限，容易诱发过拟合和灾难性遗忘，得不偿失。<br>为此，仅对模型中的特定知识点进行修正的模型编辑技术应运而生。<br>其旨在精准、高效地修正大语言模型中的特定知识点，能够满足大语言模型对特定知识点进行更新的需求。</p>
+<p><img src="/source/images/study/llm/summary/edit.example.png" alt="图 5.1：模型编辑概念图"></p>
+<h3 id="研究内容-1"><a href="#研究内容-1" class="headerlink" title="研究内容"></a>研究内容</h3><p>现有编辑方法分为外部拓展法和内部修改法。<br>概括来说，外部拓展法通过设计特定的训练程序，使模型在保持原有知识的同时学习新信息。<br>内部修改法通过调整模型内部特定层或神经元，来实现对模型输出的精确控制。<br>图 5.2 给出了模型编辑方法的分类：外部拓展法包括知识缓存法和附加参数法，内部修改法包括元学习法和定位编辑法。</p>
+<p><img src="/source/images/study/llm/summary/edit.methods.png" alt="图 5.2：模型编辑方法分类"></p>
+<h4 id="外部拓展法"><a href="#外部拓展法" class="headerlink" title="外部拓展法"></a>外部拓展法</h4><p>外部拓展法的核心思想是将新知识存储在附加的外部参数或外部知识库中，将其和原始模型一起作为编辑后模型。<br>这种方法尤其适合具有良好可扩展性的预训练大语言模型，因为它提供了足够的空间来容纳大量参数，能够存储更多新知识。<br>此外，该方法不会改变原始模型参数，可降低对模型内部预训练知识的干扰。<br>根据外部组件是否直接整合进模型本身的推理过程，外部拓展法又可划分为知识缓存法和附加参数法。</p>
 <ul>
-<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
-<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
-  
-<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
-</li>
-<li><p><strong>Instruction-tuning</strong>:</p>
-<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
-</li>
-<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
-<p>  <em><strong>过程</strong></em>：代码的预训练</p>
-</li>
+<li>知识缓存法：知识缓存法中包括三个主要组件，分别为门控单元、编辑缓存和推理模块。编辑缓存充当一个知识存储库，用于保存需要修改的知识，这些知识由用户通过不同的形式指定。门控单元用于判断输入问题与编辑缓存中的知识的相关程度，可通过分类[20] 或噪声对比估计[21] 等任务进行训练。推理模块获取原始输入问题和编辑缓存中的知识作为输入，通过监督训练的方式学习预测用户期望的结果。<br><img src="/source/images/study/llm/summary/edit.external.cache.png" alt="图 5.3：知识缓存法示意图"></li>
+<li>附加参数法：附加参数法可以将外部参数整合进模型结构，从而有效利用和扩展模型的功能。这类方法的思想与参数高效微调中的参数附加方法类似，都是将外部参数插入到模型中的特定位置，冻结原始模型，只训练新引入的参数以修正模型输出，如图 5.4。具体而言，不同方法将外部参数插入到模型的不同位置。<br><img src="/source/images/study/llm/summary/edit.external.addition.png" alt="图 5.4：知识缓存法示意图"></li>
 </ul>
-]]></content>
+<p>综上，知识缓存法通过引入编辑缓存机制，有效地辅助模型在庞大的知识体系中迅速定位并检索最新信息；附加参数法通过引入额外参数，实现了对模型特定输出的精细调整。<br>这两种方法的核心优势在于对原始模型的最小化干预，保证了模型编辑的局部性。<br>然而，外部拓展法的实际有效性在很大程度上取决于对知识的存储与检索能力，这种依赖会导致存储资源需求的增加。<br>因此，在具体应用时，我们需要在保证模型局部性和应对存储限制之间寻求平衡。</p>
+<h4 id="内部修改法"><a href="#内部修改法" class="headerlink" title="内部修改法"></a>内部修改法</h4><p>内部修改法旨在通过更新原始模型的内部参数来为模型注入新知识，能够优化模型的自我学习和适应能力，提高其在特定任务上的表现，而不是仅仅停留在表面的知识积累。<br>内部修改法又可以分为元学习法和定位编辑法。<br>其中，元学习法通过“学习如何学习”来获取元知识，再基于元知识实现模型编辑；定位编辑法则专注于对模型局部参数的修改，首先识别与目标知识最相关的模型参数，然后仅更新这些特定参数，通过“先定位后编辑”的策略节省更新模型所需成本。</p>
+<ul>
+<li>元学习法：元学习指的是模型“学习如何学习”（Learning to Learn）的过程。基于元学习的模型编辑方法，旨在让模型“学习如何编辑”（Learning to Edit），核心思想是使模型从一系列编辑任务中提取通用的知识，并将其应用于未见过的编辑任务，这部分知识被称为元知识ω [12]。元知识是模型在进行编辑前可以利用的知识，包括优化器参数[24]、超网络[2, 19] 等多种形式。元知识的训练过程被称为元训练，其目标是获得一个较好的元知识ω，使得后续的每次编辑只需少量样本即可快速收敛。<br><img src="/source/images/study/llm/summary/edit.internal.meta.png" alt="图 5.5：元学习法示意图"></li>
+<li>定位编辑法：定位编辑法修改的是原始模型的局部参数。其先定位到需要修改的参数的位置，然后对该处的参数进行修改。实现定位前需要了解大语言模型中知识的存储机制。当前，对知识存储机制的探索主要依靠定性实验来完成。Transformer中的全连接前馈模块可以看作存储知识的键值存储体[8]。其中，全连接前馈模块的输入称为查询（query）向量，代表当前句子的前缀；将全连接前馈模块的上投影矩阵中的向量称为键（key）向量，下投影矩阵中的向量称为值（value）向量。<br><img src="/source/images/study/llm/summary/edit.internal.locat.png" alt="图 5.6：Transformer可看作键值存储体"></li>
+</ul>
+<p>总的来说，定位编辑法修改大语言模型的局部参数，在保持模型整体结构和性能的同时，能够对特定知识点进行精准的更新和编辑。<br>与其他方法相比，定位编辑法可同时保持较高的准确性、泛化性和局部性，且适用于各类模型。</p>
+<h4 id="附加参数法"><a href="#附加参数法" class="headerlink" title="附加参数法"></a>附加参数法</h4><p>附加参数法在模型中引入额外的参数，并对这部分参数进行训练以实现特定知识的编辑。<br>其在准确性、泛化性、可迁移性等方面均取得良好的表现。<br>T-Patcher 是附加参数法中的代表性方法，其在模型最后一个Transformer 层的全连接前馈层中添加额外参数（称为“补丁”），然后对补丁进行训练来完成特定知识的编辑，如图 5.7。<br>T-Patcher 可以在不改变原始模型整体架构的情况下，对模型进行编辑。<br><img src="/source/images/study/llm/summary/edit.addition.t-patcher.png" alt="图 5.6：Transformer可看作键值存储体"></p>
+<ul>
+<li>补丁的位置：将补丁添加在模型中的不同位置会影响模型编辑的效果。T-Patcher 将全连接前馈层视为键值存储体，并选择在最后一个Transformer 层的全连接前馈层中添加补丁参数。在这种设计中，添加补丁相当于向键值存储体中增加新的记忆单元，通过精确控制补丁的激活，T-Patcher 能够针对特定输入进行修正，并减少对无关输入的影响。此外，由于全连接前馈层结构简单，因此只需要添加少量参数即可实现有效编辑。</li>
+<li>补丁的形式：基于键值存储体的观点，T-Patcher 将补丁的形式设计为键值对。具体地，T-Patcher 在全连接前馈层中加入额外的键值对向量作为补丁，通过训练补丁参数从而实现模型编辑。</li>
+<li>补丁的实现：T-Patcher 冻结模型的原有参数，仅对新添加的补丁参数进行训练。此外，对于给定的编辑问题，T-Patcher 为每个需要编辑的Token 都添加一个补丁，从而可以精确地针对每个编辑需求进行调整。</li>
+</ul>
+<!-- #### 定位编辑法 -->
+
+<h3 id="应用案例-1"><a href="#应用案例-1" class="headerlink" title="应用案例"></a>应用案例</h3><p>大语言模型面临着更新成本高、隐私保护难、安全风险大等问题，模型编辑技术为解决这些问题提供了新的思路。<br>通过对预训练模型进行细粒度编辑，可以灵活地修改和优化模型，而无需从头开始训练，大大降低了模型更新的成本。<br>同时，模型编辑技术可以针对性地修改特定事实，有效保护隐私信息，降低数据泄露风险。<br>此外，通过对模型编辑过程进行精细控制，能够及时识别并消除模型中潜在的安全隐患，如有害信息、偏见内容等，从而提升模型的安全性和可靠性。</p>
+<h4 id="精准模型更新"><a href="#精准模型更新" class="headerlink" title="精准模型更新"></a>精准模型更新</h4><p>在实际应用中，Gemini Pro 就有可能使用过模型编辑技术。<br>2023 年12 月，网友发现用中文询问“你是谁”这种问题时，Gemini Pro 会回答“我是百度文心大模型”。<br>然而，仅仅一天之后，Gemini Pro 便不再回答类似的内容。<br>考虑到重新训练模型的成本和时间都是不可接受的，因此有理由猜测 Google 使用模型编辑技术对 Gemini Pro 进行了紧急修复，纠正了模型对类似提问的回答。</p>
+<p>模型编辑技术可以快速、精准地修正模型的特定行为。通过识别并修改相关的模型参数，可以在短时间内修复模型的回答。<br>这种方法具有外科手术般的精准度，能够快速纠正错误或添加新知识，同时最大限度地保留模型原有的能力。<br>它非常适用于大语言模型即时更新的场景，使模型能够及时适应新的需求，或纠正现有问题，而无需进行昂贵且耗时的全面重新训练。</p>
+<h4 id="保护被遗忘权"><a href="#保护被遗忘权" class="headerlink" title="保护被遗忘权"></a>保护被遗忘权</h4><p>由于大语言模型在训练和处理过程中也会记忆和使用个人信息，所以同样受到被遗忘权的法律约束。<br>这要求大语言模型的开发者和运营者必须设计并实施相应的技术措施，以便在个人提出要求时，能够有效地从模型中删除或修改这些信息。<br>在生成文本的过程中，大语言模型可能会不经意地泄露敏感或个人信息。<br>这是因为它们在训练阶段需要学习大量数据，而这些数据中可能潜藏着个人隐私。<br>因此，隐私泄露可能以多种形式出现：首先，模型在生成文本的过程中可能会无意中泄露个人身份信息；其次，攻击者可能通过分析模型的输出来推断出训练数据中包含的敏感信息；而且，如果模型中编码敏感信息的参数遭到不当访问，也会发生隐私泄露。</p>
+<h4 id="提升模型安全"><a href="#提升模型安全" class="headerlink" title="提升模型安全"></a>提升模型安全</h4><p>随着大语言模型在各领域的广泛应用，其安全性问题日益受到关注。<br>模型可能会产生有害、偏见或不当的输出，影响用户体验和决策公平。<br>模型编辑同样也可以用来提升模型的安全性，构建更可靠的智能模型。<br>尽管通过对齐数据微调模型参数可以减少毒性，但这种方法对恶意干扰的抵抗力弱，而且标注成本高。<br>模型编辑作为一种更加高效、可解释的替代方案，只要微调少量参数，就可以有针对性地引导模型输出更积极的内容，从而有效减少毒性语言的出现，降低优化成本和复杂性。<br>大语言模型在训练过程中可能会不经意地吸收并编码刻板印象和社会偏见，这在实际应用中可能导致不公正或有损害的输出。</p>
+<h2 id="🚎-检索增强生成-RAG"><a href="#🚎-检索增强生成-RAG" class="headerlink" title="🚎 检索增强生成 (RAG)"></a>🚎 检索增强生成 (RAG)</h2><p>大语言模型在多种生成任务上展现出了令人惊艳的能力，其可以辅助我们撰写文案、翻译文章、编写代码等。<br>但是，大模型生成的内容可能存在“幻觉”现象——生成内容看似合理但实际上逻辑混乱或与事实相悖。<br>这导致大语言模型生成内容的可靠性下降。<br>“幻觉”现象可能源于大语言模型所采用的训练数据，也可能源于模型本身。</p>
+<ul>
+<li>训练数据是大语言模型知识的根本来源。训练数据在采集完成后直接用于训练模型。但是其中包含的知识可能在模型训练后又发生了更新。这将导致<strong>知识过时</strong>的问题。不仅如此，知识在训练数据采集完成后仍会新增，并且训练数据采集也无法覆盖世间所有知识，尤其是垂域知识，这将导致<strong>知识边界</strong>的问题。此外，训练数据中还可能包含不实与偏见信息，从而导致<strong>知识偏差</strong>问题。</li>
+<li>偏差可能来自于模型自身，可能的因素包括：（1）<strong>知识长尾</strong>：训练数据中部分信息的出现频率较低，导致模型对这些知识的学习程度较差；（2）<strong>曝光偏差</strong>：由于模型训练与推理任务存在差异，导致模型在实际推理时存在偏差；（3）<strong>对齐不当</strong>：在模型与人类偏好对齐阶段中，偏好数据标注不当可能引入了不良偏好；（4）<strong>解码偏差</strong>：模型解码策略中的随机因素可能影响输出的准确性。</li>
+</ul>
+<p>检索增强生成（RAG）旨在通过检索和整合外部知识来增强大语言模型生成文本的准确性和丰富性，其是一个集成了外部知识库、信息检索器、大语言模型等多个功能模块的系统。<br>RAG 利用信息检索、深度学习等多种技术为大语言模型在生成过程中引入最新的、特定领域的知识，从而克服传统大语言模型的局限性，提供更加精准和可靠的生成内容。</p>
+<h3 id="研究内容-2"><a href="#研究内容-2" class="headerlink" title="研究内容"></a>研究内容</h3><p>RAG 的概念最早出现在 Facebook AI Research 的论文Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks 中。<br>其通常集成了<strong>外部知识库</strong>（Corpus）、<strong>信息检索器</strong>（Retriever）、<strong>生成器</strong>（Generator，即大语言模型）等多个功能模块。<br>通过结合外部知识库和大语言模型的优势，大幅提升模型在开放域问答、多轮对话等任务中的生成质量，其基本架构如图 6.1 所示。<br>具体而言，给定一个自然语言问题（Query），检索器将问题进行编码，并从知识库（如维基百科）中高效检索出与问题相关的文档。<br>然后，将检索到的知识和原始问题一并传递给大语言模型，大语言模型根据检索到的知识和原始问题生成最终的输出。<br>RAG 的核心优势在于不需要对大语言模型的内部知识进行更新，便可改善大语言模型的幻觉现象，提高生成质量。<br>这可以有效避免内部知识更新带来的计算成本和对旧知识的灾难性遗忘（Catastrophic Forgetting）。</p>
+<p><img src="/source/images/study/llm/summary/rag.example.png" alt="图 6.1：RAG 基本架构示意图"></p>
+<h4 id="RAG-架构"><a href="#RAG-架构" class="headerlink" title="RAG 架构"></a>RAG 架构</h4><p>针对不同的业务场景，RAG 中的生成器可以选用不同的大语言模型，如GPT-4、LLaMA 等。<br>考虑到大语言模型的开源&#x2F;闭源、微调成本等问题，RAG 中的大语言模型可以是参数不可感知&#x2F;调节的“黑盒”模型，也可以是参数可感知和微调的“白盒”模型。<br>从是否对大语言模型进行微调的角度出发，能够将 RAG 架构分类两大类：黑盒增强架构和白盒增强架构，如图 6.2 所示。</p>
+<p><img src="/source/images/study/llm/summary/rag.types.png" alt="图 6.2：RAG 架构类别"></p>
+<p>其中，黑盒增强架构可根据是否对检索器进行微调分为两类：无微调、检索器微调，如图 6.2(a) 所示。<br>在无微调架构中，检索器和大语言模型都不进行任何微调，仅依靠它们在预训练阶段掌握的能力完成相应的检索和生成任务。<br>在检索器微调的架构中，语言模型参数保持不变，而检索器根据语言模型的输出反馈进行参数的针对性调整。<br>类似的，白盒增强架构也可根据是否对检索器进行微调分为两类：仅微调大语言模型、检索器与大语言模型协同微调（下文简称为协同微调），如图6.2(b) 所示。<br>在仅微调大语言模型的架构中，检索器作为一个预先训练好的组件其参数保持不变；语言模型则根据检索器提供的相关信息进行参数调整。在协同微调的架构中，检索器和大语言模型迭代交互、协同微调。</p>
+<h4 id="知识检索"><a href="#知识检索" class="headerlink" title="知识检索"></a>知识检索</h4><p>在RAG 中，检索的效果（召回率、精度、多样性等）会直接影响大语言模型的生成质量。<br>此外，检索的时间也是 RAG 总耗时的关键部分，因此检索的效率将影响用户的使用体验。<br>优化检索过程，提升检索的效果和效率，对改善 RAG 的性能具有重要意义。</p>
+<p><img src="/source/images/study/llm/summary/rag.retrieval.png" alt="图 6.2：RAG 架构类别"></p>
+<ul>
+<li>知识库构建：在 RAG 框架中，知识库构建主要涉及<strong>数据采集及预处理</strong>与<strong>知识库增强</strong>两个步骤。</li>
+<li>查询增强：对用户查询的语义和内容进行扩展，即查询增强，以更好的匹配知识库中的文本，包括<strong>查询语义增强</strong>和<strong>查询内容增强</strong>。</li>
+<li>检索器：给定知识库和用户查询，检索器旨在找到知识库中与用户查询相关的知识文本。检索器可分为<strong>判别式检索器</strong>和<strong>生成式检索器</strong>两类。</li>
+<li>检索效率增强：引入向量数据库来实现检索中的高效向量存储和查询。向量数据库的核心是设计高效的相似度索引算法，包括<strong>基于空间划分的方法</strong>、<strong>基于量化方法</strong>和<strong>基于图的方法</strong>。</li>
+<li>检索结果重排：对检索到的文档进行重新排序，简称重排，然后从中选择出排序靠前的文档。重排方法主要分为两类：<strong>基于交叉编码的方法</strong>和<strong>基于上下文学习的方法</strong>。</li>
+</ul>
+<h4 id="生成增强"><a href="#生成增强" class="headerlink" title="生成增强"></a>生成增强</h4><p>检索器得到相关信息后，将其传递给大语言模型以期增强模型的生成能力。<br>利用这些信息进行生成增强是一个复杂的过程，不同的方式会显著影响 RAG 的性能。<br>包括四个方面：<br>（1）<strong>何时增强</strong>，确定何时需要检索增强，以确保非必要不增强；<br>（2）<strong>何处增强</strong>，确定在模型中的何处融入检索到的外部知识，以最大化检索的效用；<br>（3）<strong>多次增强</strong>，如何对复杂查询与模糊查询进行多次迭代增强，以提升 RAG 在困难问题上的效果；<br>（4）<strong>降本增效</strong>，如何进行知识压缩与缓存加速，以降低增强过程的计算成本。</p>
+<ul>
+<li>何时增强：核心在于判断大语言模型是否具有内部知识。判断模型是否具有内部知识的方法可以分为两类：（1）<strong>外部观测法</strong>，通过Prompt 直接询问模型是否具备内部知识，或应用统计方法对是否具备内部知识进行估计，这种方法无需感知模型参数；（2）<strong>内部观测法</strong>，通过检测模型内部神经元的状态信息来判断模型是否存在内部知识，这种方法需要对模型参数进行侵入式的探测。</li>
+<li>何处增强：在确定大语言模型需要外部知识后，我们需要考虑在何处利用检索到的外部知识。得益于大语言模型的上下文学习能力、注意力机制的可扩展性以及自回归生成能力，其<strong>输入端</strong>、<strong>中间层</strong>和<strong>输出端</strong>都可以进行知识融合操作。<br><img src="/source/images/study/llm/summary/rag.generate.where.png" alt="图 6.3：生成增强位置"></li>
+<li>多次增强：处理复杂问题时，常采用<strong>分解式增强</strong>的方案；处理模糊问题时，常采用<strong>渐进式增强</strong>的方案。</li>
+<li>降本增效：检索出的外部知识通常包含大量原始文本。将其通过 Prompt 输入给大语言模型时，会大幅度增加输入 Token 的数量，从而增加了大语言模型的推理计算成本。此问题可从<strong>去除冗余文本</strong>与<strong>复用计算结果</strong>两个角度进行解决。</li>
+</ul>
+<h3 id="应用案例-2"><a href="#应用案例-2" class="headerlink" title="应用案例"></a>应用案例</h3><h4 id="垂域多模态模型增强"><a href="#垂域多模态模型增强" class="headerlink" title="垂域多模态模型增强"></a>垂域多模态模型增强</h4><p>在医疗领域中，多模态数据十分普遍，包括 X 光片、MRI、CT 扫描等影像资料，病历、生理监测数据等文本资料。<br>这些数据不仅来源广泛，而且彼此之间存在着复杂的相互联系。<br>因此，在应对这些任务时，RAG 系统必须具备融合与洞察不同模态数据的能力，以确保其精准高效地发挥作用。</p>
+<p>目前，已经出现了一些多模态垂直领域的 RAG 应用，例如 Ossowski 等人提出的医学领域多模态检索框架。<br>图 6.4 展示了该框架的整个工作流程。<br>此处以给定一张 X 光照片，询问该照片所对应的可能症状这一任务为例进行说明。<br>该框架首先提取图像与文本的特征表示，深入理解图像内容与问题语义，为检索模块提供丰富的特征向量。<br>随后，该框架精心设计了一个多模态检索模块，利用这些特征向量在医学知识库中进行精准检索，从而获取与输入问题最为相关的信息。<br>这些信息可能包括医学案例、症状描述、潜在病因及治疗方案等，它们以文本和图像的多种形式呈现。<br>最终，Prompt 构建模块将这些信息进行整合，辅助模型生成准确的回答。<br>在本例中，模型生成的答案是“心肌肥大”。</p>
+<p><img src="/source/images/study/llm/summary/rag.appl.med.png" alt="图 6.4：多模态垂域 RAG 框架"></p>
+<h4 id="智能体"><a href="#智能体" class="headerlink" title="智能体"></a>智能体</h4><p>RAG 在 Agent 系统中扮演着重要角色。<br>在 Agent 系统主动规划和调用各种工具的过程中，需要检索并整合多样化的信息资源，以更精确地满足用户的需求。<br>RAG 通过提供所需的信息支持，助力 Agent 在处理复杂问题时展现出更好的性能。<br>图 6.5 展示了一个经典的 Agent 框架，该框架主要由四大部分组成：<strong>配置（Profile）</strong>、<strong>记忆（Memory）</strong>、<strong>计划（Planning）</strong>和<strong>行动（Action）</strong>。<br>其中记忆模块、计划模块与行动模块均融入了 RAG 技术，以提升整体性能。</p>
+<p>具体而言，<br>（1）<strong>配置模块</strong>通过设定基本信息来定义 Agent 的角色，这些信息可以包括 Agent 的年龄、性别、职业等基本属性，以及反映其个性和社交关系的信息；<br>（2）<strong>记忆模块</strong>存储从环境中学习到的知识以及历史信息，支持记忆检索、记忆更新和记忆反思等操作，允许 Agent 不断获取、积累和利用知识。在这一模块中，RAG 通过检索相关信息来辅助记忆的读取和更新；<br>（3）<strong>计划模块</strong>赋予 Agent 将复杂任务分解为简单的子任务的能力，并根据记忆和行动反馈不断调整。RAG 在此模块中通过提供相关的信息，帮助 Agent 更合理有效地规划任务；<br>（4）<strong>行动模块</strong>则负责将 Agent 的计划转化为具体的行动，包括网页检索、工具调用以及多模态输出等，能够对环境或 Agent 自身状态产生影响，或触发新的行动链。在这一模块中，RAG 通过检索相关信息来辅助 Agent 的决策和行动执行。<br>通过这种模块化且集成 RAG 技术的方法，Agent 能够更加高效和智能地响应用户需求，展现出更加卓越的性能。</p>
+<p><img src="/source/images/study/llm/summary/rag.appl.agent.png" alt="图 6.5：Agent框架流程图"></p>
+<h2 id="🚜-本地化部署-Deploy"><a href="#🚜-本地化部署-Deploy" class="headerlink" title="🚜 本地化部署 (Deploy)"></a>🚜 本地化部署 (Deploy)</h2><h3 id="研究内容-3"><a href="#研究内容-3" class="headerlink" title="研究内容"></a>研究内容</h3><h4 id="MoE"><a href="#MoE" class="headerlink" title="MoE"></a>MoE</h4><h4 id="压缩、裁剪"><a href="#压缩、裁剪" class="headerlink" title="压缩、裁剪"></a>压缩、裁剪</h4><h3 id="应用案例-3"><a href="#应用案例-3" class="headerlink" title="应用案例"></a>应用案例</h3>]]></content>
       <categories>
         <category>work</category>
         <category>llm</category>
