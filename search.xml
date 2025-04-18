@@ -52,54 +52,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CCF-2022</title>
-    <url>/p/ccf.html</url>
-    <content><![CDATA[<div id="pdf-container"></div>
-
-<script>
-  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  const container = document.getElementById("pdf-container");
-
-  const papers = [
-    {
-      title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
-      pdf: "/pdfs/ccf-2022.pdf",
-      conf: "CCF-2022"
-    },
-    // {
-    //   title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
-    //   path: "/pdfs/ccf-2022.pdf"
-    // }
-  ];
-
-  let html = "";
-  for (const p of papers) {
-    html += `
-    <div style="margin-bottom: 30px;">
-      <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
-      </p>
-    `;
-
-    if (isMobile) {
-      html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
-    } else {
-      html += `<iframe src="${p.pdf}" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>`;
-    }
-
-    html += `</div>`;
-  }
-
-  container.innerHTML = html;
-</script>]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>Work</tag>
-        <tag>CCF</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024COLING-ERC-EmoTrans</title>
     <url>/p/papers-emotrans.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2>
@@ -210,190 +162,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>HuggingFace</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>HuggingFace</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tools</title>
-    <url>/p/tools.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
-
-
-<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
-<p><a href="https://fontawesome.com/">Font-Awesome</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://fontawesome.dashgame.com/">Font Awesome</a></p>
-</blockquote>
-<blockquote>
-<p><a href="http://www.wapadd.cn/icons/awesome/index.htm">FontAwesome</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://www.iconfont.cn/">IconFont</a></p>
-</blockquote>
-<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
-<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://storm.genie.stanford.edu/">头脑风暴</a></p>
-</blockquote>
-<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
-<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/yaotingwangofficial/Awesome-MCoT">Awesome-MCoT</a></p>
-</blockquote>
-<h2 id="4-PPT"><a href="#4-PPT" class="headerlink" title="4 PPT"></a>4 PPT</h2><blockquote>
-<p><a href="https://www.51pptmoban.com/">51 PPT 模版</a></p>
-</blockquote>
-<h2 id="5-PDF"><a href="#5-PDF" class="headerlink" title="5 PDF"></a>5 PDF</h2><blockquote>
-<p><a href="https://combinepdf.com/">PDF Combine</a></p>
-</blockquote>
-<h2 id="6-VPN"><a href="#6-VPN" class="headerlink" title="6 VPN"></a>6 VPN</h2><blockquote>
-<p><a href="https://www.flareix.com/dashboard">FlareIX</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://cocoyun.xyz/auth/login">CoCo</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://一元机场.com/#/login">一元机场</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>Books</tag>
-        <tag>Tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ollama</title>
-    <url>/p/ollama.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>Ollama</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prompting</title>
-    <url>/p/llm-prompt.html</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
-<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
-<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
-<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
-<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
-</li>
-<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
-<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
-<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
-</li>
-<li><p><strong>第三阶段</strong>: </p>
-<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
-<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
-<br/>
-
-
-<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
-<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
-<ul>
-<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
-<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
-</ul>
-<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
-<ul>
-<li><p>模板构建(template): (大量优化方法)</p>
-<p>人工构建</p>
-<p>启发式发：PTR、AutoPrompt</p>
-<p>生成：LM-BFF、</p>
-<p>词向量微调</p>
-<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
-</li>
-<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
-
-<br/>
-
-<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
-<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
-<p>LLM的Prompt-tuning方法：</p>
-<ul>
-<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
-<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
-  
-<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
-</li>
-<li><p><strong>Instruction-tuning</strong>:</p>
-<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
-</li>
-<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
-<p>  <em><strong>过程</strong></em>：代码的预训练</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>work</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>Work</tag>
-        <tag>LLM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Adapter</title>
     <url>/p/peft.html</url>
     <content><![CDATA[<div align=center><img src="/image/study/llm/peft.jpg" width="800"></div> <br>
@@ -483,242 +251,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
         <tag>Work</tag>
         <tag>LLM</tag>
         <tag>Adapter</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github</title>
-    <url>/p/github.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Github Settings</a></h1>
-
-<h4 align="center">
-
-<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
-<h2 id="1-☀️-Setting"><a href="#1-☀️-Setting" class="headerlink" title="1 ☀️ Setting"></a>1 ☀️ Setting</h2><h3 id="1-1-Windows"><a href="#1-1-Windows" class="headerlink" title="1.1 Windows"></a>1.1 <a href="https://zhuanlan.zhihu.com/p/496793312">Windows</a></h3><blockquote>
-<p>下载 <a href="https://git-scm.com/download/win">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa # 生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;<br></code></pre></td></tr></table></figure>
-
-<h3 id="1-2-Linux"><a href="#1-2-Linux" class="headerlink" title="1.2 Linux"></a>1.2 Linux</h3><blockquote>
-<p>直接配置 git </p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p>将公钥（id_rsa.pub）添加到 GitHub</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa -b 4096 -C &quot;jian0dan@gmail.com&quot; # 生成密钥，位于 ~/.ssh&#x27;<br>cat ~/.ssh/id_rsa.pub # 在 GitHub 中，进入 Settings &gt; SSH and GPG keys，点击 New SSH key，将公钥粘贴到框中<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="2-🌤️-Configuration"><a href="#2-🌤️-Configuration" class="headerlink" title="2 🌤️ Configuration"></a>2 🌤️ Configuration</h2><h3 id="2-1-本地文件夹-→-Github"><a href="#2-1-本地文件夹-→-Github" class="headerlink" title="2.1 本地文件夹 → Github"></a>2.1 本地文件夹 → Github</h3><blockquote>
-<p>仓库干净：本地数据上传 Github</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git add .gitignore <span class="hljs-comment"># 新建并编辑 .gitignore 禁止上传大文件夹</span><br>git commit -m <span class="hljs-string">&quot;gitignore&quot;</span> <span class="hljs-comment"># 提交缓存</span><br>git push -u origin main <span class="hljs-comment"># 更新远程仓库</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="2-2-Github-→-本地文件夹"><a href="#2-2-Github-→-本地文件夹" class="headerlink" title="2.2 Github → 本地文件夹"></a>2.2 Github → 本地文件夹</h3><blockquote>
-<p>本地干净: 现有仓库拉到本地</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git pull origin main  <span class="hljs-comment"># 文件拉到本地</span><br></code></pre></td></tr></table></figure>
-
-<h2 id="3-🌥️-Updating"><a href="#3-🌥️-Updating" class="headerlink" title="3 🌥️ Updating"></a>3 🌥️ Updating</h2><h3 id="3-1-上传修改"><a href="#3-1-上传修改" class="headerlink" title="3.1 上传修改"></a>3.1 上传修改</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git add xxx # . 表示添加所有<br>git commit -m &quot;xxx&quot;<br>git push # -f 强制覆盖远程文件<br></code></pre></td></tr></table></figure>
-
-<h3 id="3-2-撤销提交"><a href="#3-2-撤销提交" class="headerlink" title="3.2 撤销提交"></a>3.2 撤销提交</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git reset HEAD # 撤销add<br>git reset --soft HEAD^ # 仅撤销commit，保留add<br></code></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Code</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anaconda</title>
-    <url>/p/anaconda.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
-
-
-<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
-<p><strong>For Linux</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p><strong>For Windows</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
-<ul>
-<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Code</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Latex</title>
-    <url>/p/latex.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h1>
-<h5 align="center"> 1. Install；2. Tricks </h5>
-
-<h4 align="center">
-
-
-<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
-<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
-<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
-<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
-<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
-<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Latex</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux</title>
-    <url>/p/linux.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Linux Settings</a></h1>
-
-
-<h2 id="1-🌱-Ubuntu-安装"><a href="#1-🌱-Ubuntu-安装" class="headerlink" title="1 🌱 Ubuntu 安装"></a>1 🌱 Ubuntu 安装</h2><blockquote>
-<p><strong>系统下载</strong></p>
-</blockquote>
-<p> <a href="https://releases.ubuntu.com/22.04/">Ubuntu 22.04</a></p>
-<blockquote>
-<p><strong>U盘启动盘</strong></p>
-</blockquote>
-<p>  使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
-<h2 id="2-🌿-基本配置"><a href="#2-🌿-基本配置" class="headerlink" title="2 🌿 基本配置"></a>2 🌿 基本配置</h2><h3 id="2-1-用户设置"><a href="#2-1-用户设置" class="headerlink" title="2.1 用户设置"></a>2.1 用户设置</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">grep bash /etc/passwd <span class="hljs-comment"># 查看当前用户</span><br>useradd &lt;name&gt; -m / userdel -r &lt;name&gt; <span class="hljs-comment"># 新建用户 / 删除用户</span><br>usermod -s /bin/bash &lt;name&gt; <span class="hljs-comment"># 修改用户指向 (cat /etc/passwd 查看指向)</span><br>passwd &lt;name&gt; <span class="hljs-comment"># 创建/更改密码</span><br>sudo usermod -aG sudo &lt;name&gt; <span class="hljs-comment"># 添加用户到sudo组</span><br><br><span class="hljs-built_in">cat</span> /etc/passwd <span class="hljs-comment"># 查看用户指向</span><br>usermod -s /bin/bash &lt;name&gt; <span class="hljs-comment"># 修改用户指向</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="2-2-服务器设置"><a href="#2-2-服务器设置" class="headerlink" title="2.2 服务器设置"></a>2.2 服务器设置</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># 默认命令行启动</span><br>sudo systemctl set-default graphical.target <span class="hljs-comment"># 默认图形页面启动</span><br><br>sudo apt install openssh-server openssh-client <span class="hljs-comment"># 安装 ssh</span><br>sudo systemctl start ssh <span class="hljs-comment"># 启动 ssh</span><br>sudo systemctl <span class="hljs-built_in">enable</span> ssh <span class="hljs-comment"># ssh 设为开机自启</span><br>sudo systemctl status ssh <span class="hljs-comment"># 检查 ssh 服务状态</span><br></code></pre></td></tr></table></figure>
-<h3 id="2-3-NAS-设置"><a href="#2-3-NAS-设置" class="headerlink" title="2.3 NAS 设置"></a>2.3 NAS 设置</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo mount -t cifs //59.77.7.19/jzq My_Codes/ -o username=jzq,password=jzq,dir_mode=0777,file_mode=0777 <span class="hljs-comment"># 挂载 Nas</span><br>sudo umount &lt;<span class="hljs-built_in">dir</span>&gt; <span class="hljs-comment"># 卸载 Nas</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="2-4-Cuda-设置"><a href="#2-4-Cuda-设置" class="headerlink" title="2.4 Cuda 设置"></a>2.4 Cuda 设置</h3><blockquote>
-<p>安装 nvidia 驱动</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo apt update <span class="hljs-comment"># 更新软件包</span><br>sudo apt upgrade <span class="hljs-comment"># 更新软件包</span><br><br>ubuntu-drivers devices <span class="hljs-comment"># 检查可用的 NVIDIA 驱动</span><br>sudo apt install nvidia-driver-xxx <span class="hljs-comment"># 安装推荐的驱动</span><br>sudo reboot <span class="hljs-comment"># 重启生效</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p>安装 <a href="https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=runfile_local">cuda</a></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">wget https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 下载 cuda 到本地</span><br>sudo sh cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 安装 cuda</span><br></code></pre></td></tr></table></figure>
-
-<h2 id="3-🍀-基本操作"><a href="#3-🍀-基本操作" class="headerlink" title="3 🍀 基本操作"></a>3 🍀 基本操作</h2><h3 id="3-1-跨服务器文件-夹传输"><a href="#3-1-跨服务器文件-夹传输" class="headerlink" title="3.1 跨服务器文件&#x2F;夹传输"></a>3.1 跨服务器文件&#x2F;夹传输</h3><blockquote>
-<p>服务器文件&#x2F;夹 → 本地</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">scp -r username@serve-ip:/source_dir /target_dir # -r 表示文件夹<br></code></pre></td></tr></table></figure>
-<blockquote>
-<p>本地文件&#x2F;夹 → 服务器</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">scp -r /source_dir username@server-ip:/target_dir<br></code></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VsCode</title>
-    <url>/p/vscode.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">VsCode Settings</a></h1>
-<h5 align="center"> 1. Python；2. Latex；3. Github </h2>
-
-
-<h2 id="🎨-Python"><a href="#🎨-Python" class="headerlink" title="🎨 Python"></a>🎨 Python</h2><ol>
-<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a>, 安装 并 配置环境<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">D:\Program\Anaconda3<br>D:\Program\Anaconda3\Scripts<br>D:\Program\Anaconda3\Library\bin<br>D:\Program\Anaconda3\Library\usr\bin<br>D:\Program\Anaconda3\Library\mingw-w64\bin<br><br>打开 Powershell, 执行conda init, 重新打开Powershell<br>出错的话，执行 set-ExecutionPolicy RemoteSigned 命令后重试<br></code></pre></td></tr></table></figure></li>
-<li>安装插件：python、copilot、ssh、</li>
-</ol>
-<h2 id="📀-Latex"><a href="#📀-Latex" class="headerlink" title="📀 Latex"></a>📀 Latex</h2><h3 id="配置相关事项"><a href="#配置相关事项" class="headerlink" title="配置相关事项"></a>配置相关事项</h3><ol>
-<li><p>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</p>
-</li>
-<li><p>安装插件：LaTex Workshop、Chinese(Simplified)</p>
-</li>
-<li><p>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</p>
-</li>
-<li><p>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h3 id="使用相关事项"><a href="#使用相关事项" class="headerlink" title="使用相关事项"></a>使用相关事项</h3><ol>
-<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="🌟-Server"><a href="#🌟-Server" class="headerlink" title="🌟 Server"></a>🌟 Server</h2><ul>
-<li>服务器 免密（本地公钥存放到远程服务器端）<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">ssh-copy-id user@server_ip <span class="hljs-comment"># (Windows 上用 Git 操作)</span><br></code></pre></td></tr></table></figure></li>
-<li>服务器 启动方式<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># (开机默认进入命令行模式，startx 进入图形界面，Ctrl+Alt+F7 切回命令行)</span><br>sudo systemctl set-default graphical.target  <span class="hljs-comment"># (开机默认进入图形用户界面，Ctrl+Alt+F2 进入命令行模式)</span><br></code></pre></td></tr></table></figure></li>
-<li>服务器 软件安装<br>anaconda3 Linux上<a href="https://blog.csdn.net/G_C_H/article/details/133553961">安装</a> (pip install scikit-learn)<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo bash xxx.sh <span class="hljs-comment"># 安装本地 .sh 软件包</span><br><br></code></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Python</tag>
-        <tag>Latex</tag>
-        <tag>VsCode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows</title>
-    <url>/p/windows.html</url>
-    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
-<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
-
-
-<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
-<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
-</blockquote>
-<blockquote>
-<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
-</blockquote>
-<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
-<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
-</blockquote>
-<blockquote>
-<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
-</blockquote>
-<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
-<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
-</li>
-<li><p>便签设置：月计划、周计划、日计划</p>
-</li>
-</ol>
-<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
-<p>See </p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -882,6 +414,322 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
+    <title>Prompting</title>
+    <url>/p/llm-prompt.html</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
+<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
+<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
+<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
+<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
+</li>
+<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
+<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
+<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
+</li>
+<li><p><strong>第三阶段</strong>: </p>
+<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
+<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
+<br/>
+
+
+<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
+<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<ul>
+<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
+<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+</ul>
+<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<ul>
+<li><p>模板构建(template): (大量优化方法)</p>
+<p>人工构建</p>
+<p>启发式发：PTR、AutoPrompt</p>
+<p>生成：LM-BFF、</p>
+<p>词向量微调</p>
+<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
+</li>
+<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
+
+<br/>
+
+<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
+<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
+<p>LLM的Prompt-tuning方法：</p>
+<ul>
+<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
+<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
+  
+<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
+</li>
+<li><p><strong>Instruction-tuning</strong>:</p>
+<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
+</li>
+<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
+<p>  <em><strong>过程</strong></em>：代码的预训练</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>work</category>
+        <category>llm</category>
+      </categories>
+      <tags>
+        <tag>Work</tag>
+        <tag>LLM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HuggingFace</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
+
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>usages</category>
+      </categories>
+      <tags>
+        <tag>Usage</tag>
+        <tag>HuggingFace</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ollama</title>
+    <url>/p/ollama.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
+<h5 align="center"> 1. Install；2. Tricks </h2>
+
+
+<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
+<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
+<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
+<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
+</ul>
+<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
+<li>hexo deploy</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>usages</category>
+      </categories>
+      <tags>
+        <tag>Usage</tag>
+        <tag>Ollama</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools</title>
+    <url>/p/tools.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
+
+
+<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
+<p><a href="https://fontawesome.com/">Font-Awesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://fontawesome.dashgame.com/">Font Awesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="http://www.wapadd.cn/icons/awesome/index.htm">FontAwesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://www.iconfont.cn/">IconFont</a></p>
+</blockquote>
+<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
+<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://storm.genie.stanford.edu/">头脑风暴</a></p>
+</blockquote>
+<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
+<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/yaotingwangofficial/Awesome-MCoT">Awesome-MCoT</a></p>
+</blockquote>
+<h2 id="4-PPT"><a href="#4-PPT" class="headerlink" title="4 PPT"></a>4 PPT</h2><blockquote>
+<p><a href="https://www.51pptmoban.com/">51 PPT 模版</a></p>
+</blockquote>
+<h2 id="5-PDF"><a href="#5-PDF" class="headerlink" title="5 PDF"></a>5 PDF</h2><blockquote>
+<p><a href="https://combinepdf.com/">PDF Combine</a></p>
+</blockquote>
+<h2 id="6-VPN"><a href="#6-VPN" class="headerlink" title="6 VPN"></a>6 VPN</h2><blockquote>
+<p><a href="https://www.flareix.com/dashboard">FlareIX</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://cocoyun.xyz/auth/login">CoCo</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://一元机场.com/#/login">一元机场</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>usages</category>
+      </categories>
+      <tags>
+        <tag>Usage</tag>
+        <tag>Books</tag>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github</title>
+    <url>/p/github.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Github Settings</a></h1>
+
+<h4 align="center">
+
+<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
+<h2 id="1-☀️-Setting"><a href="#1-☀️-Setting" class="headerlink" title="1 ☀️ Setting"></a>1 ☀️ Setting</h2><h3 id="1-1-Windows"><a href="#1-1-Windows" class="headerlink" title="1.1 Windows"></a>1.1 <a href="https://zhuanlan.zhihu.com/p/496793312">Windows</a></h3><blockquote>
+<p>下载 <a href="https://git-scm.com/download/win">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa # 生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;<br></code></pre></td></tr></table></figure>
+
+<h3 id="1-2-Linux"><a href="#1-2-Linux" class="headerlink" title="1.2 Linux"></a>1.2 Linux</h3><blockquote>
+<p>直接配置 git </p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;jianxxx&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;jian0xxx&quot;</span><br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p>将公钥（id_rsa.pub）添加到 GitHub</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa -b 4096 -C &quot;jian0dan@gmail.com&quot; # 生成密钥，位于 ~/.ssh&#x27;<br>cat ~/.ssh/id_rsa.pub # 在 GitHub 中，进入 Settings &gt; SSH and GPG keys，点击 New SSH key，将公钥粘贴到框中<br></code></pre></td></tr></table></figure>
+
+
+<h2 id="2-🌤️-Configuration"><a href="#2-🌤️-Configuration" class="headerlink" title="2 🌤️ Configuration"></a>2 🌤️ Configuration</h2><h3 id="2-1-本地文件夹-→-Github"><a href="#2-1-本地文件夹-→-Github" class="headerlink" title="2.1 本地文件夹 → Github"></a>2.1 本地文件夹 → Github</h3><blockquote>
+<p>仓库干净：本地数据上传 Github</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git add .gitignore <span class="hljs-comment"># 新建并编辑 .gitignore 禁止上传大文件夹</span><br>git commit -m <span class="hljs-string">&quot;gitignore&quot;</span> <span class="hljs-comment"># 提交缓存</span><br>git push -u origin main <span class="hljs-comment"># 更新远程仓库</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="2-2-Github-→-本地文件夹"><a href="#2-2-Github-→-本地文件夹" class="headerlink" title="2.2 Github → 本地文件夹"></a>2.2 Github → 本地文件夹</h3><blockquote>
+<p>本地干净: 现有仓库拉到本地</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># 文件夹下出现 .git 隐藏文件</span><br>git remote add origin git@github.com:xxx.git <span class="hljs-comment"># 链接远程仓库</span><br>git branch -M main <span class="hljs-comment"># 更改默认分支</span><br><br>git pull origin main  <span class="hljs-comment"># 文件拉到本地</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="3-🌥️-Updating"><a href="#3-🌥️-Updating" class="headerlink" title="3 🌥️ Updating"></a>3 🌥️ Updating</h2><h3 id="3-1-上传修改"><a href="#3-1-上传修改" class="headerlink" title="3.1 上传修改"></a>3.1 上传修改</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git add xxx # . 表示添加所有<br>git commit -m &quot;xxx&quot;<br>git push # -f 强制覆盖远程文件<br></code></pre></td></tr></table></figure>
+
+<h3 id="3-2-撤销提交"><a href="#3-2-撤销提交" class="headerlink" title="3.2 撤销提交"></a>3.2 撤销提交</h3><figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">git reset HEAD # 撤销add<br>git reset --soft HEAD^ # 仅撤销commit，保留add<br></code></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Code</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anaconda</title>
+    <url>/p/anaconda.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
+
+
+<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
+<p><strong>For Linux</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>For Windows</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
+
+
+<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
+<ul>
+<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Code</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CCF-2022</title>
+    <url>/p/ccf.html</url>
+    <content><![CDATA[<div id="pdf-container"></div>
+
+<script>
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  const container = document.getElementById("pdf-container");
+
+  const papers = [
+    {
+      title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
+      pdf: "/pdfs/ccf-2022.pdf",
+      conf: "CCF-2022"
+    },
+    // {
+    //   title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
+    //   path: "/pdfs/ccf-2022.pdf"
+    // }
+  ];
+
+  let html = "";
+  for (const p of papers) {
+    html += `
+    <div style="margin-bottom: 30px;">
+      <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
+      </p>
+    `;
+
+    if (isMobile) {
+      html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
+    } else {
+      html += `<iframe src="${p.pdf}" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>`;
+    }
+
+    html += `</div>`;
+  }
+
+  container.innerHTML = html;
+</script>]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>Work</tag>
+        <tag>CCF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo</title>
     <url>/p/hexo.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
@@ -916,6 +764,158 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       <tags>
         <tag>Setting</tag>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Latex</title>
+    <url>/p/latex.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h1>
+<h5 align="center"> 1. Install；2. Tricks </h5>
+
+<h4 align="center">
+
+
+<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
+<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
+<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
+<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
+<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
+<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Latex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux</title>
+    <url>/p/linux.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Linux Settings</a></h1>
+
+
+<h2 id="1-🌱-Ubuntu-安装"><a href="#1-🌱-Ubuntu-安装" class="headerlink" title="1 🌱 Ubuntu 安装"></a>1 🌱 Ubuntu 安装</h2><blockquote>
+<p><strong>系统下载</strong></p>
+</blockquote>
+<p> <a href="https://releases.ubuntu.com/22.04/">Ubuntu 22.04</a></p>
+<blockquote>
+<p><strong>U盘启动盘</strong></p>
+</blockquote>
+<p>  使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+<h2 id="2-🌿-基本配置"><a href="#2-🌿-基本配置" class="headerlink" title="2 🌿 基本配置"></a>2 🌿 基本配置</h2><h3 id="2-1-用户设置"><a href="#2-1-用户设置" class="headerlink" title="2.1 用户设置"></a>2.1 用户设置</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">grep bash /etc/passwd <span class="hljs-comment"># 查看当前用户</span><br>useradd &lt;name&gt; -m / userdel -r &lt;name&gt; <span class="hljs-comment"># 新建用户 / 删除用户</span><br>usermod -s /bin/bash &lt;name&gt; <span class="hljs-comment"># 修改用户指向 (cat /etc/passwd 查看指向)</span><br>passwd &lt;name&gt; <span class="hljs-comment"># 创建/更改密码</span><br>sudo usermod -aG sudo &lt;name&gt; <span class="hljs-comment"># 添加用户到sudo组</span><br><br><span class="hljs-built_in">cat</span> /etc/passwd <span class="hljs-comment"># 查看用户指向</span><br>usermod -s /bin/bash &lt;name&gt; <span class="hljs-comment"># 修改用户指向</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="2-2-服务器设置"><a href="#2-2-服务器设置" class="headerlink" title="2.2 服务器设置"></a>2.2 服务器设置</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># 默认命令行启动</span><br>sudo systemctl set-default graphical.target <span class="hljs-comment"># 默认图形页面启动</span><br><br>sudo apt install openssh-server openssh-client <span class="hljs-comment"># 安装 ssh</span><br>sudo systemctl start ssh <span class="hljs-comment"># 启动 ssh</span><br>sudo systemctl <span class="hljs-built_in">enable</span> ssh <span class="hljs-comment"># ssh 设为开机自启</span><br>sudo systemctl status ssh <span class="hljs-comment"># 检查 ssh 服务状态</span><br></code></pre></td></tr></table></figure>
+<h3 id="2-3-NAS-设置"><a href="#2-3-NAS-设置" class="headerlink" title="2.3 NAS 设置"></a>2.3 NAS 设置</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo mount -t cifs //59.77.7.19/jzq My_Codes/ -o username=jzq,password=jzq,dir_mode=0777,file_mode=0777 <span class="hljs-comment"># 挂载 Nas</span><br>sudo umount &lt;<span class="hljs-built_in">dir</span>&gt; <span class="hljs-comment"># 卸载 Nas</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="2-4-Cuda-设置"><a href="#2-4-Cuda-设置" class="headerlink" title="2.4 Cuda 设置"></a>2.4 Cuda 设置</h3><blockquote>
+<p>安装 nvidia 驱动</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo apt update <span class="hljs-comment"># 更新软件包</span><br>sudo apt upgrade <span class="hljs-comment"># 更新软件包</span><br><br>ubuntu-drivers devices <span class="hljs-comment"># 检查可用的 NVIDIA 驱动</span><br>sudo apt install nvidia-driver-xxx <span class="hljs-comment"># 安装推荐的驱动</span><br>sudo reboot <span class="hljs-comment"># 重启生效</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p>安装 <a href="https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=runfile_local">cuda</a></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">wget https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 下载 cuda 到本地</span><br>sudo sh cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 安装 cuda</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="3-🍀-基本操作"><a href="#3-🍀-基本操作" class="headerlink" title="3 🍀 基本操作"></a>3 🍀 基本操作</h2><h3 id="3-1-跨服务器文件-夹传输"><a href="#3-1-跨服务器文件-夹传输" class="headerlink" title="3.1 跨服务器文件&#x2F;夹传输"></a>3.1 跨服务器文件&#x2F;夹传输</h3><blockquote>
+<p>服务器文件&#x2F;夹 → 本地</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">scp -r username@serve-ip:/source_dir /target_dir # -r 表示文件夹<br></code></pre></td></tr></table></figure>
+<blockquote>
+<p>本地文件&#x2F;夹 → 服务器</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">scp -r /source_dir username@server-ip:/target_dir<br></code></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VsCode</title>
+    <url>/p/vscode.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">VsCode Settings</a></h1>
+<h5 align="center"> 1. Python；2. Latex；3. Github </h2>
+
+
+<h2 id="🎨-Python"><a href="#🎨-Python" class="headerlink" title="🎨 Python"></a>🎨 Python</h2><ol>
+<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a>, 安装 并 配置环境<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">D:\Program\Anaconda3<br>D:\Program\Anaconda3\Scripts<br>D:\Program\Anaconda3\Library\bin<br>D:\Program\Anaconda3\Library\usr\bin<br>D:\Program\Anaconda3\Library\mingw-w64\bin<br><br>打开 Powershell, 执行conda init, 重新打开Powershell<br>出错的话，执行 set-ExecutionPolicy RemoteSigned 命令后重试<br></code></pre></td></tr></table></figure></li>
+<li>安装插件：python、copilot、ssh、</li>
+</ol>
+<h2 id="📀-Latex"><a href="#📀-Latex" class="headerlink" title="📀 Latex"></a>📀 Latex</h2><h3 id="配置相关事项"><a href="#配置相关事项" class="headerlink" title="配置相关事项"></a>配置相关事项</h3><ol>
+<li><p>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</p>
+</li>
+<li><p>安装插件：LaTex Workshop、Chinese(Simplified)</p>
+</li>
+<li><p>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</p>
+</li>
+<li><p>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="使用相关事项"><a href="#使用相关事项" class="headerlink" title="使用相关事项"></a>使用相关事项</h3><ol>
+<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🌟-Server"><a href="#🌟-Server" class="headerlink" title="🌟 Server"></a>🌟 Server</h2><ul>
+<li>服务器 免密（本地公钥存放到远程服务器端）<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">ssh-copy-id user@server_ip <span class="hljs-comment"># (Windows 上用 Git 操作)</span><br></code></pre></td></tr></table></figure></li>
+<li>服务器 启动方式<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># (开机默认进入命令行模式，startx 进入图形界面，Ctrl+Alt+F7 切回命令行)</span><br>sudo systemctl set-default graphical.target  <span class="hljs-comment"># (开机默认进入图形用户界面，Ctrl+Alt+F2 进入命令行模式)</span><br></code></pre></td></tr></table></figure></li>
+<li>服务器 软件安装<br>anaconda3 Linux上<a href="https://blog.csdn.net/G_C_H/article/details/133553961">安装</a> (pip install scikit-learn)<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">sudo bash xxx.sh <span class="hljs-comment"># 安装本地 .sh 软件包</span><br><br></code></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Python</tag>
+        <tag>Latex</tag>
+        <tag>VsCode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows</title>
+    <url>/p/windows.html</url>
+    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
+<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
+
+
+<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
+<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
+</blockquote>
+<blockquote>
+<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+</blockquote>
+<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
+<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
+</blockquote>
+<blockquote>
+<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
+</blockquote>
+<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
+<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
+</li>
+<li><p>便签设置：月计划、周计划、日计划</p>
+</li>
+</ol>
+<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
+<p>See </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
 </search>
