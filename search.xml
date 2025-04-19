@@ -243,58 +243,28 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>2024ICASSP-ERC-CCM</title>
-    <url>/p/papers-ccm.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ieeexplore.ieee.org/abstract/document/10446226">Conversation Clique-based Model for Emotion Recognition in Conversation</a></h2>
-<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
+    <title>Ollama</title>
+    <url>/p/ollama.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
+<h5 align="center"> 1. Install；2. Tricks </h2>
 
-<h4 align="center">
 
-<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/ccm"><strong>CCM</strong></a>!</p>
-<p>CCM addresses the unimodal ERC task by modeling information with a conversation clique, accepted by ICASSP2024.</p>
-<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
-<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
-<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
-<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
-
-<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, Jiajian Li, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
-</h4>
-
-<!-- ## 🌟 Structure
-
-The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
-
-<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
-
-<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
-<ul>
-<li>Python &#x3D;&#x3D; 3.9.16</li>
-<li>CUDA Version &gt;&#x3D; 11.7</li>
+<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
+<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
+<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
+<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
 </ul>
-<ol>
-<li><p>Clone this repository and navigate to the ccm folder</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/ccm.git<br><span class="hljs-built_in">cd</span> ccm<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>Install Package</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n ccm python==3.9.16<br>conda activate ccm<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
-<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
-</li>
-<li><p>run the script:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_erc.py<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
+<li>hexo deploy</li>
+</ul>
 ]]></content>
       <categories>
         <category>study</category>
-        <category>papers</category>
+        <category>usages</category>
       </categories>
       <tags>
-        <tag>Study</tag>
-        <tag>已接收论文</tag>
-        <tag>会议论文</tag>
+        <tag>Usage</tag>
+        <tag>Ollama</tag>
       </tags>
   </entry>
   <entry>
@@ -390,63 +360,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Ollama</title>
-    <url>/p/ollama.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>Ollama</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anaconda</title>
-    <url>/p/anaconda.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
-
-
-<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
-<p><strong>For Linux</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p><strong>For Windows</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
-<ul>
-<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Code</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Prompting</title>
     <url>/p/llm-prompt.html</url>
     <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
@@ -518,40 +431,35 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Hexo</title>
-    <url>/p/hexo.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
-<h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
+    <title>Anaconda</title>
+    <url>/p/anaconda.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
 
-<h4 align="center">
 
-<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
-<h2 id="🌍-Configuration"><a href="#🌍-Configuration" class="headerlink" title="🌍 Configuration"></a>🌍 Configuration</h2><blockquote>
-<p><strong>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo</strong></p>
+<h2 id="🌺-Anaconda-安装"><a href="#🌺-Anaconda-安装" class="headerlink" title="🌺 Anaconda 安装"></a>🌺 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a> 安装</h2><blockquote>
+<p><strong>For Linux</strong></p>
 </blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure>
+
 <blockquote>
-<p><strong>初始化 blog</strong></p>
+<p><strong>For Windows</strong></p>
 </blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>部署到github</strong></p>
-</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">双击安装, 自定义安装目录<br><br>系统环境变量设置<br></code></pre></td></tr></table></figure>
+
+
+<h2 id="🌸-Python-环境配置"><a href="#🌸-Python-环境配置" class="headerlink" title="🌸 Python 环境配置"></a>🌸 Python 环境配置</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>
 <ul>
-<li>安装插件<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li>
-<li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li>
+<li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li>
 </ul>
-<h2 id="🌎-Application"><a href="#🌎-Application" class="headerlink" title="🌎 Application"></a>🌎 Application</h2><blockquote>
-<p><strong>上传网页</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
+]]></content>
       <categories>
         <category>study</category>
         <category>settings</category>
       </categories>
       <tags>
         <tag>Setting</tag>
-        <tag>Hexo</tag>
+        <tag>Code</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -607,31 +515,40 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Latex</title>
-    <url>/p/latex.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h1>
-<h5 align="center"> 1. Install；2. Tricks </h5>
+    <title>Hexo</title>
+    <url>/p/hexo.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
+<h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
 
 <h4 align="center">
 
-
-<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
-<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
-<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
-<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
-<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
+<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
+<h2 id="🌍-Configuration"><a href="#🌍-Configuration" class="headerlink" title="🌍 Configuration"></a>🌍 Configuration</h2><blockquote>
+<p><strong>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>初始化 blog</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>部署到github</strong></p>
+</blockquote>
+<ul>
+<li>安装插件<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li>
+<li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li>
 </ul>
-<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
-<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
+<h2 id="🌎-Application"><a href="#🌎-Application" class="headerlink" title="🌎 Application"></a>🌎 Application</h2><blockquote>
+<p><strong>上传网页</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>study</category>
         <category>settings</category>
       </categories>
       <tags>
         <tag>Setting</tag>
-        <tag>Latex</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -680,33 +597,23 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Windows</title>
-    <url>/p/windows.html</url>
-    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
-<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
+    <title>Latex</title>
+    <url>/p/latex.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h1>
+<h5 align="center"> 1. Install；2. Tricks </h5>
+
+<h4 align="center">
 
 
-<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
-<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
-</blockquote>
-<blockquote>
-<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
-</blockquote>
-<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
-<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
-</blockquote>
-<blockquote>
-<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
-</blockquote>
-<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
-<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
-</li>
-<li><p>便签设置：月计划、周计划、日计划</p>
-</li>
+<h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul>
+<li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li>
+<li>安装插件：LaTex Workshop、Chinese(Simplified)</li>
+<li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li>
+<li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol>
+<li>三线表:<figure class="highlight latex"><table><tr><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li>
 </ol>
-<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
-<p>See </p>
-</blockquote>
 ]]></content>
       <categories>
         <category>study</category>
@@ -714,7 +621,7 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </categories>
       <tags>
         <tag>Setting</tag>
-        <tag>Windows</tag>
+        <tag>Latex</tag>
       </tags>
   </entry>
   <entry>
@@ -756,6 +663,61 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
         <tag>Python</tag>
         <tag>Latex</tag>
         <tag>VsCode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024ICASSP-ERC-CCM</title>
+    <url>/p/papers-ccm.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ieeexplore.ieee.org/abstract/document/10446226">Conversation Clique-based Model for Emotion Recognition in Conversation</a></h2>
+<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
+
+<h4 align="center">
+
+<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/ccm"><strong>CCM</strong></a>!</p>
+<p>CCM addresses the unimodal ERC task by modeling information with a conversation clique, accepted by ICASSP2024.</p>
+<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
+<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
+<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
+<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
+
+<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, Jiajian Li, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
+</h4>
+
+<!-- ## 🌟 Structure
+
+The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
+
+<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
+
+<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
+<ul>
+<li>Python &#x3D;&#x3D; 3.9.16</li>
+<li>CUDA Version &gt;&#x3D; 11.7</li>
+</ul>
+<ol>
+<li><p>Clone this repository and navigate to the ccm folder</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/ccm.git<br><span class="hljs-built_in">cd</span> ccm<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Install Package</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n ccm python==3.9.16<br>conda activate ccm<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
+<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
+</li>
+<li><p>run the script:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_erc.py<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>papers</category>
+      </categories>
+      <tags>
+        <tag>Study</tag>
+        <tag>已接收论文</tag>
+        <tag>会议论文</tag>
       </tags>
   </entry>
   <entry>
@@ -916,6 +878,44 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       <tags>
         <tag>Work</tag>
         <tag>LLM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows</title>
+    <url>/p/windows.html</url>
+    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
+<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
+
+
+<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
+<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
+</blockquote>
+<blockquote>
+<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+</blockquote>
+<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
+<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
+</blockquote>
+<blockquote>
+<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
+</blockquote>
+<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
+<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
+</li>
+<li><p>便签设置：月计划、周计划、日计划</p>
+</li>
+</ol>
+<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
+<p>See </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
 </search>
