@@ -806,77 +806,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Prompting</title>
-    <url>/p/llm-prompt.html</url>
-    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
-<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
-<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
-<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
-<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
-</li>
-<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
-<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
-<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
-</li>
-<li><p><strong>第三阶段</strong>: </p>
-<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
-<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
-<br/>
-
-
-<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
-<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
-<ul>
-<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
-<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
-</ul>
-<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
-<ul>
-<li><p>模板构建(template): (大量优化方法)</p>
-<p>人工构建</p>
-<p>启发式发：PTR、AutoPrompt</p>
-<p>生成：LM-BFF、</p>
-<p>词向量微调</p>
-<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
-</li>
-<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
-</li>
-</ul>
-<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
-
-<br/>
-
-<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
-<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
-<p>LLM的Prompt-tuning方法：</p>
-<ul>
-<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
-<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
-  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
-  
-<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
-</li>
-<li><p><strong>Instruction-tuning</strong>:</p>
-<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
-</li>
-<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
-<p>  <em><strong>过程</strong></em>：代码的预训练</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>work</category>
-        <category>llm</category>
-      </categories>
-      <tags>
-        <tag>Work</tag>
-        <tag>LLM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Adapter</title>
     <url>/p/peft.html</url>
     <content><![CDATA[<div align=center><img src="/image/study/llm/peft.jpg" width="800"></div> <br>
@@ -969,113 +898,74 @@
       </tags>
   </entry>
   <entry>
-    <title>2024COLING-ERC-EmoTrans</title>
-    <url>/p/papers-emotrans.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2>
-<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
-
-<h4 align="center">
-
-<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/emotrans"><strong>EmoTrans</strong></a>!</p>
-<p>EmoTrans addresses the unimodal ERC task by modeling emotion transition feature, accepted by COLING2024.</p>
-<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
-<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
-<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
-<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
-
-<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=zh-CN">Ante Wang</a>, <a href="https://scholar.google.com/citations?user=w6qCk3sAAAAJ&hl=zh-CN">Jinsong Su</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
-</h4>
-
-<!-- ## 🌟 Structure
-
-The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
-
-<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
-
-<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
-<ul>
-<li>Python &#x3D;&#x3D; 3.9.16</li>
-<li>CUDA Version &gt;&#x3D; 11.7</li>
+    <title>Prompting</title>
+    <url>/p/llm-prompt.html</url>
+    <content><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
+<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
+<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
+<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
+<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
+</li>
+<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
+<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
+<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
+</li>
+<li><p><strong>第三阶段</strong>: </p>
+<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
+<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
+</li>
 </ul>
-<ol>
-<li><p>Clone this repository and navigate to the ccm folder</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/emotrans.git<br><span class="hljs-built_in">cd</span> emotrans<br></code></pre></td></tr></table></figure>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
+<br/>
+
+
+<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
+<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<ul>
+<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
+<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+</ul>
+<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<ul>
+<li><p>模板构建(template): (大量优化方法)</p>
+<p>人工构建</p>
+<p>启发式发：PTR、AutoPrompt</p>
+<p>生成：LM-BFF、</p>
+<p>词向量微调</p>
+<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
 </li>
-<li><p>Install Package</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n emotrans python==3.9.16<br>conda activate emotrans<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
-<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
+<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
 </li>
-<li><p>run the script:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_emotrans.py<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
+
+<br/>
+
+<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
+<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
+<p>LLM的Prompt-tuning方法：</p>
+<ul>
+<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
+<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
+  
+<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
+</li>
+<li><p><strong>Instruction-tuning</strong>:</p>
+<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
+</li>
+<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
+<p>  <em><strong>过程</strong></em>：代码的预训练</p>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>study</category>
-        <category>papers</category>
+        <category>work</category>
+        <category>llm</category>
       </categories>
       <tags>
-        <tag>Study</tag>
-        <tag>已接收论文</tag>
-        <tag>会议论文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024ICASSP-ERC-CCM</title>
-    <url>/p/papers-ccm.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ieeexplore.ieee.org/abstract/document/10446226">Conversation Clique-based Model for Emotion Recognition in Conversation</a></h2>
-<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
-
-<h4 align="center">
-
-<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/ccm"><strong>CCM</strong></a>!</p>
-<p>CCM addresses the unimodal ERC task by modeling information with a conversation clique, accepted by ICASSP2024.</p>
-<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
-<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
-<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
-<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
-
-<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, Jiajian Li, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
-</h4>
-
-<!-- ## 🌟 Structure
-
-The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
-
-<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
-
-<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
-<ul>
-<li>Python &#x3D;&#x3D; 3.9.16</li>
-<li>CUDA Version &gt;&#x3D; 11.7</li>
-</ul>
-<ol>
-<li><p>Clone this repository and navigate to the ccm folder</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/ccm.git<br><span class="hljs-built_in">cd</span> ccm<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>Install Package</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n ccm python==3.9.16<br>conda activate ccm<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
-<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
-</li>
-<li><p>run the script:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_erc.py<br></code></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>papers</category>
-      </categories>
-      <tags>
-        <tag>Study</tag>
-        <tag>已接收论文</tag>
-        <tag>会议论文</tag>
+        <tag>Work</tag>
+        <tag>LLM</tag>
       </tags>
   </entry>
   <entry>
@@ -1240,6 +1130,26 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
+    <title>HuggingFace</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
+
+
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>usages</category>
+      </categories>
+      <tags>
+        <tag>Usage</tag>
+        <tag>HuggingFace</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ollama</title>
     <url>/p/ollama.html</url>
     <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
@@ -1333,6 +1243,116 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
+    <title>2024COLING-ERC-EmoTrans</title>
+    <url>/p/papers-emotrans.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2>
+<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
+
+<h4 align="center">
+
+<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/emotrans"><strong>EmoTrans</strong></a>!</p>
+<p>EmoTrans addresses the unimodal ERC task by modeling emotion transition feature, accepted by COLING2024.</p>
+<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
+<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
+<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
+<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
+
+<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=zh-CN">Ante Wang</a>, <a href="https://scholar.google.com/citations?user=w6qCk3sAAAAJ&hl=zh-CN">Jinsong Su</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
+</h4>
+
+<!-- ## 🌟 Structure
+
+The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
+
+<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
+
+<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
+<ul>
+<li>Python &#x3D;&#x3D; 3.9.16</li>
+<li>CUDA Version &gt;&#x3D; 11.7</li>
+</ul>
+<ol>
+<li><p>Clone this repository and navigate to the ccm folder</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/emotrans.git<br><span class="hljs-built_in">cd</span> emotrans<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Install Package</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n emotrans python==3.9.16<br>conda activate emotrans<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
+<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
+</li>
+<li><p>run the script:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_emotrans.py<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>papers</category>
+      </categories>
+      <tags>
+        <tag>Study</tag>
+        <tag>已接收论文</tag>
+        <tag>会议论文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024ICASSP-ERC-CCM</title>
+    <url>/p/papers-ccm.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ieeexplore.ieee.org/abstract/document/10446226">Conversation Clique-based Model for Emotion Recognition in Conversation</a></h2>
+<h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
+
+<h4 align="center">
+
+<p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/ccm"><strong>CCM</strong></a>!</p>
+<p>CCM addresses the unimodal ERC task by modeling information with a conversation clique, accepted by ICASSP2024.</p>
+<!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) -->
+<!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) -->
+<!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  -->
+<!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) -->
+
+<p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, Jiajian Li, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p>
+</h4>
+
+<!-- ## 🌟 Structure
+
+The model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.
+
+<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> -->
+
+<h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p>
+<ul>
+<li>Python &#x3D;&#x3D; 3.9.16</li>
+<li>CUDA Version &gt;&#x3D; 11.7</li>
+</ul>
+<ol>
+<li><p>Clone this repository and navigate to the ccm folder</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/ccm.git<br><span class="hljs-built_in">cd</span> ccm<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Install Package</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs Shell">conda create -n ccm python==3.9.16<br>conda activate ccm<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol>
+<li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p>
+</li>
+<li><p>run the script:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">python run_erc.py<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>papers</category>
+      </categories>
+      <tags>
+        <tag>Study</tag>
+        <tag>已接收论文</tag>
+        <tag>会议论文</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Anaconda</title>
     <url>/p/anaconda.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Anaconda Settings</a></h1>
@@ -1362,26 +1382,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
         <tag>Setting</tag>
         <tag>Code</tag>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HuggingFace</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>HuggingFace</tag>
       </tags>
   </entry>
   <entry>
@@ -1434,6 +1434,43 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       <tags>
         <tag>Setting</tag>
         <tag>Code</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo</title>
+    <url>/p/hexo.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
+<h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
+
+<h4 align="center">
+
+<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
+<h2 id="🌍-Configuration"><a href="#🌍-Configuration" class="headerlink" title="🌍 Configuration"></a>🌍 Configuration</h2><blockquote>
+<p><strong>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>初始化 blog</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>部署到github</strong></p>
+</blockquote>
+<ul>
+<li>安装插件<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li>
+<li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="🌎-Application"><a href="#🌎-Application" class="headerlink" title="🌎 Application"></a>🌎 Application</h2><blockquote>
+<p><strong>上传网页</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1510,81 +1547,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Hexo</title>
-    <url>/p/hexo.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
-<h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
-
-<h4 align="center">
-
-<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
-<h2 id="🌍-Configuration"><a href="#🌍-Configuration" class="headerlink" title="🌍 Configuration"></a>🌍 Configuration</h2><blockquote>
-<p><strong>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>初始化 blog</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>部署到github</strong></p>
-</blockquote>
-<ul>
-<li>安装插件<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li>
-<li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="🌎-Application"><a href="#🌎-Application" class="headerlink" title="🌎 Application"></a>🌎 Application</h2><blockquote>
-<p><strong>上传网页</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows</title>
-    <url>/p/windows.html</url>
-    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
-<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
-
-
-<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
-<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
-</blockquote>
-<blockquote>
-<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
-</blockquote>
-<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
-<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
-</blockquote>
-<blockquote>
-<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
-</blockquote>
-<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
-<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
-</li>
-<li><p>便签设置：月计划、周计划、日计划</p>
-</li>
-</ol>
-<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
-<p>See </p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VsCode</title>
     <url>/p/vscode.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">VsCode Settings</a></h1>
@@ -1623,6 +1585,44 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
         <tag>Python</tag>
         <tag>Latex</tag>
         <tag>VsCode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows</title>
+    <url>/p/windows.html</url>
+    <content><![CDATA[<h2 align="center"> Windows Settings</h2>
+<h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2>
+
+
+<h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote>
+<p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p>
+</blockquote>
+<blockquote>
+<p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p>
+</blockquote>
+<h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote>
+<p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p>
+</blockquote>
+<blockquote>
+<p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p>
+</blockquote>
+<h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol>
+<li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p>
+</li>
+<li><p>便签设置：月计划、周计划、日计划</p>
+</li>
+</ol>
+<h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote>
+<p>See </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
 </search>
