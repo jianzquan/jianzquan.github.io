@@ -52,51 +52,23 @@
       </tags>
   </entry>
   <entry>
-    <title>CCF-2022</title>
-    <url>/p/ccf.html</url>
-    <content><![CDATA[<div id="pdf-container"></div>
+    <title>HuggingFace</title>
+    <url>/p/huggingface.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
 
-<script>
-  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  const container = document.getElementById("pdf-container");
 
-  const papers = [
-    {
-      title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
-      pdf: "/pdfs/ccf-2022.pdf",
-      conf: "CCF-2022"
-    },
-    // {
-    //   title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
-    //   path: "/pdfs/ccf-2022.pdf"
-    // }
-  ];
-
-  let html = "";
-  for (const p of papers) {
-    html += `
-    <div style="margin-bottom: 30px;">
-      <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
-      </p>
-    `;
-
-    if (isMobile) {
-      html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
-    } else {
-      html += `<iframe src="${p.pdf}" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>`;
-    }
-
-    html += `</div>`;
-  }
-
-  container.innerHTML = html;
-</script>]]></content>
+<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
+<p><strong>下载到指定目录</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
+]]></content>
       <categories>
-        <category>work</category>
+        <category>study</category>
+        <category>usages</category>
       </categories>
       <tags>
-        <tag>Work</tag>
-        <tag>CCF</tag>
+        <tag>Usage</tag>
+        <tag>HuggingFace</tag>
       </tags>
   </entry>
   <entry>
@@ -806,6 +778,31 @@
       </tags>
   </entry>
   <entry>
+    <title>Ollama</title>
+    <url>/p/ollama.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
+<h5 align="center"> 1. Install；2. Tricks </h2>
+
+
+<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
+<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
+<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
+<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
+</ul>
+<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
+<li>hexo deploy</li>
+</ul>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>usages</category>
+      </categories>
+      <tags>
+        <tag>Usage</tag>
+        <tag>Ollama</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Adapter</title>
     <url>/p/peft.html</url>
     <content><![CDATA[<div align=center><img src="/image/study/llm/peft.jpg" width="800"></div> <br>
@@ -969,6 +966,122 @@
       </tags>
   </entry>
   <entry>
+    <title>CCF-2022</title>
+    <url>/p/ccf.html</url>
+    <content><![CDATA[<div id="pdf-container"></div>
+
+<script>
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  const container = document.getElementById("pdf-container");
+
+  const papers = [
+    {
+      title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
+      pdf: "/pdfs/ccf-2022.pdf",
+      conf: "CCF-2022"
+    },
+    // {
+    //   title: "📄 中国计算机学会推荐国际学术会议和期刊目录",
+    //   path: "/pdfs/ccf-2022.pdf"
+    // }
+  ];
+
+  let html = "";
+  for (const p of papers) {
+    html += `
+    <div style="margin-bottom: 30px;">
+      <p><strong>${p.title}</strong> <span style="background: #eee; padding: 2px 6px; border-radius: 5px;">${p.conf}</span></p>
+      </p>
+    `;
+
+    if (isMobile) {
+      html += `<p><a href="${p.pdf}" style="padding: 10px; background:rgb(126, 127, 128); color: white; text-decoration: none; border-radius: 5px;">点击查看 PDF</a></p>`;
+    } else {
+      html += `<iframe src="${p.pdf}" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>`;
+    }
+
+    html += `</div>`;
+  }
+
+  container.innerHTML = html;
+</script>]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>Work</tag>
+        <tag>CCF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools</title>
+    <url>/p/tools.html</url>
+    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
+
+
+<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
+<p><a href="https://fontawesome.com/">Font-Awesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://fontawesome.dashgame.com/">Font Awesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="http://www.wapadd.cn/icons/awesome/index.htm">FontAwesome</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://www.iconfont.cn/">IconFont</a></p>
+</blockquote>
+<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
+<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://storm.genie.stanford.edu/">头脑风暴</a></p>
+</blockquote>
+<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
+<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/yaotingwangofficial/Awesome-MCoT">Awesome-MCoT</a></p>
+</blockquote>
+<h2 id="4-PPT"><a href="#4-PPT" class="headerlink" title="4 PPT"></a>4 PPT</h2><blockquote>
+<p><a href="https://www.51pptmoban.com/">51 PPT 模版</a></p>
+</blockquote>
+<h2 id="5-PDF"><a href="#5-PDF" class="headerlink" title="5 PDF"></a>5 PDF</h2><blockquote>
+<p><a href="https://combinepdf.com/">PDF Combine</a></p>
+</blockquote>
+<h2 id="6-VPN"><a href="#6-VPN" class="headerlink" title="6 VPN"></a>6 VPN</h2><blockquote>
+<p><a href="https://www.flareix.com/dashboard">FlareIX</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://cocoyun.xyz/auth/login">CoCo</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://一元机场.com/#/login">一元机场</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>study</category>
+        <category>usages</category>
+      </categories>
+      <tags>
+        <tag>Usage</tag>
+        <tag>Books</tag>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Summary</title>
     <url>/p/llm-summary.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">LLM Summary</a></h1>
@@ -1127,119 +1240,6 @@
       <tags>
         <tag>Work</tag>
         <tag>LLM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HuggingFace</title>
-    <url>/p/huggingface.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/huggingface.html">HuggingFace Usages</a></h1>
-
-
-<h2 id="🍎-模型下载"><a href="#🍎-模型下载" class="headerlink" title="🍎 模型下载"></a>🍎 模型下载</h2><blockquote>
-<p><strong>下载到指定目录</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">from huggingface_hub import snapshot_download<br>snapshot_download(<br>    repo_id=<span class="hljs-string">&quot;CompVis/stable-diffusion-v1-4&quot;</span>, <span class="hljs-comment"># 模型名称</span><br>    local_dir=<span class="hljs-string">&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion/xxx&quot;</span>, <span class="hljs-comment"># 下载目录</span><br>    <span class="hljs-comment"># revision=&quot;fp16&quot;,</span><br>    <span class="hljs-comment"># cache_dir=&quot;/Users/jiandan/0_JianCodes/Pretrained_Models/diffusion&quot;,</span><br>    <span class="hljs-comment"># local_files_only=False,</span><br>)<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>HuggingFace</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ollama</title>
-    <url>/p/ollama.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://ollama.com/search">Ollama: config & usage</a></h2>
-<h5 align="center"> 1. Install；2. Tricks </h2>
-
-
-<h2 id="🎨-安装"><a href="#🎨-安装" class="headerlink" title="🎨 安装"></a>🎨 安装</h2><ul>
-<li><strong>Git</strong>: Xcode Command Line Tools 自带</li>
-<li><strong>Node.js</strong>: <a href="https://brew.sh/">Homebrew</a> 安装, <a href="https://github.com/hawtim/hawtim.github.io/issues/10">网络问题</a></li>
-<li><strong>Hexo</strong>: npm install -g hexo-cli</li>
-</ul>
-<h2 id="🌟-使用"><a href="#🌟-使用" class="headerlink" title="🌟 使用"></a>🌟 使用</h2><ul>
-<li>hexo deploy</li>
-</ul>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>Ollama</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tools</title>
-    <url>/p/tools.html</url>
-    <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Awesome Tools</a></h1>
-
-
-<h2 id="1-🏀-Icon-图标"><a href="#1-🏀-Icon-图标" class="headerlink" title="1 🏀 Icon (图标)"></a>1 🏀 Icon (图标)</h2><blockquote>
-<p><a href="https://fontawesome.com/">Font-Awesome</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://fontawesome.dashgame.com/">Font Awesome</a></p>
-</blockquote>
-<blockquote>
-<p><a href="http://www.wapadd.cn/icons/awesome/index.htm">FontAwesome</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://www.iconfont.cn/">IconFont</a></p>
-</blockquote>
-<h2 id="2-Writing"><a href="#2-Writing" class="headerlink" title="2 Writing"></a>2 Writing</h2><blockquote>
-<p><a href="https://github.com/jianzquan/Paper-Writing">Key of Paper Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/eseckel/ai-for-grant-writing">Grant Writing</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://storm.genie.stanford.edu/">头脑风暴</a></p>
-</blockquote>
-<h2 id="3-Books"><a href="#3-Books" class="headerlink" title="3 Books"></a>3 Books</h2><blockquote>
-<p><a href="https://github.com/ZJU-LLMs/Foundations-of-LLMs">大模型基础 毛玉仁</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/kamranahmedse/developer-roadmap">各种知识 学习路线图</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Westlake-AI/Awesome-Mixup">Methods of MixUp</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs">Knowledge Distillation of LLMs</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://github.com/yaotingwangofficial/Awesome-MCoT">Awesome-MCoT</a></p>
-</blockquote>
-<h2 id="4-PPT"><a href="#4-PPT" class="headerlink" title="4 PPT"></a>4 PPT</h2><blockquote>
-<p><a href="https://www.51pptmoban.com/">51 PPT 模版</a></p>
-</blockquote>
-<h2 id="5-PDF"><a href="#5-PDF" class="headerlink" title="5 PDF"></a>5 PDF</h2><blockquote>
-<p><a href="https://combinepdf.com/">PDF Combine</a></p>
-</blockquote>
-<h2 id="6-VPN"><a href="#6-VPN" class="headerlink" title="6 VPN"></a>6 VPN</h2><blockquote>
-<p><a href="https://www.flareix.com/dashboard">FlareIX</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://cocoyun.xyz/auth/login">CoCo</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://一元机场.com/#/login">一元机场</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>study</category>
-        <category>usages</category>
-      </categories>
-      <tags>
-        <tag>Usage</tag>
-        <tag>Books</tag>
-        <tag>Tools</tag>
       </tags>
   </entry>
   <entry>
@@ -1437,43 +1437,6 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       </tags>
   </entry>
   <entry>
-    <title>Hexo</title>
-    <url>/p/hexo.html</url>
-    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
-<h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
-
-<h4 align="center">
-
-<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
-<h2 id="🌍-Configuration"><a href="#🌍-Configuration" class="headerlink" title="🌍 Configuration"></a>🌍 Configuration</h2><blockquote>
-<p><strong>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>初始化 blog</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>部署到github</strong></p>
-</blockquote>
-<ul>
-<li>安装插件<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li>
-<li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="🌎-Application"><a href="#🌎-Application" class="headerlink" title="🌎 Application"></a>🌎 Application</h2><blockquote>
-<p><strong>上传网页</strong></p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>study</category>
-        <category>settings</category>
-      </categories>
-      <tags>
-        <tag>Setting</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Latex</title>
     <url>/p/latex.html</url>
     <content><![CDATA[<h1 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">Latex Settings</a></h1>
@@ -1623,6 +1586,43 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
       <tags>
         <tag>Setting</tag>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo</title>
+    <url>/p/hexo.html</url>
+    <content><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/p/navigate.html">🌟 Hexo Settings</a></h2>
+<h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2>
+
+<h4 align="center">
+
+<p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p>
+<h2 id="🌍-Configuration"><a href="#🌍-Configuration" class="headerlink" title="🌍 Configuration"></a>🌍 Configuration</h2><blockquote>
+<p><strong>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>初始化 blog</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>部署到github</strong></p>
+</blockquote>
+<ul>
+<li>安装插件<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li>
+<li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="🌎-Application"><a href="#🌎-Application" class="headerlink" title="🌎 Application"></a>🌎 Application</h2><blockquote>
+<p><strong>上传网页</strong></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>study</category>
+        <category>settings</category>
+      </categories>
+      <tags>
+        <tag>Setting</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
