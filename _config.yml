@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Meng Luo"
-description              : "PhD student at NUS"
+title                    : "Zhongquan Jian"
+description              : "Research at MJU"
 repository               : "jianzquan/jianzquan.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Meng Luo"
-  avatar           : "images/luomeng.png"
-  bio              : "National University of Singapore"
+  name             : "Zhongquan Jian"
+  avatar           : "images/jzq.jpg"
+  bio              : "Xiamen University"
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=REbZPKUAAAAJ&hl=en&oi=ao"
-  email            : "mluo@u.nus.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=C1PWVBUAAAAJ"
+  email            : "jianzq@mju.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
